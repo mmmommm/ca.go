@@ -7,8 +7,8 @@ type BicycleBuilder interface {
 }
 
 type bicycleBuilder struct {
-	kind Kind
-	bodyType string
+	kind      Kind
+	bodyType  string
 	totalGear int
 }
 
@@ -24,8 +24,8 @@ func (b *bicycleBuilder) WithTotalGear(frontGear, backGear int) BicycleBuilder {
 
 func (b *bicycleBuilder) Build() *Bicycle {
 	return &Bicycle{
-		Kind: b.kind,
-		BodyType: b.bodyType,
+		Kind:      b.kind,
+		BodyType:  b.bodyType,
 		TotalGear: b.totalGear,
 	}
 }

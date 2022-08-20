@@ -8,8 +8,8 @@ import (
 func BenchmarkFunctionalOption(b *testing.B) {
 	for i := 0; i < b.N; i++ {
 		_ = NewBicycleWithFOP(Road,
-        WithBodyType("aluminum"),
-        WithTotalGear(4, 8),
+			WithBodyType("aluminum"),
+			WithTotalGear(4, 8),
 		)
 	}
 }
@@ -18,8 +18,8 @@ func BenchmarkFunctionalOption(b *testing.B) {
 func BenchmarkBuilder(b *testing.B) {
 	for i := 0; i < b.N; i++ {
 		_ = NewBicycleWithBP(Mountain).
-        WithBodyType("Carbon").
-        WithTotalGear(3, 9).
-        Build()
+			WithBodyType("Carbon").
+			WithTotalGear(3, 9).
+			Build()
 	}
 }
