@@ -7,10 +7,9 @@ import (
 // Functional Option Pattern (FOP)
 func BenchmarkFunctionalOption(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		_ = NewApplicationWithFOP(Premium,
-			WithBackupService(true),
-			WithSupport(true),
-			WithMovie(false),
+		_ = NewBicycleWithFOP(Road,
+        WithBodyType("aluminum"),
+        WithTotalGear(4, 8),
 		)
 	}
 }
@@ -18,10 +17,9 @@ func BenchmarkFunctionalOption(b *testing.B) {
 // Builder Pattern (BP)
 func BenchmarkBuilder(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		_ = NewApplicationWithBP(Premium).
-			WithBackupService(true).
-			WithSupport(true).
-			WithMovie(false).
-			Build()
+		_ = NewBicycleWithBP(Mountain).
+        WithBodyType("Carbon").
+        WithTotalGear(3, 9).
+        Build()
 	}
 }

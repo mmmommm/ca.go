@@ -1,29 +1,23 @@
 package main
 
-type Option func(*Application)
+type Option func(*Bicycle)
 
-func WithSupport(flg bool) Option {
-	return func(a *Application) {
-		a.SubscribeSupportService = flg
+func WithBodyType(bodyType string) Option {
+	return func(b *Bicycle) {
+		b.BodyType = bodyType
 	}
 }
 
-func WithMovie(flg bool) Option {
-	return func(a *Application) {
-		a.SubscribeMovieService = flg
+func WithTotalGear(frontGear, backGear int) Option {
+	return func(b *Bicycle) {
+		b.TotalGear = frontGear * backGear
 	}
 }
 
-func WithBackupService(flg bool) Option {
-	return func(a *Application) {
-		a.SubscribeBackupService = flg
-	}
-}
-
-func NewApplicationWithFOP(course Course, ops ...Option) *Application {
-	a := Application{Course: course}
+func NewBicycleWithFOP(kind Kind, ops ...Option) *Bicycle {
+	b := Bicycle{Kind: kind}
 	for _, option := range ops {
-		option(&a)
+		option(&b)
 	}
-	return &a
+	return &b
 }
