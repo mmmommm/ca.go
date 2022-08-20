@@ -4,45 +4,41 @@ import (
     "fmt"
 )
 
-type Course int
+type Kind string
 
 const (
-    Basic Course = iota
-    Premium
+    Mountain Kind = "Mountain"
+    Road Kind = "Road"
 )
 
-func (c Course) String() string {
-    switch c {
-    case Basic:
-        return "Basic"
-    case Premium:
-        return "Premium"
+func (k Kind) String() string {
+    switch k {
+    case Mountain:
+        return "Mountain"
+    case Road:
+        return "Road"
     default:
-        return ""
+        return "Not exist such kind of bicycle"
     }
 }
 
-// Application は通信キャリアの契約申し込みをイメージしたものです。
-type Application struct {
-    Course Course                // ベーシックプランとプレミアプランがある
-    SubscribeSupportService bool // サポートサービスのオプション
-    SubscribeMovieService bool   // 動画サービスのオプション
-    SubscribeBackupService bool  // データバックアップサービスのオプション
+type Bicycle struct {
+		Kind Kind // マウンテン、ロード
+		BodyType string
+		TotalGear int
 }
 
 func main() {
     // Functional Option Pattern (FOP)
-    fopApp := NewApplicationWithFOP(Premium,
-        WithBackupService(true),
-        WithSupport(true),
-        WithMovie(false),
+    fopApp := NewBicycleWithFOP(Road,
+        WithBodyType("almi"),
+        WithTotalGear(4, 8),
     )
 
     // Builder Pattern (BP)
-    bpApp := NewApplicationWithBP(Premium).
-        WithBackupService(true).
-        WithSupport(true).
-        WithMovie(false).
+    bpApp := NewBicycleWithBP(Mountain).
+        WithBodyType("Carbon").
+        WithTotalGear(3, 9).
         Build()
 
     fmt.Printf("%+v\n", fopApp) // &{Course:Premium SubscribeSupportService:true SubscribeMovieService:false SubscribeBackupService:true}
