@@ -1,0 +1,3161 @@
+tracealloc(0xc000026000, 0x40, *runtime.p)
+goroutine 0 [idle]:
+runtime.mallocgc(0x40, 0x1096dc0, 0x1)
+	/usr/local/go/src/runtime/malloc.go:1157 +0x7b7 fp=0x20552a1e0 sp=0x20552a160 pc=0x100b6f7
+runtime.makeslice(0x6116eb552079, 0xc000022000, 0xc000014230)
+	/usr/local/go/src/runtime/slice.go:98 +0x52 fp=0x20552a208 sp=0x20552a1e0 pc=0x10442d2
+runtime.procresize(0x8)
+	/usr/local/go/src/runtime/proc.go:5023 +0x15c fp=0x20552a2b8 sp=0x20552a208 pc=0x103bd7c
+runtime.schedinit()
+	/usr/local/go/src/runtime/proc.go:717 +0x173 fp=0x20552a310 sp=0x20552a2b8 pc=0x1032f93
+runtime.rt0_go()
+	/usr/local/go/src/runtime/asm_amd64.s:212 +0x127 fp=0x20552a318 sp=0x20552a310 pc=0x1058ee7
+
+tracealloc(0xc000028000, 0x2800, runtime.p)
+goroutine 0 [idle]:
+runtime.mallocgc(0x2710, 0x10a1e00, 0x1)
+	/usr/local/go/src/runtime/malloc.go:1157 +0x7b7 fp=0x20552a1e0 sp=0x20552a160 pc=0x100b6f7
+runtime.newobject(0x6116eb552079)
+	/usr/local/go/src/runtime/malloc.go:1228 +0x27 fp=0x20552a208 sp=0x20552a1e0 pc=0x100b947
+runtime.procresize(0x8)
+	/usr/local/go/src/runtime/proc.go:5050 +0x347 fp=0x20552a2b8 sp=0x20552a208 pc=0x103bf67
+runtime.schedinit()
+	/usr/local/go/src/runtime/proc.go:717 +0x173 fp=0x20552a310 sp=0x20552a2b8 pc=0x1032f93
+runtime.rt0_go()
+	/usr/local/go/src/runtime/asm_amd64.s:212 +0x127 fp=0x20552a318 sp=0x20552a310 pc=0x1058ee7
+
+tracealloc(0xc00002a800, 0x2800, runtime.p)
+goroutine 0 [idle]:
+runtime.mallocgc(0x2710, 0x10a1e00, 0x1)
+	/usr/local/go/src/runtime/malloc.go:1157 +0x7b7 fp=0x20552a1e0 sp=0x20552a160 pc=0x100b6f7
+runtime.newobject(0xc000028000)
+	/usr/local/go/src/runtime/malloc.go:1228 +0x27 fp=0x20552a208 sp=0x20552a1e0 pc=0x100b947
+runtime.procresize(0x8)
+	/usr/local/go/src/runtime/proc.go:5050 +0x347 fp=0x20552a2b8 sp=0x20552a208 pc=0x103bf67
+runtime.schedinit()
+	/usr/local/go/src/runtime/proc.go:717 +0x173 fp=0x20552a310 sp=0x20552a2b8 pc=0x1032f93
+runtime.rt0_go()
+	/usr/local/go/src/runtime/asm_amd64.s:212 +0x127 fp=0x20552a318 sp=0x20552a310 pc=0x1058ee7
+
+tracealloc(0xc00002d000, 0x2800, runtime.p)
+goroutine 0 [idle]:
+runtime.mallocgc(0x2710, 0x10a1e00, 0x1)
+	/usr/local/go/src/runtime/malloc.go:1157 +0x7b7 fp=0x20552a1e0 sp=0x20552a160 pc=0x100b6f7
+runtime.newobject(0xc00002a800)
+	/usr/local/go/src/runtime/malloc.go:1228 +0x27 fp=0x20552a208 sp=0x20552a1e0 pc=0x100b947
+runtime.procresize(0x8)
+	/usr/local/go/src/runtime/proc.go:5050 +0x347 fp=0x20552a2b8 sp=0x20552a208 pc=0x103bf67
+runtime.schedinit()
+	/usr/local/go/src/runtime/proc.go:717 +0x173 fp=0x20552a310 sp=0x20552a2b8 pc=0x1032f93
+runtime.rt0_go()
+	/usr/local/go/src/runtime/asm_amd64.s:212 +0x127 fp=0x20552a318 sp=0x20552a310 pc=0x1058ee7
+
+tracealloc(0xc00002f800, 0x2800, runtime.p)
+goroutine 0 [idle]:
+runtime.mallocgc(0x2710, 0x10a1e00, 0x1)
+	/usr/local/go/src/runtime/malloc.go:1157 +0x7b7 fp=0x20552a1e0 sp=0x20552a160 pc=0x100b6f7
+runtime.newobject(0xc00002d000)
+	/usr/local/go/src/runtime/malloc.go:1228 +0x27 fp=0x20552a208 sp=0x20552a1e0 pc=0x100b947
+runtime.procresize(0x8)
+	/usr/local/go/src/runtime/proc.go:5050 +0x347 fp=0x20552a2b8 sp=0x20552a208 pc=0x103bf67
+runtime.schedinit()
+	/usr/local/go/src/runtime/proc.go:717 +0x173 fp=0x20552a310 sp=0x20552a2b8 pc=0x1032f93
+runtime.rt0_go()
+	/usr/local/go/src/runtime/asm_amd64.s:212 +0x127 fp=0x20552a318 sp=0x20552a310 pc=0x1058ee7
+
+tracealloc(0xc000032000, 0x2800, runtime.p)
+goroutine 0 [idle]:
+runtime.mallocgc(0x2710, 0x10a1e00, 0x1)
+	/usr/local/go/src/runtime/malloc.go:1157 +0x7b7 fp=0x20552a1e0 sp=0x20552a160 pc=0x100b6f7
+runtime.newobject(0xc00002f800)
+	/usr/local/go/src/runtime/malloc.go:1228 +0x27 fp=0x20552a208 sp=0x20552a1e0 pc=0x100b947
+runtime.procresize(0x8)
+	/usr/local/go/src/runtime/proc.go:5050 +0x347 fp=0x20552a2b8 sp=0x20552a208 pc=0x103bf67
+runtime.schedinit()
+	/usr/local/go/src/runtime/proc.go:717 +0x173 fp=0x20552a310 sp=0x20552a2b8 pc=0x1032f93
+runtime.rt0_go()
+	/usr/local/go/src/runtime/asm_amd64.s:212 +0x127 fp=0x20552a318 sp=0x20552a310 pc=0x1058ee7
+
+tracealloc(0xc000034800, 0x2800, runtime.p)
+goroutine 0 [idle]:
+runtime.mallocgc(0x2710, 0x10a1e00, 0x1)
+	/usr/local/go/src/runtime/malloc.go:1157 +0x7b7 fp=0x20552a1e0 sp=0x20552a160 pc=0x100b6f7
+runtime.newobject(0xc000032000)
+	/usr/local/go/src/runtime/malloc.go:1228 +0x27 fp=0x20552a208 sp=0x20552a1e0 pc=0x100b947
+runtime.procresize(0x8)
+	/usr/local/go/src/runtime/proc.go:5050 +0x347 fp=0x20552a2b8 sp=0x20552a208 pc=0x103bf67
+runtime.schedinit()
+	/usr/local/go/src/runtime/proc.go:717 +0x173 fp=0x20552a310 sp=0x20552a2b8 pc=0x1032f93
+runtime.rt0_go()
+	/usr/local/go/src/runtime/asm_amd64.s:212 +0x127 fp=0x20552a318 sp=0x20552a310 pc=0x1058ee7
+
+tracealloc(0xc000037000, 0x2800, runtime.p)
+goroutine 0 [idle]:
+runtime.mallocgc(0x2710, 0x10a1e00, 0x1)
+	/usr/local/go/src/runtime/malloc.go:1157 +0x7b7 fp=0x20552a1e0 sp=0x20552a160 pc=0x100b6f7
+runtime.newobject(0xc000034800)
+	/usr/local/go/src/runtime/malloc.go:1228 +0x27 fp=0x20552a208 sp=0x20552a1e0 pc=0x100b947
+runtime.procresize(0x8)
+	/usr/local/go/src/runtime/proc.go:5050 +0x347 fp=0x20552a2b8 sp=0x20552a208 pc=0x103bf67
+runtime.schedinit()
+	/usr/local/go/src/runtime/proc.go:717 +0x173 fp=0x20552a310 sp=0x20552a2b8 pc=0x1032f93
+runtime.rt0_go()
+	/usr/local/go/src/runtime/asm_amd64.s:212 +0x127 fp=0x20552a318 sp=0x20552a310 pc=0x1058ee7
+
+tracealloc(0xc000039800, 0x2800, runtime.p)
+goroutine 0 [idle]:
+runtime.mallocgc(0x2710, 0x10a1e00, 0x1)
+	/usr/local/go/src/runtime/malloc.go:1157 +0x7b7 fp=0x20552a1e0 sp=0x20552a160 pc=0x100b6f7
+runtime.newobject(0xc000037000)
+	/usr/local/go/src/runtime/malloc.go:1228 +0x27 fp=0x20552a208 sp=0x20552a1e0 pc=0x100b947
+runtime.procresize(0x8)
+	/usr/local/go/src/runtime/proc.go:5050 +0x347 fp=0x20552a2b8 sp=0x20552a208 pc=0x103bf67
+runtime.schedinit()
+	/usr/local/go/src/runtime/proc.go:717 +0x173 fp=0x20552a310 sp=0x20552a2b8 pc=0x1032f93
+runtime.rt0_go()
+	/usr/local/go/src/runtime/asm_amd64.s:212 +0x127 fp=0x20552a318 sp=0x20552a310 pc=0x1058ee7
+
+tracealloc(0xc00001a090, 0x10)
+goroutine 0 [idle]:
+runtime.mallocgc(0x8, 0x0, 0x0)
+	/usr/local/go/src/runtime/malloc.go:1157 +0x7b7 fp=0x20552a1a0 sp=0x20552a120 pc=0x100b6f7
+runtime.growslice(0xc00002a800, {0x0, 0xc000014230, 0x0}, 0x1040273)
+	/usr/local/go/src/runtime/slice.go:261 +0x4ac fp=0x20552a208 sp=0x20552a1a0 pc=0x104480c
+runtime.(*randomOrder).reset(...)
+	/usr/local/go/src/runtime/proc.go:6408
+runtime.procresize(0x8)
+	/usr/local/go/src/runtime/proc.go:5121 +0x6fe fp=0x20552a2b8 sp=0x20552a208 pc=0x103c31e
+runtime.schedinit()
+	/usr/local/go/src/runtime/proc.go:717 +0x173 fp=0x20552a310 sp=0x20552a2b8 pc=0x1032f93
+runtime.rt0_go()
+	/usr/local/go/src/runtime/asm_amd64.s:212 +0x127 fp=0x20552a318 sp=0x20552a310 pc=0x1058ee7
+
+tracealloc(0xc00001a0a0, 0x10)
+goroutine 0 [idle]:
+runtime.mallocgc(0x10, 0x0, 0x0)
+	/usr/local/go/src/runtime/malloc.go:1157 +0x7b7 fp=0x20552a1a0 sp=0x20552a120 pc=0x100b6f7
+runtime.growslice(0xc00002a800, {0xc00001a090, 0xc000014230, 0x0}, 0x1040273)
+	/usr/local/go/src/runtime/slice.go:261 +0x4ac fp=0x20552a208 sp=0x20552a1a0 pc=0x104480c
+runtime.(*randomOrder).reset(...)
+	/usr/local/go/src/runtime/proc.go:6408
+runtime.procresize(0x8)
+	/usr/local/go/src/runtime/proc.go:5121 +0x6fe fp=0x20552a2b8 sp=0x20552a208 pc=0x103c31e
+runtime.schedinit()
+	/usr/local/go/src/runtime/proc.go:717 +0x173 fp=0x20552a310 sp=0x20552a2b8 pc=0x1032f93
+runtime.rt0_go()
+	/usr/local/go/src/runtime/asm_amd64.s:212 +0x127 fp=0x20552a318 sp=0x20552a310 pc=0x1058ee7
+
+tracealloc(0xc0000001a0, 0x1a0, runtime.g)
+goroutine 0 [idle]:
+runtime.mallocgc(0x188, 0x10a27a0, 0x1)
+	/usr/local/go/src/runtime/malloc.go:1157 +0x7b7 fp=0x20552a1a8 sp=0x20552a128 pc=0x100b6f7
+runtime.newobject(0x10)
+	/usr/local/go/src/runtime/malloc.go:1228 +0x27 fp=0x20552a1d0 sp=0x20552a1a8 pc=0x100b947
+runtime.malg(0x800)
+	/usr/local/go/src/runtime/proc.go:4220 +0x28 fp=0x20552a210 sp=0x20552a1d0 pc=0x103a0e8
+runtime.newproc1(0x10c1200, 0x8, 0x7, 0x20552a2a8, 0x105d3a9)
+	/usr/local/go/src/runtime/proc.go:4305 +0x94 fp=0x20552a260 sp=0x20552a210 pc=0x103a3d4
+runtime.newproc.func1()
+	/usr/local/go/src/runtime/proc.go:4255 +0x2f fp=0x20552a298 sp=0x20552a260 pc=0x103a2ef
+runtime.newproc(0x4, 0x10c1200)
+	/usr/local/go/src/runtime/proc.go:4254 +0x6e fp=0x20552a2e0 sp=0x20552a298 pc=0x103a28e
+runtime.newproc(0x0, 0x10c1200)
+	<autogenerated>:1 +0x29 fp=0x20552a300 sp=0x20552a2e0 pc=0x105d3a9
+runtime.rt0_go()
+	/usr/local/go/src/runtime/asm_amd64.s:218 +0x136 fp=0x20552a318 sp=0x20552a300 pc=0x1058ef6
+
+tracealloc(0xc000010008, 0x8, *runtime.g)
+goroutine 0 [idle]:
+runtime.mallocgc(0x8, 0x1090de0, 0x1)
+	/usr/local/go/src/runtime/malloc.go:1157 +0x7b7 fp=0x20552a150 sp=0x20552a0d0 pc=0x100b6f7
+runtime.growslice(0x1090de0, {0x0, 0x103a15e, 0x20552a1e8}, 0x2)
+	/usr/local/go/src/runtime/slice.go:267 +0x4ea fp=0x20552a1b8 sp=0x20552a150 pc=0x104484a
+runtime.allgadd(0xc0000001a0)
+	/usr/local/go/src/runtime/proc.go:554 +0x65 fp=0x20552a210 sp=0x20552a1b8 pc=0x1032a45
+runtime.newproc1(0x10c1200, 0x8, 0x7, 0x20552a2a8, 0x105d3a9)
+	/usr/local/go/src/runtime/proc.go:4307 +0xaf fp=0x20552a260 sp=0x20552a210 pc=0x103a3ef
+runtime.newproc.func1()
+	/usr/local/go/src/runtime/proc.go:4255 +0x2f fp=0x20552a298 sp=0x20552a260 pc=0x103a2ef
+runtime.newproc(0x4, 0x10c1200)
+	/usr/local/go/src/runtime/proc.go:4254 +0x6e fp=0x20552a2e0 sp=0x20552a298 pc=0x103a28e
+runtime.newproc(0x0, 0x10c1200)
+	<autogenerated>:1 +0x29 fp=0x20552a300 sp=0x20552a2e0 pc=0x105d3a9
+runtime.rt0_go()
+	/usr/local/go/src/runtime/asm_amd64.s:218 +0x136 fp=0x20552a318 sp=0x20552a300 pc=0x1058ef6
+
+tracealloc(0xc000044000, 0x480, runtime.m)
+goroutine 1 [running]:
+runtime.systemstack_switch()
+	/usr/local/go/src/runtime/asm_amd64.s:350 fp=0xc000040780 sp=0xc000040778 pc=0x1058fe0
+runtime.main()
+	/usr/local/go/src/runtime/proc.go:174 +0x7b fp=0xc0000407e0 sp=0xc000040780 pc=0x1031b5b
+runtime.goexit()
+	/usr/local/go/src/runtime/asm_amd64.s:1581 +0x1 fp=0xc0000407e8 sp=0xc0000407e0 pc=0x105b0e1
+
+tracealloc(0xc000000340, 0x1a0, runtime.g)
+goroutine 1 [running]:
+runtime.systemstack_switch()
+	/usr/local/go/src/runtime/asm_amd64.s:350 fp=0xc000040780 sp=0xc000040778 pc=0x1058fe0
+runtime.main()
+	/usr/local/go/src/runtime/proc.go:174 +0x7b fp=0xc0000407e0 sp=0xc000040780 pc=0x1031b5b
+runtime.goexit()
+	/usr/local/go/src/runtime/asm_amd64.s:1581 +0x1 fp=0xc0000407e8 sp=0xc0000407e0 pc=0x105b0e1
+
+tracealloc(0xc0000004e0, 0x1a0, runtime.g)
+goroutine 1 [running]:
+runtime.systemstack_switch()
+	/usr/local/go/src/runtime/asm_amd64.s:350 fp=0xc000040780 sp=0xc000040778 pc=0x1058fe0
+runtime.main()
+	/usr/local/go/src/runtime/proc.go:174 +0x7b fp=0xc0000407e0 sp=0xc000040780 pc=0x1031b5b
+runtime.goexit()
+	/usr/local/go/src/runtime/asm_amd64.s:1581 +0x1 fp=0xc0000407e8 sp=0xc0000407e0 pc=0x105b0e1
+
+tracealloc(0xc000000680, 0x1a0, runtime.g)
+goroutine 1 [running, locked to thread]:
+runtime.systemstack_switch()
+	/usr/local/go/src/runtime/asm_amd64.s:350 fp=0xc0000405e0 sp=0xc0000405d8 pc=0x1058fe0
+runtime.newproc(0x112b900, 0x10ab5f0)
+	/usr/local/go/src/runtime/proc.go:4254 +0x6e fp=0xc000040628 sp=0xc0000405e0 pc=0x103a28e
+runtime.init.7()
+	/usr/local/go/src/runtime/proc.go:294 +0x25 fp=0xc000040648 sp=0xc000040628 pc=0x1031ea5
+runtime.doInit(0x1128d80)
+	/usr/local/go/src/runtime/proc.go:6498 +0x123 fp=0xc000040780 sp=0xc000040648 pc=0x103ebe3
+runtime.main()
+	/usr/local/go/src/runtime/proc.go:204 +0x125 fp=0xc0000407e0 sp=0xc000040780 pc=0x1031c05
+runtime.goexit()
+	/usr/local/go/src/runtime/asm_amd64.s:1581 +0x1 fp=0xc0000407e8 sp=0xc0000407e0 pc=0x105b0e1
+
+tracealloc(0xc00004e000, 0x10, *runtime.g)
+goroutine 1 [running, locked to thread]:
+runtime.systemstack_switch()
+	/usr/local/go/src/runtime/asm_amd64.s:350 fp=0xc0000405e0 sp=0xc0000405d8 pc=0x1058fe0
+runtime.newproc(0x112b900, 0x10ab5f0)
+	/usr/local/go/src/runtime/proc.go:4254 +0x6e fp=0xc000040628 sp=0xc0000405e0 pc=0x103a28e
+runtime.init.7()
+	/usr/local/go/src/runtime/proc.go:294 +0x25 fp=0xc000040648 sp=0xc000040628 pc=0x1031ea5
+runtime.doInit(0x1128d80)
+	/usr/local/go/src/runtime/proc.go:6498 +0x123 fp=0xc000040780 sp=0xc000040648 pc=0x103ebe3
+runtime.main()
+	/usr/local/go/src/runtime/proc.go:204 +0x125 fp=0xc0000407e0 sp=0xc000040780 pc=0x1031c05
+runtime.goexit()
+	/usr/local/go/src/runtime/asm_amd64.s:1581 +0x1 fp=0xc0000407e8 sp=0xc0000407e0 pc=0x105b0e1
+
+tracealloc(0xc000044480, 0x480, runtime.m)
+goroutine 1 [running, locked to thread]:
+runtime.systemstack_switch()
+	/usr/local/go/src/runtime/asm_amd64.s:350 fp=0xc0000405e0 sp=0xc0000405d8 pc=0x1058fe0
+runtime.newproc(0x112b900, 0x10ab5f0)
+	/usr/local/go/src/runtime/proc.go:4254 +0x6e fp=0xc000040628 sp=0xc0000405e0 pc=0x103a28e
+runtime.init.7()
+	/usr/local/go/src/runtime/proc.go:294 +0x25 fp=0xc000040648 sp=0xc000040628 pc=0x1031ea5
+runtime.doInit(0x1128d80)
+	/usr/local/go/src/runtime/proc.go:6498 +0x123 fp=0xc000040780 sp=0xc000040648 pc=0x103ebe3
+runtime.main()
+	/usr/local/go/src/runtime/proc.go:204 +0x125 fp=0xc0000407e0 sp=0xc000040780 pc=0x1031c05
+runtime.goexit()
+	/usr/local/go/src/runtime/asm_amd64.s:1581 +0x1 fp=0xc0000407e8 sp=0xc0000407e0 pc=0x105b0e1
+
+tracealloc(0xc000000820, 0x1a0, runtime.g)
+goroutine 1 [running, locked to thread]:
+runtime.systemstack_switch()
+	/usr/local/go/src/runtime/asm_amd64.s:350 fp=0xc0000405e0 sp=0xc0000405d8 pc=0x1058fe0
+runtime.newproc(0x112b900, 0x10ab5f0)
+	/usr/local/go/src/runtime/proc.go:4254 +0x6e fp=0xc000040628 sp=0xc0000405e0 pc=0x103a28e
+runtime.init.7()
+	/usr/local/go/src/runtime/proc.go:294 +0x25 fp=0xc000040648 sp=0xc000040628 pc=0x1031ea5
+runtime.doInit(0x1128d80)
+	/usr/local/go/src/runtime/proc.go:6498 +0x123 fp=0xc000040780 sp=0xc000040648 pc=0x103ebe3
+runtime.main()
+	/usr/local/go/src/runtime/proc.go:204 +0x125 fp=0xc0000407e0 sp=0xc000040780 pc=0x1031c05
+runtime.goexit()
+	/usr/local/go/src/runtime/asm_amd64.s:1581 +0x1 fp=0xc0000407e8 sp=0xc0000407e0 pc=0x105b0e1
+
+tracealloc(0xc0000009c0, 0x1a0, runtime.g)
+goroutine 1 [running, locked to thread]:
+runtime.systemstack_switch()
+	/usr/local/go/src/runtime/asm_amd64.s:350 fp=0xc0000405e0 sp=0xc0000405d8 pc=0x1058fe0
+runtime.newproc(0x112b900, 0x10ab5f0)
+	/usr/local/go/src/runtime/proc.go:4254 +0x6e fp=0xc000040628 sp=0xc0000405e0 pc=0x103a28e
+runtime.init.7()
+	/usr/local/go/src/runtime/proc.go:294 +0x25 fp=0xc000040648 sp=0xc000040628 pc=0x1031ea5
+runtime.doInit(0x1128d80)
+	/usr/local/go/src/runtime/proc.go:6498 +0x123 fp=0xc000040780 sp=0xc000040648 pc=0x103ebe3
+runtime.main()
+	/usr/local/go/src/runtime/proc.go:204 +0x125 fp=0xc0000407e0 sp=0xc000040780 pc=0x1031c05
+runtime.goexit()
+	/usr/local/go/src/runtime/asm_amd64.s:1581 +0x1 fp=0xc0000407e8 sp=0xc0000407e0 pc=0x105b0e1
+
+tracealloc(0xc000080000, 0x480, runtime.m)
+goroutine 0 [idle]:
+runtime.mallocgc(0x480, 0x10a3260, 0x1)
+	/usr/local/go/src/runtime/malloc.go:1157 +0x7b7 fp=0x20562edb0 sp=0x20562ed30 pc=0x100b6f7
+runtime.newobject(0xc000028000)
+	/usr/local/go/src/runtime/malloc.go:1228 +0x27 fp=0x20562edd8 sp=0x20562edb0 pc=0x100b947
+runtime.allocm(0xc00002d000, 0x10ab6f0, 0x20562eeb8)
+	/usr/local/go/src/runtime/proc.go:1875 +0x91 fp=0x20562ee30 sp=0x20562edd8 pc=0x1035111
+runtime.newm(0x20562ee70, 0xc00002d000, 0x20562eee8)
+	/usr/local/go/src/runtime/proc.go:2201 +0x2b fp=0x20562ee60 sp=0x20562ee30 pc=0x10358eb
+runtime.startm(0x0, 0x1)
+	/usr/local/go/src/runtime/proc.go:2485 +0xcf fp=0x20562eea8 sp=0x20562ee60 pc=0x103608f
+runtime.wakep()
+	/usr/local/go/src/runtime/proc.go:2584 +0x5a fp=0x20562eec8 sp=0x20562eea8 pc=0x10365ba
+runtime.resetspinning()
+	/usr/local/go/src/runtime/proc.go:3216 +0x45 fp=0x20562eee8 sp=0x20562eec8 pc=0x1037d85
+runtime.schedule()
+	/usr/local/go/src/runtime/proc.go:3374 +0x25e fp=0x20562ef30 sp=0x20562eee8 pc=0x103833e
+runtime.mstart1()
+	/usr/local/go/src/runtime/proc.go:1414 +0xcd fp=0x20562ef58 sp=0x20562ef30 pc=0x103494d
+runtime.mstart0()
+	/usr/local/go/src/runtime/proc.go:1365 +0x6c fp=0x20562ef80 sp=0x20562ef58 pc=0x103484c
+runtime.mstart()
+	/usr/local/go/src/runtime/asm_amd64.s:248 +0x5 fp=0x20562ef88 sp=0x20562ef80 pc=0x1058f45
+
+tracealloc(0xc000082000, 0x1a0, runtime.g)
+goroutine 0 [idle]:
+runtime.mallocgc(0x188, 0x10a27a0, 0x1)
+	/usr/local/go/src/runtime/malloc.go:1157 +0x7b7 fp=0x20562ed18 sp=0x20562ec98 pc=0x100b6f7
+runtime.newobject(0x10a3260)
+	/usr/local/go/src/runtime/malloc.go:1228 +0x27 fp=0x20562ed40 sp=0x20562ed18 pc=0x100b947
+runtime.malg(0x8000)
+	/usr/local/go/src/runtime/proc.go:4220 +0x28 fp=0x20562ed80 sp=0x20562ed40 pc=0x103a0e8
+runtime.mpreinit(0xc000080000)
+	/usr/local/go/src/runtime/os_darwin.go:304 +0x25 fp=0x20562ed98 sp=0x20562ed80 pc=0x102c4a5
+runtime.mcommoninit(0xc000080000, 0x3)
+	/usr/local/go/src/runtime/proc.go:803 +0x108 fp=0x20562edd8 sp=0x20562ed98 pc=0x10332e8
+runtime.allocm(0xc00002d000, 0x10ab6f0, 0x20562eeb8)
+	/usr/local/go/src/runtime/proc.go:1877 +0xc8 fp=0x20562ee30 sp=0x20562edd8 pc=0x1035148
+runtime.newm(0x20562ee70, 0xc00002d000, 0x20562eee8)
+	/usr/local/go/src/runtime/proc.go:2201 +0x2b fp=0x20562ee60 sp=0x20562ee30 pc=0x10358eb
+runtime.startm(0x0, 0x1)
+	/usr/local/go/src/runtime/proc.go:2485 +0xcf fp=0x20562eea8 sp=0x20562ee60 pc=0x103608f
+runtime.wakep()
+	/usr/local/go/src/runtime/proc.go:2584 +0x5a fp=0x20562eec8 sp=0x20562eea8 pc=0x10365ba
+runtime.resetspinning()
+	/usr/local/go/src/runtime/proc.go:3216 +0x45 fp=0x20562eee8 sp=0x20562eec8 pc=0x1037d85
+runtime.schedule()
+	/usr/local/go/src/runtime/proc.go:3374 +0x25e fp=0x20562ef30 sp=0x20562eee8 pc=0x103833e
+runtime.mstart1()
+	/usr/local/go/src/runtime/proc.go:1414 +0xcd fp=0x20562ef58 sp=0x20562ef30 pc=0x103494d
+runtime.mstart0()
+	/usr/local/go/src/runtime/proc.go:1365 +0x6c fp=0x20562ef80 sp=0x20562ef58 pc=0x103484c
+runtime.mstart()
+	/usr/local/go/src/runtime/asm_amd64.s:248 +0x5 fp=0x20562ef88 sp=0x20562ef80 pc=0x1058f45
+
+tracealloc(0xc0000821a0, 0x1a0, runtime.g)
+goroutine 0 [idle]:
+runtime.mallocgc(0x188, 0x10a27a0, 0x1)
+	/usr/local/go/src/runtime/malloc.go:1157 +0x7b7 fp=0x20562ed70 sp=0x20562ecf0 pc=0x100b6f7
+runtime.newobject(0xc000080000)
+	/usr/local/go/src/runtime/malloc.go:1228 +0x27 fp=0x20562ed98 sp=0x20562ed70 pc=0x100b947
+runtime.malg(0xffffffff)
+	/usr/local/go/src/runtime/proc.go:4220 +0x28 fp=0x20562edd8 sp=0x20562ed98 pc=0x103a0e8
+runtime.allocm(0xc00002d000, 0x10ab6f0, 0x20562eeb8)
+	/usr/local/go/src/runtime/proc.go:1882 +0xd2 fp=0x20562ee30 sp=0x20562edd8 pc=0x1035152
+runtime.newm(0x20562ee70, 0xc00002d000, 0x20562eee8)
+	/usr/local/go/src/runtime/proc.go:2201 +0x2b fp=0x20562ee60 sp=0x20562ee30 pc=0x10358eb
+runtime.startm(0x0, 0x1)
+	/usr/local/go/src/runtime/proc.go:2485 +0xcf fp=0x20562eea8 sp=0x20562ee60 pc=0x103608f
+runtime.wakep()
+	/usr/local/go/src/runtime/proc.go:2584 +0x5a fp=0x20562eec8 sp=0x20562eea8 pc=0x10365ba
+runtime.resetspinning()
+	/usr/local/go/src/runtime/proc.go:3216 +0x45 fp=0x20562eee8 sp=0x20562eec8 pc=0x1037d85
+runtime.schedule()
+	/usr/local/go/src/runtime/proc.go:3374 +0x25e fp=0x20562ef30 sp=0x20562eee8 pc=0x103833e
+runtime.mstart1()
+	/usr/local/go/src/runtime/proc.go:1414 +0xcd fp=0x20562ef58 sp=0x20562ef30 pc=0x103494d
+runtime.mstart0()
+	/usr/local/go/src/runtime/proc.go:1365 +0x6c fp=0x20562ef80 sp=0x20562ef58 pc=0x103484c
+runtime.mstart()
+	/usr/local/go/src/runtime/asm_amd64.s:248 +0x5 fp=0x20562ef88 sp=0x20562ef80 pc=0x1058f45
+
+tracealloc(0xc000044900, 0x480, runtime.m)
+goroutine 0 [idle]:
+runtime.mallocgc(0x480, 0x10a3260, 0x1)
+	/usr/local/go/src/runtime/malloc.go:1157 +0x7b7 fp=0x205529f00 sp=0x205529e80 pc=0x100b6f7
+runtime.newobject(0xc000028000)
+	/usr/local/go/src/runtime/malloc.go:1228 +0x27 fp=0x205529f28 sp=0x205529f00 pc=0x100b947
+runtime.allocm(0xc000028000, 0x0, 0x205529fd0)
+	/usr/local/go/src/runtime/proc.go:1875 +0x91 fp=0x205529f80 sp=0x205529f28 pc=0x1035111
+runtime.newm(0x20552a048, 0xc000028000, 0x7ff8465da6c4)
+	/usr/local/go/src/runtime/proc.go:2201 +0x2b fp=0x205529fb0 sp=0x205529f80 pc=0x10358eb
+runtime.startm(0xc000028000, 0x0)
+	/usr/local/go/src/runtime/proc.go:2485 +0xcf fp=0x205529ff8 sp=0x205529fb0 pc=0x103608f
+runtime.handoffp(0xc000044480)
+	/usr/local/go/src/runtime/proc.go:2519 +0x2ac fp=0x20552a020 sp=0x205529ff8 pc=0x103652c
+runtime.stoplockedm()
+	/usr/local/go/src/runtime/proc.go:2598 +0x55 fp=0x20552a070 sp=0x20552a020 pc=0x1036635
+runtime.schedule()
+	/usr/local/go/src/runtime/proc.go:3299 +0x3d fp=0x20552a0b8 sp=0x20552a070 pc=0x103811d
+runtime.goschedImpl(0xc0000001a0)
+	/usr/local/go/src/runtime/proc.go:3531 +0xc5 fp=0x20552a0f0 sp=0x20552a0b8 pc=0x1038965
+runtime.gopreempt_m(0x0)
+	/usr/local/go/src/runtime/proc.go:3559 +0x55 fp=0x20552a130 sp=0x20552a0f0 pc=0x1038c55
+runtime.newstack()
+	/usr/local/go/src/runtime/stack.go:1055 +0x3c5 fp=0x20552a2e0 sp=0x20552a130 pc=0x10466a5
+runtime.morestack()
+	/usr/local/go/src/runtime/asm_amd64.s:461 +0x8b fp=0x20552a2e8 sp=0x20552a2e0 pc=0x105912b
+
+tracealloc(0xc000000b60, 0x1a0, runtime.g)
+goroutine 0 [idle]:
+runtime.mallocgc(0x188, 0x10a27a0, 0x1)
+	/usr/local/go/src/runtime/malloc.go:1157 +0x7b7 fp=0x205529e68 sp=0x205529de8 pc=0x100b6f7
+runtime.newobject(0x10a3260)
+	/usr/local/go/src/runtime/malloc.go:1228 +0x27 fp=0x205529e90 sp=0x205529e68 pc=0x100b947
+runtime.malg(0x8000)
+	/usr/local/go/src/runtime/proc.go:4220 +0x28 fp=0x205529ed0 sp=0x205529e90 pc=0x103a0e8
+runtime.mpreinit(0xc000044900)
+	/usr/local/go/src/runtime/os_darwin.go:304 +0x25 fp=0x205529ee8 sp=0x205529ed0 pc=0x102c4a5
+runtime.mcommoninit(0xc000044900, 0x4)
+	/usr/local/go/src/runtime/proc.go:803 +0x108 fp=0x205529f28 sp=0x205529ee8 pc=0x10332e8
+runtime.allocm(0xc000028000, 0x0, 0x205529fd0)
+	/usr/local/go/src/runtime/proc.go:1877 +0xc8 fp=0x205529f80 sp=0x205529f28 pc=0x1035148
+runtime.newm(0x20552a048, 0xc000028000, 0x7ff8465da6c4)
+	/usr/local/go/src/runtime/proc.go:2201 +0x2b fp=0x205529fb0 sp=0x205529f80 pc=0x10358eb
+runtime.startm(0xc000028000, 0x0)
+	/usr/local/go/src/runtime/proc.go:2485 +0xcf fp=0x205529ff8 sp=0x205529fb0 pc=0x103608f
+runtime.handoffp(0xc000044480)
+	/usr/local/go/src/runtime/proc.go:2519 +0x2ac fp=0x20552a020 sp=0x205529ff8 pc=0x103652c
+runtime.stoplockedm()
+	/usr/local/go/src/runtime/proc.go:2598 +0x55 fp=0x20552a070 sp=0x20552a020 pc=0x1036635
+runtime.schedule()
+	/usr/local/go/src/runtime/proc.go:3299 +0x3d fp=0x20552a0b8 sp=0x20552a070 pc=0x103811d
+runtime.goschedImpl(0xc0000001a0)
+	/usr/local/go/src/runtime/proc.go:3531 +0xc5 fp=0x20552a0f0 sp=0x20552a0b8 pc=0x1038965
+runtime.gopreempt_m(0x0)
+	/usr/local/go/src/runtime/proc.go:3559 +0x55 fp=0x20552a130 sp=0x20552a0f0 pc=0x1038c55
+runtime.newstack()
+	/usr/local/go/src/runtime/stack.go:1055 +0x3c5 fp=0x20552a2e0 sp=0x20552a130 pc=0x10466a5
+runtime.morestack()
+	/usr/local/go/src/runtime/asm_amd64.s:461 +0x8b fp=0x20552a2e8 sp=0x20552a2e0 pc=0x105912b
+
+tracealloc(0xc000000d00, 0x1a0, runtime.g)
+goroutine 0 [idle]:
+runtime.mallocgc(0x188, 0x10a27a0, 0x1)
+	/usr/local/go/src/runtime/malloc.go:1157 +0x7b7 fp=0x205529ec0 sp=0x205529e40 pc=0x100b6f7
+runtime.newobject(0xc000044900)
+	/usr/local/go/src/runtime/malloc.go:1228 +0x27 fp=0x205529ee8 sp=0x205529ec0 pc=0x100b947
+runtime.malg(0xffffffff)
+	/usr/local/go/src/runtime/proc.go:4220 +0x28 fp=0x205529f28 sp=0x205529ee8 pc=0x103a0e8
+runtime.allocm(0xc000028000, 0x0, 0x205529fd0)
+	/usr/local/go/src/runtime/proc.go:1882 +0xd2 fp=0x205529f80 sp=0x205529f28 pc=0x1035152
+runtime.newm(0x20552a048, 0xc000028000, 0x7ff8465da6c4)
+	/usr/local/go/src/runtime/proc.go:2201 +0x2b fp=0x205529fb0 sp=0x205529f80 pc=0x10358eb
+runtime.startm(0xc000028000, 0x0)
+	/usr/local/go/src/runtime/proc.go:2485 +0xcf fp=0x205529ff8 sp=0x205529fb0 pc=0x103608f
+runtime.handoffp(0xc000044480)
+	/usr/local/go/src/runtime/proc.go:2519 +0x2ac fp=0x20552a020 sp=0x205529ff8 pc=0x103652c
+runtime.stoplockedm()
+	/usr/local/go/src/runtime/proc.go:2598 +0x55 fp=0x20552a070 sp=0x20552a020 pc=0x1036635
+runtime.schedule()
+	/usr/local/go/src/runtime/proc.go:3299 +0x3d fp=0x20552a0b8 sp=0x20552a070 pc=0x103811d
+runtime.goschedImpl(0xc0000001a0)
+	/usr/local/go/src/runtime/proc.go:3531 +0xc5 fp=0x20552a0f0 sp=0x20552a0b8 pc=0x1038965
+runtime.gopreempt_m(0x0)
+	/usr/local/go/src/runtime/proc.go:3559 +0x55 fp=0x20552a130 sp=0x20552a0f0 pc=0x1038c55
+runtime.newstack()
+	/usr/local/go/src/runtime/stack.go:1055 +0x3c5 fp=0x20552a2e0 sp=0x20552a130 pc=0x10466a5
+runtime.morestack()
+	/usr/local/go/src/runtime/asm_amd64.s:461 +0x8b fp=0x20552a2e8 sp=0x20552a2e0 pc=0x105912b
+
+tracealloc(0xc00008c000, 0x70)
+goroutine 1 [running, locked to thread]:
+runtime.mallocgc(0x70, 0x0, 0x1)
+	/usr/local/go/src/runtime/malloc.go:1157 +0x7b7 fp=0xc000040720 sp=0xc0000406a0 pc=0x100b6f7
+runtime.makechan(0x6116eb9987de, 0x2)
+	/usr/local/go/src/runtime/chan.go:101 +0x93 fp=0xc000040760 sp=0xc000040720 pc=0x1003db3
+runtime.gcenable()
+	/usr/local/go/src/runtime/mgc.go:180 +0x29 fp=0xc000040780 sp=0xc000040760 pc=0x1015b49
+runtime.main()
+	/usr/local/go/src/runtime/proc.go:214 +0x15a fp=0xc0000407e0 sp=0xc000040780 pc=0x1031c3a
+runtime.goexit()
+	/usr/local/go/src/runtime/asm_amd64.s:1581 +0x1 fp=0xc0000407e8 sp=0xc0000407e0 pc=0x105b0e1
+
+tracealloc(0xc000082340, 0x1a0, runtime.g)
+goroutine 1 [running, locked to thread]:
+runtime.systemstack_switch()
+	/usr/local/go/src/runtime/asm_amd64.s:350 fp=0xc000040718 sp=0xc000040710 pc=0x1058fe0
+runtime.newproc(0xeb9987de, 0x10ab568)
+	/usr/local/go/src/runtime/proc.go:4254 +0x6e fp=0xc000040760 sp=0xc000040718 pc=0x103a28e
+runtime.gcenable()
+	/usr/local/go/src/runtime/mgc.go:181 +0x55 fp=0xc000040780 sp=0xc000040760 pc=0x1015b75
+runtime.main()
+	/usr/local/go/src/runtime/proc.go:214 +0x15a fp=0xc0000407e0 sp=0xc000040780 pc=0x1031c3a
+runtime.goexit()
+	/usr/local/go/src/runtime/asm_amd64.s:1581 +0x1 fp=0xc0000407e8 sp=0xc0000407e0 pc=0x105b0e1
+
+tracealloc(0xc00008e000, 0x20, *runtime.g)
+goroutine 1 [running, locked to thread]:
+runtime.systemstack_switch()
+	/usr/local/go/src/runtime/asm_amd64.s:350 fp=0xc000040718 sp=0xc000040710 pc=0x1058fe0
+runtime.newproc(0xeb9987de, 0x10ab568)
+	/usr/local/go/src/runtime/proc.go:4254 +0x6e fp=0xc000040760 sp=0xc000040718 pc=0x103a28e
+runtime.gcenable()
+	/usr/local/go/src/runtime/mgc.go:181 +0x55 fp=0xc000040780 sp=0xc000040760 pc=0x1015b75
+runtime.main()
+	/usr/local/go/src/runtime/proc.go:214 +0x15a fp=0xc0000407e0 sp=0xc000040780 pc=0x1031c3a
+runtime.goexit()
+	/usr/local/go/src/runtime/asm_amd64.s:1581 +0x1 fp=0xc0000407e8 sp=0xc0000407e0 pc=0x105b0e1
+
+tracealloc(0xc0000824e0, 0x1a0, runtime.g)
+goroutine 1 [running, locked to thread]:
+runtime.systemstack_switch()
+	/usr/local/go/src/runtime/asm_amd64.s:350 fp=0xc000040718 sp=0xc000040710 pc=0x1058fe0
+runtime.newproc(0xeb9987de, 0x10ab560)
+	/usr/local/go/src/runtime/proc.go:4254 +0x6e fp=0xc000040760 sp=0xc000040718 pc=0x103a28e
+runtime.gcenable()
+	/usr/local/go/src/runtime/mgc.go:182 +0x65 fp=0xc000040780 sp=0xc000040760 pc=0x1015b85
+runtime.main()
+	/usr/local/go/src/runtime/proc.go:214 +0x15a fp=0xc0000407e0 sp=0xc000040780 pc=0x1031c3a
+runtime.goexit()
+	/usr/local/go/src/runtime/asm_amd64.s:1581 +0x1 fp=0xc0000407e8 sp=0xc0000407e0 pc=0x105b0e1
+
+tracealloc(0xc000090000, 0x60, runtime.sudog)
+goroutine 1 [running, locked to thread]:
+runtime.mallocgc(0x58, 0x109f960, 0x1)
+	/usr/local/go/src/runtime/malloc.go:1157 +0x7b7 fp=0xc000096e10 sp=0xc000096d90 pc=0x100b6f7
+runtime.newobject(0xc000040770)
+	/usr/local/go/src/runtime/malloc.go:1228 +0x27 fp=0xc000096e38 sp=0xc000096e10 pc=0x100b947
+runtime.acquireSudog()
+	/usr/local/go/src/runtime/proc.go:405 +0x252 fp=0xc000096ea8 sp=0xc000096e38 pc=0x1032452
+runtime.chanrecv(0xc00008c000, 0x0, 0x1)
+	/usr/local/go/src/runtime/chan.go:556 +0x372 fp=0xc000096f38 sp=0xc000096ea8 pc=0x1004fd2
+runtime.chanrecv1(0x6116eb9987de, 0x10ab560)
+	/usr/local/go/src/runtime/chan.go:439 +0x18 fp=0xc000096f60 sp=0xc000096f38 pc=0x1004c38
+runtime.gcenable()
+	/usr/local/go/src/runtime/mgc.go:184 +0x85 fp=0xc000096f80 sp=0xc000096f60 pc=0x1015ba5
+runtime.main()
+	/usr/local/go/src/runtime/proc.go:214 +0x15a fp=0xc000096fe0 sp=0xc000096f80 pc=0x1031c3a
+runtime.goexit()
+	/usr/local/go/src/runtime/asm_amd64.s:1581 +0x1 fp=0xc000096fe8 sp=0xc000096fe0 pc=0x105b0e1
+
+tracealloc(0xc000100000, 0x50, runtime.timer)
+goroutine 18 [running]:
+runtime.mallocgc(0x48, 0x109e320, 0x1)
+	/usr/local/go/src/runtime/malloc.go:1157 +0x7b7 fp=0xc00003cf58 sp=0xc00003ced8 pc=0x100b6f7
+runtime.newobject(0x0)
+	/usr/local/go/src/runtime/malloc.go:1228 +0x27 fp=0xc00003cf80 sp=0xc00003cf58 pc=0x100b947
+runtime.bgscavenge()
+	/usr/local/go/src/runtime/mgcscavenge.go:259 +0x5e fp=0xc00003cfe0 sp=0xc00003cf80 pc=0x101d1be
+runtime.goexit()
+	/usr/local/go/src/runtime/asm_amd64.s:1581 +0x1 fp=0xc00003cfe8 sp=0xc00003cfe0 pc=0x105b0e1
+created by runtime.gcenable
+	/usr/local/go/src/runtime/mgc.go:182 +0x65
+
+tracealloc(0xc000102000, 0x60)
+goroutine 1 [running, locked to thread]:
+runtime.mallocgc(0x60, 0x0, 0x1)
+	/usr/local/go/src/runtime/malloc.go:1157 +0x7b7 fp=0xc000096f40 sp=0xc000096ec0 pc=0x100b6f7
+runtime.makechan(0x1128d80, 0x0)
+	/usr/local/go/src/runtime/chan.go:95 +0x11d fp=0xc000096f80 sp=0xc000096f40 pc=0x1003e3d
+runtime.main()
+	/usr/local/go/src/runtime/proc.go:216 +0x168 fp=0xc000096fe0 sp=0xc000096f80 pc=0x1031c48
+runtime.goexit()
+	/usr/local/go/src/runtime/asm_amd64.s:1581 +0x1 fp=0xc000096fe8 sp=0xc000096fe0 pc=0x105b0e1
+
+tracealloc(0xc000104000, 0x10, errors.errorString)
+goroutine 1 [running, locked to thread]:
+runtime.mallocgc(0x10, 0x1097ac0, 0x1)
+	/usr/local/go/src/runtime/malloc.go:1157 +0x7b7 fp=0xc000096b90 sp=0xc000096b10 pc=0x100b6f7
+runtime.newobject(0x1090160)
+	/usr/local/go/src/runtime/malloc.go:1228 +0x27 fp=0xc000096bb8 sp=0xc000096b90 pc=0x100b947
+errors.New(...)
+	/usr/local/go/src/errors/errors.go:59
+strconv.init()
+	/usr/local/go/src/strconv/atoi.go:18 +0x25 fp=0xc000096bd8 sp=0xc000096bb8 pc=0x1064ba5
+runtime.doInit(0x1127e20)
+	/usr/local/go/src/runtime/proc.go:6498 +0x123 fp=0xc000096d10 sp=0xc000096bd8 pc=0x103ebe3
+runtime.doInit(0x1128d20)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096e48 sp=0xc000096d10 pc=0x103eb31
+runtime.doInit(0x1127020)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096f80 sp=0xc000096e48 pc=0x103eb31
+runtime.main()
+	/usr/local/go/src/runtime/proc.go:238 +0x1e6 fp=0xc000096fe0 sp=0xc000096f80 pc=0x1031cc6
+runtime.goexit()
+	/usr/local/go/src/runtime/asm_amd64.s:1581 +0x1 fp=0xc000096fe8 sp=0xc000096fe0 pc=0x105b0e1
+
+tracealloc(0xc000104010, 0x10, errors.errorString)
+goroutine 1 [running, locked to thread]:
+runtime.mallocgc(0x10, 0x1097ac0, 0x1)
+	/usr/local/go/src/runtime/malloc.go:1157 +0x7b7 fp=0xc000096b90 sp=0xc000096b10 pc=0x100b6f7
+runtime.newobject(0x1090160)
+	/usr/local/go/src/runtime/malloc.go:1228 +0x27 fp=0xc000096bb8 sp=0xc000096b90 pc=0x100b947
+errors.New(...)
+	/usr/local/go/src/errors/errors.go:59
+strconv.init()
+	/usr/local/go/src/strconv/atoi.go:21 +0x71 fp=0xc000096bd8 sp=0xc000096bb8 pc=0x1064bf1
+runtime.doInit(0x1127e20)
+	/usr/local/go/src/runtime/proc.go:6498 +0x123 fp=0xc000096d10 sp=0xc000096bd8 pc=0x103ebe3
+runtime.doInit(0x1128d20)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096e48 sp=0xc000096d10 pc=0x103eb31
+runtime.doInit(0x1127020)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096f80 sp=0xc000096e48 pc=0x103eb31
+runtime.main()
+	/usr/local/go/src/runtime/proc.go:238 +0x1e6 fp=0xc000096fe0 sp=0xc000096f80 pc=0x1031cc6
+runtime.goexit()
+	/usr/local/go/src/runtime/asm_amd64.s:1581 +0x1 fp=0xc000096fe8 sp=0xc000096fe0 pc=0x105b0e1
+
+tracealloc(0xc000104020, 0x10, interface {})
+goroutine 1 [running, locked to thread]:
+runtime.mallocgc(0x10, 0x10952c0, 0x1)
+	/usr/local/go/src/runtime/malloc.go:1157 +0x7b7 fp=0xc000096920 sp=0xc0000968a0 pc=0x100b6f7
+runtime.newobject(0xc000096988)
+	/usr/local/go/src/runtime/malloc.go:1228 +0x27 fp=0xc000096948 sp=0xc000096920 pc=0x100b947
+sync.init()
+	/usr/local/go/src/sync/map.go:70 +0x25 fp=0xc000096968 sp=0xc000096948 pc=0x1066f65
+runtime.doInit(0x1127e60)
+	/usr/local/go/src/runtime/proc.go:6498 +0x123 fp=0xc000096aa0 sp=0xc000096968 pc=0x103ebe3
+runtime.doInit(0x1128300)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096bd8 sp=0xc000096aa0 pc=0x103eb31
+runtime.doInit(0x11276e0)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096d10 sp=0xc000096bd8 pc=0x103eb31
+runtime.doInit(0x1128d20)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096e48 sp=0xc000096d10 pc=0x103eb31
+runtime.doInit(0x1127020)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096f80 sp=0xc000096e48 pc=0x103eb31
+runtime.main()
+	/usr/local/go/src/runtime/proc.go:238 +0x1e6 fp=0xc000096fe0 sp=0xc000096f80 pc=0x1031cc6
+runtime.goexit()
+	/usr/local/go/src/runtime/asm_amd64.s:1581 +0x1 fp=0xc000096fe8 sp=0xc000096fe0 pc=0x105b0e1
+
+tracealloc(0xc000106000, 0x30, runtime.hmap)
+goroutine 1 [running, locked to thread]:
+runtime.mallocgc(0x30, 0x109e800, 0x1)
+	/usr/local/go/src/runtime/malloc.go:1157 +0x7b7 fp=0xc0000968c8 sp=0xc000096848 pc=0x100b6f7
+runtime.newobject(0x113e6c0)
+	/usr/local/go/src/runtime/malloc.go:1228 +0x27 fp=0xc0000968f0 sp=0xc0000968c8 pc=0x100b947
+runtime.makemap_small()
+	/usr/local/go/src/runtime/map.go:293 +0x25 fp=0xc000096910 sp=0xc0000968f0 pc=0x100c485
+unicode.init()
+	/usr/local/go/src/unicode/tables.go:9 +0x1d fp=0xc000096968 sp=0xc000096910 pc=0x10670fd
+runtime.doInit(0x11270a0)
+	/usr/local/go/src/runtime/proc.go:6498 +0x123 fp=0xc000096aa0 sp=0xc000096968 pc=0x103ebe3
+runtime.doInit(0x1128300)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096bd8 sp=0xc000096aa0 pc=0x103eb31
+runtime.doInit(0x11276e0)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096d10 sp=0xc000096bd8 pc=0x103eb31
+runtime.doInit(0x1128d20)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096e48 sp=0xc000096d10 pc=0x103eb31
+runtime.doInit(0x1127020)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096f80 sp=0xc000096e48 pc=0x103eb31
+runtime.main()
+	/usr/local/go/src/runtime/proc.go:238 +0x1e6 fp=0xc000096fe0 sp=0xc000096f80 pc=0x1031cc6
+runtime.goexit()
+	/usr/local/go/src/runtime/asm_amd64.s:1581 +0x1 fp=0xc000096fe8 sp=0xc000096fe0 pc=0x105b0e1
+
+tracealloc(0xc000108000, 0xd0, map.bucket[string]*unicode.RangeTable)
+goroutine 1 [running, locked to thread]:
+runtime.mallocgc(0xd0, 0x109ba00, 0x1)
+	/usr/local/go/src/runtime/malloc.go:1157 +0x7b7 fp=0xc0000968a8 sp=0xc000096828 pc=0x100b6f7
+runtime.newobject(...)
+	/usr/local/go/src/runtime/malloc.go:1228
+runtime.mapassign_faststr(0x1096220, 0xc000106000, {0x10a38cd, 0x1})
+	/usr/local/go/src/runtime/map_faststr.go:220 +0x8a fp=0xc000096910 sp=0xc0000968a8 pc=0x100fc2a
+unicode.init()
+	/usr/local/go/src/unicode/tables.go:9 +0x3d fp=0xc000096968 sp=0xc000096910 pc=0x106711d
+runtime.doInit(0x11270a0)
+	/usr/local/go/src/runtime/proc.go:6498 +0x123 fp=0xc000096aa0 sp=0xc000096968 pc=0x103ebe3
+runtime.doInit(0x1128300)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096bd8 sp=0xc000096aa0 pc=0x103eb31
+runtime.doInit(0x11276e0)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096d10 sp=0xc000096bd8 pc=0x103eb31
+runtime.doInit(0x1128d20)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096e48 sp=0xc000096d10 pc=0x103eb31
+runtime.doInit(0x1127020)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096f80 sp=0xc000096e48 pc=0x103eb31
+runtime.main()
+	/usr/local/go/src/runtime/proc.go:238 +0x1e6 fp=0xc000096fe0 sp=0xc000096f80 pc=0x1031cc6
+runtime.goexit()
+	/usr/local/go/src/runtime/asm_amd64.s:1581 +0x1 fp=0xc000096fe8 sp=0xc000096fe0 pc=0x105b0e1
+
+tracealloc(0xc00010a000, 0x1a0, map.bucket[string]*unicode.RangeTable)
+goroutine 1 [running, locked to thread]:
+runtime.mallocgc(0x1a0, 0x109ba00, 0x1)
+	/usr/local/go/src/runtime/malloc.go:1157 +0x7b7 fp=0xc000096800 sp=0xc000096780 pc=0x100b6f7
+runtime.newarray(0x13bfa68, 0xd0)
+	/usr/local/go/src/runtime/malloc.go:1250 +0x52 fp=0xc000096828 sp=0xc000096800 pc=0x100b9d2
+runtime.makeBucketArray(0x13bfa68, 0xd0, 0x113e6c0)
+	/usr/local/go/src/runtime/map.go:362 +0x18e fp=0xc000096868 sp=0xc000096828 pc=0x100c82e
+runtime.hashGrow(0xd0, 0xc000106000)
+	/usr/local/go/src/runtime/map.go:1036 +0x79 fp=0xc0000968a8 sp=0xc000096868 pc=0x100da79
+runtime.mapassign_faststr(0x1096220, 0xc000106000, {0x10a3903, 0x2})
+	/usr/local/go/src/runtime/map_faststr.go:275 +0xc5 fp=0xc000096910 sp=0xc0000968a8 pc=0x100fc65
+unicode.init()
+	/usr/local/go/src/unicode/tables.go:9 +0x225 fp=0xc000096968 sp=0xc000096910 pc=0x1067305
+runtime.doInit(0x11270a0)
+	/usr/local/go/src/runtime/proc.go:6498 +0x123 fp=0xc000096aa0 sp=0xc000096968 pc=0x103ebe3
+runtime.doInit(0x1128300)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096bd8 sp=0xc000096aa0 pc=0x103eb31
+runtime.doInit(0x11276e0)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096d10 sp=0xc000096bd8 pc=0x103eb31
+runtime.doInit(0x1128d20)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096e48 sp=0xc000096d10 pc=0x103eb31
+runtime.doInit(0x1127020)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096f80 sp=0xc000096e48 pc=0x103eb31
+runtime.main()
+	/usr/local/go/src/runtime/proc.go:238 +0x1e6 fp=0xc000096fe0 sp=0xc000096f80 pc=0x1031cc6
+runtime.goexit()
+	/usr/local/go/src/runtime/asm_amd64.s:1581 +0x1 fp=0xc000096fe8 sp=0xc000096fe0 pc=0x105b0e1
+
+tracealloc(0xc0001080d0, 0xd0, map.bucket[string]*unicode.RangeTable)
+goroutine 1 [running, locked to thread]:
+runtime.mallocgc(0xd0, 0x109ba00, 0x1)
+	/usr/local/go/src/runtime/malloc.go:1157 +0x7b7 fp=0xc000096848 sp=0xc0000967c8 pc=0x100b6f7
+runtime.newobject(...)
+	/usr/local/go/src/runtime/malloc.go:1228
+runtime.(*hmap).newoverflow(0xc000106000, 0x1096220, 0xc00010a0d0)
+	/usr/local/go/src/runtime/map.go:262 +0xc5 fp=0xc0000968a8 sp=0xc000096848 pc=0x100c2c5
+runtime.mapassign_faststr(0x1096220, 0xc000106000, {0x10a3909, 0x2})
+	/usr/local/go/src/runtime/map_faststr.go:281 +0x2ea fp=0xc000096910 sp=0xc0000968a8 pc=0x100fe8a
+unicode.init()
+	/usr/local/go/src/unicode/tables.go:9 +0x325 fp=0xc000096968 sp=0xc000096910 pc=0x1067405
+runtime.doInit(0x11270a0)
+	/usr/local/go/src/runtime/proc.go:6498 +0x123 fp=0xc000096aa0 sp=0xc000096968 pc=0x103ebe3
+runtime.doInit(0x1128300)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096bd8 sp=0xc000096aa0 pc=0x103eb31
+runtime.doInit(0x11276e0)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096d10 sp=0xc000096bd8 pc=0x103eb31
+runtime.doInit(0x1128d20)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096e48 sp=0xc000096d10 pc=0x103eb31
+runtime.doInit(0x1127020)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096f80 sp=0xc000096e48 pc=0x103eb31
+runtime.main()
+	/usr/local/go/src/runtime/proc.go:238 +0x1e6 fp=0xc000096fe0 sp=0xc000096f80 pc=0x1031cc6
+runtime.goexit()
+	/usr/local/go/src/runtime/asm_amd64.s:1581 +0x1 fp=0xc000096fe8 sp=0xc000096fe0 pc=0x105b0e1
+
+tracealloc(0xc00010c000, 0x380, map.bucket[string]*unicode.RangeTable)
+goroutine 1 [running, locked to thread]:
+runtime.mallocgc(0x340, 0x109ba00, 0x1)
+	/usr/local/go/src/runtime/malloc.go:1157 +0x7b7 fp=0xc000096800 sp=0xc000096780 pc=0x100b6f7
+runtime.newarray(0x0, 0x3)
+	/usr/local/go/src/runtime/malloc.go:1250 +0x52 fp=0xc000096828 sp=0xc000096800 pc=0x100b9d2
+runtime.makeBucketArray(0xc000096898, 0xec, 0x1096220)
+	/usr/local/go/src/runtime/map.go:362 +0x18e fp=0xc000096868 sp=0xc000096828 pc=0x100c82e
+runtime.hashGrow(0xc000106000, 0xc000106000)
+	/usr/local/go/src/runtime/map.go:1036 +0x79 fp=0xc0000968a8 sp=0xc000096868 pc=0x100da79
+runtime.mapassign_faststr(0x1096220, 0xc000106000, {0x10a390b, 0x2})
+	/usr/local/go/src/runtime/map_faststr.go:275 +0xc5 fp=0xc000096910 sp=0xc0000968a8 pc=0x100fc65
+unicode.init()
+	/usr/local/go/src/unicode/tables.go:9 +0x365 fp=0xc000096968 sp=0xc000096910 pc=0x1067445
+runtime.doInit(0x11270a0)
+	/usr/local/go/src/runtime/proc.go:6498 +0x123 fp=0xc000096aa0 sp=0xc000096968 pc=0x103ebe3
+runtime.doInit(0x1128300)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096bd8 sp=0xc000096aa0 pc=0x103eb31
+runtime.doInit(0x11276e0)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096d10 sp=0xc000096bd8 pc=0x103eb31
+runtime.doInit(0x1128d20)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096e48 sp=0xc000096d10 pc=0x103eb31
+runtime.doInit(0x1127020)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096f80 sp=0xc000096e48 pc=0x103eb31
+runtime.main()
+	/usr/local/go/src/runtime/proc.go:238 +0x1e6 fp=0xc000096fe0 sp=0xc000096f80 pc=0x1031cc6
+runtime.goexit()
+	/usr/local/go/src/runtime/asm_amd64.s:1581 +0x1 fp=0xc000096fe8 sp=0xc000096fe0 pc=0x105b0e1
+
+tracealloc(0xc00010e000, 0x700, map.bucket[string]*unicode.RangeTable)
+goroutine 1 [running, locked to thread]:
+runtime.mallocgc(0x680, 0x109ba00, 0x1)
+	/usr/local/go/src/runtime/malloc.go:1157 +0x7b7 fp=0xc000096800 sp=0xc000096780 pc=0x100b6f7
+runtime.newarray(0xc00010c0d0, 0x6)
+	/usr/local/go/src/runtime/malloc.go:1250 +0x52 fp=0xc000096828 sp=0xc000096800 pc=0x100b9d2
+runtime.makeBucketArray(0xc000096898, 0x6, 0x1096220)
+	/usr/local/go/src/runtime/map.go:362 +0x18e fp=0xc000096868 sp=0xc000096828 pc=0x100c82e
+runtime.hashGrow(0xc000106000, 0xc000106000)
+	/usr/local/go/src/runtime/map.go:1036 +0x79 fp=0xc0000968a8 sp=0xc000096868 pc=0x100da79
+runtime.mapassign_faststr(0x1096220, 0xc000106000, {0x10a3921, 0x2})
+	/usr/local/go/src/runtime/map_faststr.go:275 +0xc5 fp=0xc000096910 sp=0xc0000968a8 pc=0x100fc65
+unicode.init()
+	/usr/local/go/src/unicode/tables.go:9 +0x6a5 fp=0xc000096968 sp=0xc000096910 pc=0x1067785
+runtime.doInit(0x11270a0)
+	/usr/local/go/src/runtime/proc.go:6498 +0x123 fp=0xc000096aa0 sp=0xc000096968 pc=0x103ebe3
+runtime.doInit(0x1128300)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096bd8 sp=0xc000096aa0 pc=0x103eb31
+runtime.doInit(0x11276e0)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096d10 sp=0xc000096bd8 pc=0x103eb31
+runtime.doInit(0x1128d20)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096e48 sp=0xc000096d10 pc=0x103eb31
+runtime.doInit(0x1127020)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096f80 sp=0xc000096e48 pc=0x103eb31
+runtime.main()
+	/usr/local/go/src/runtime/proc.go:238 +0x1e6 fp=0xc000096fe0 sp=0xc000096f80 pc=0x1031cc6
+runtime.goexit()
+	/usr/local/go/src/runtime/asm_amd64.s:1581 +0x1 fp=0xc000096fe8 sp=0xc000096fe0 pc=0x105b0e1
+
+tracealloc(0xc000106030, 0x30, runtime.hmap)
+goroutine 1 [running, locked to thread]:
+runtime.mallocgc(0x30, 0x109e800, 0x1)
+	/usr/local/go/src/runtime/malloc.go:1157 +0x7b7 fp=0xc0000968c8 sp=0xc000096848 pc=0x100b6f7
+runtime.newobject(0x113e6c0)
+	/usr/local/go/src/runtime/malloc.go:1228 +0x27 fp=0xc0000968f0 sp=0xc0000968c8 pc=0x100b947
+runtime.makemap_small()
+	/usr/local/go/src/runtime/map.go:293 +0x25 fp=0xc000096910 sp=0xc0000968f0 pc=0x100c485
+unicode.init()
+	/usr/local/go/src/unicode/tables.go:3655 +0x92a fp=0xc000096968 sp=0xc000096910 pc=0x1067a0a
+runtime.doInit(0x11270a0)
+	/usr/local/go/src/runtime/proc.go:6498 +0x123 fp=0xc000096aa0 sp=0xc000096968 pc=0x103ebe3
+runtime.doInit(0x1128300)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096bd8 sp=0xc000096aa0 pc=0x103eb31
+runtime.doInit(0x11276e0)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096d10 sp=0xc000096bd8 pc=0x103eb31
+runtime.doInit(0x1128d20)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096e48 sp=0xc000096d10 pc=0x103eb31
+runtime.doInit(0x1127020)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096f80 sp=0xc000096e48 pc=0x103eb31
+runtime.main()
+	/usr/local/go/src/runtime/proc.go:238 +0x1e6 fp=0xc000096fe0 sp=0xc000096f80 pc=0x1031cc6
+runtime.goexit()
+	/usr/local/go/src/runtime/asm_amd64.s:1581 +0x1 fp=0xc000096fe8 sp=0xc000096fe0 pc=0x105b0e1
+
+tracealloc(0xc0001081a0, 0xd0, map.bucket[string]*unicode.RangeTable)
+goroutine 1 [running, locked to thread]:
+runtime.mallocgc(0xd0, 0x109ba00, 0x1)
+	/usr/local/go/src/runtime/malloc.go:1157 +0x7b7 fp=0xc0000968a8 sp=0xc000096828 pc=0x100b6f7
+runtime.newobject(...)
+	/usr/local/go/src/runtime/malloc.go:1228
+runtime.mapassign_faststr(0x1096220, 0xc000106030, {0x10a3b45, 0x5})
+	/usr/local/go/src/runtime/map_faststr.go:220 +0x8a fp=0xc000096910 sp=0xc0000968a8 pc=0x100fc2a
+unicode.init()
+	/usr/local/go/src/unicode/tables.go:3655 +0x94a fp=0xc000096968 sp=0xc000096910 pc=0x1067a2a
+runtime.doInit(0x11270a0)
+	/usr/local/go/src/runtime/proc.go:6498 +0x123 fp=0xc000096aa0 sp=0xc000096968 pc=0x103ebe3
+runtime.doInit(0x1128300)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096bd8 sp=0xc000096aa0 pc=0x103eb31
+runtime.doInit(0x11276e0)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096d10 sp=0xc000096bd8 pc=0x103eb31
+runtime.doInit(0x1128d20)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096e48 sp=0xc000096d10 pc=0x103eb31
+runtime.doInit(0x1127020)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096f80 sp=0xc000096e48 pc=0x103eb31
+runtime.main()
+	/usr/local/go/src/runtime/proc.go:238 +0x1e6 fp=0xc000096fe0 sp=0xc000096f80 pc=0x1031cc6
+runtime.goexit()
+	/usr/local/go/src/runtime/asm_amd64.s:1581 +0x1 fp=0xc000096fe8 sp=0xc000096fe0 pc=0x105b0e1
+
+tracealloc(0xc00010a1a0, 0x1a0, map.bucket[string]*unicode.RangeTable)
+goroutine 1 [running, locked to thread]:
+runtime.mallocgc(0x1a0, 0x109ba00, 0x1)
+	/usr/local/go/src/runtime/malloc.go:1157 +0x7b7 fp=0xc000096800 sp=0xc000096780 pc=0x100b6f7
+runtime.newarray(0xc000096848, 0xd0)
+	/usr/local/go/src/runtime/malloc.go:1250 +0x52 fp=0xc000096828 sp=0xc000096800 pc=0x100b9d2
+runtime.makeBucketArray(0x13bfa68, 0xd0, 0x113e6c0)
+	/usr/local/go/src/runtime/map.go:362 +0x18e fp=0xc000096868 sp=0xc000096828 pc=0x100c82e
+runtime.hashGrow(0xd0, 0xc000106030)
+	/usr/local/go/src/runtime/map.go:1036 +0x79 fp=0xc0000968a8 sp=0xc000096868 pc=0x100da79
+runtime.mapassign_faststr(0x1096220, 0xc000106030, {0x10a4331, 0x9})
+	/usr/local/go/src/runtime/map_faststr.go:275 +0xc5 fp=0xc000096910 sp=0xc0000968a8 pc=0x100fc65
+unicode.init()
+	/usr/local/go/src/unicode/tables.go:3655 +0xb45 fp=0xc000096968 sp=0xc000096910 pc=0x1067c25
+runtime.doInit(0x11270a0)
+	/usr/local/go/src/runtime/proc.go:6498 +0x123 fp=0xc000096aa0 sp=0xc000096968 pc=0x103ebe3
+runtime.doInit(0x1128300)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096bd8 sp=0xc000096aa0 pc=0x103eb31
+runtime.doInit(0x11276e0)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096d10 sp=0xc000096bd8 pc=0x103eb31
+runtime.doInit(0x1128d20)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096e48 sp=0xc000096d10 pc=0x103eb31
+runtime.doInit(0x1127020)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096f80 sp=0xc000096e48 pc=0x103eb31
+runtime.main()
+	/usr/local/go/src/runtime/proc.go:238 +0x1e6 fp=0xc000096fe0 sp=0xc000096f80 pc=0x1031cc6
+runtime.goexit()
+	/usr/local/go/src/runtime/asm_amd64.s:1581 +0x1 fp=0xc000096fe8 sp=0xc000096fe0 pc=0x105b0e1
+
+tracealloc(0xc000108270, 0xd0, map.bucket[string]*unicode.RangeTable)
+goroutine 1 [running, locked to thread]:
+runtime.mallocgc(0xd0, 0x109ba00, 0x1)
+	/usr/local/go/src/runtime/malloc.go:1157 +0x7b7 fp=0xc000096848 sp=0xc0000967c8 pc=0x100b6f7
+runtime.newobject(...)
+	/usr/local/go/src/runtime/malloc.go:1228
+runtime.(*hmap).newoverflow(0xc000106030, 0x1096220, 0xc00010a270)
+	/usr/local/go/src/runtime/map.go:262 +0xc5 fp=0xc0000968a8 sp=0xc000096848 pc=0x100c2c5
+runtime.mapassign_faststr(0x1096220, 0xc000106030, {0x10a40c5, 0x8})
+	/usr/local/go/src/runtime/map_faststr.go:281 +0x2ea fp=0xc000096910 sp=0xc0000968a8 pc=0x100fe8a
+unicode.init()
+	/usr/local/go/src/unicode/tables.go:3655 +0xc45 fp=0xc000096968 sp=0xc000096910 pc=0x1067d25
+runtime.doInit(0x11270a0)
+	/usr/local/go/src/runtime/proc.go:6498 +0x123 fp=0xc000096aa0 sp=0xc000096968 pc=0x103ebe3
+runtime.doInit(0x1128300)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096bd8 sp=0xc000096aa0 pc=0x103eb31
+runtime.doInit(0x11276e0)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096d10 sp=0xc000096bd8 pc=0x103eb31
+runtime.doInit(0x1128d20)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096e48 sp=0xc000096d10 pc=0x103eb31
+runtime.doInit(0x1127020)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096f80 sp=0xc000096e48 pc=0x103eb31
+runtime.main()
+	/usr/local/go/src/runtime/proc.go:238 +0x1e6 fp=0xc000096fe0 sp=0xc000096f80 pc=0x1031cc6
+runtime.goexit()
+	/usr/local/go/src/runtime/asm_amd64.s:1581 +0x1 fp=0xc000096fe8 sp=0xc000096fe0 pc=0x105b0e1
+
+tracealloc(0xc00010c380, 0x380, map.bucket[string]*unicode.RangeTable)
+goroutine 1 [running, locked to thread]:
+runtime.mallocgc(0x340, 0x109ba00, 0x1)
+	/usr/local/go/src/runtime/malloc.go:1157 +0x7b7 fp=0xc000096800 sp=0xc000096780 pc=0x100b6f7
+runtime.newarray(0x0, 0x3)
+	/usr/local/go/src/runtime/malloc.go:1250 +0x52 fp=0xc000096828 sp=0xc000096800 pc=0x100b9d2
+runtime.makeBucketArray(0xc000096898, 0xec, 0x1096220)
+	/usr/local/go/src/runtime/map.go:362 +0x18e fp=0xc000096868 sp=0xc000096828 pc=0x100c82e
+runtime.hashGrow(0xc000106030, 0xc000106030)
+	/usr/local/go/src/runtime/map.go:1036 +0x79 fp=0xc0000968a8 sp=0xc000096868 pc=0x100da79
+runtime.mapassign_faststr(0x1096220, 0xc000106030, {0x10a3ccf, 0x6})
+	/usr/local/go/src/runtime/map_faststr.go:275 +0xc5 fp=0xc000096910 sp=0xc0000968a8 pc=0x100fc65
+unicode.init()
+	/usr/local/go/src/unicode/tables.go:3655 +0xc85 fp=0xc000096968 sp=0xc000096910 pc=0x1067d65
+runtime.doInit(0x11270a0)
+	/usr/local/go/src/runtime/proc.go:6498 +0x123 fp=0xc000096aa0 sp=0xc000096968 pc=0x103ebe3
+runtime.doInit(0x1128300)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096bd8 sp=0xc000096aa0 pc=0x103eb31
+runtime.doInit(0x11276e0)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096d10 sp=0xc000096bd8 pc=0x103eb31
+runtime.doInit(0x1128d20)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096e48 sp=0xc000096d10 pc=0x103eb31
+runtime.doInit(0x1127020)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096f80 sp=0xc000096e48 pc=0x103eb31
+runtime.main()
+	/usr/local/go/src/runtime/proc.go:238 +0x1e6 fp=0xc000096fe0 sp=0xc000096f80 pc=0x1031cc6
+runtime.goexit()
+	/usr/local/go/src/runtime/asm_amd64.s:1581 +0x1 fp=0xc000096fe8 sp=0xc000096fe0 pc=0x105b0e1
+
+tracealloc(0xc000108340, 0xd0, map.bucket[string]*unicode.RangeTable)
+goroutine 1 [running, locked to thread]:
+runtime.mallocgc(0xd0, 0x109ba00, 0x1)
+	/usr/local/go/src/runtime/malloc.go:1157 +0x7b7 fp=0xc000096848 sp=0xc0000967c8 pc=0x100b6f7
+runtime.newobject(...)
+	/usr/local/go/src/runtime/malloc.go:1228
+runtime.(*hmap).newoverflow(0xc000106030, 0x1096220, 0xc00010c450)
+	/usr/local/go/src/runtime/map.go:262 +0xc5 fp=0xc0000968a8 sp=0xc000096848 pc=0x100c2c5
+runtime.mapassign_faststr(0x1096220, 0xc000106030, {0x10a4590, 0xa})
+	/usr/local/go/src/runtime/map_faststr.go:281 +0x2ea fp=0xc000096910 sp=0xc0000968a8 pc=0x100fe8a
+unicode.init()
+	/usr/local/go/src/unicode/tables.go:3655 +0xf05 fp=0xc000096968 sp=0xc000096910 pc=0x1067fe5
+runtime.doInit(0x11270a0)
+	/usr/local/go/src/runtime/proc.go:6498 +0x123 fp=0xc000096aa0 sp=0xc000096968 pc=0x103ebe3
+runtime.doInit(0x1128300)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096bd8 sp=0xc000096aa0 pc=0x103eb31
+runtime.doInit(0x11276e0)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096d10 sp=0xc000096bd8 pc=0x103eb31
+runtime.doInit(0x1128d20)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096e48 sp=0xc000096d10 pc=0x103eb31
+runtime.doInit(0x1127020)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096f80 sp=0xc000096e48 pc=0x103eb31
+runtime.main()
+	/usr/local/go/src/runtime/proc.go:238 +0x1e6 fp=0xc000096fe0 sp=0xc000096f80 pc=0x1031cc6
+runtime.goexit()
+	/usr/local/go/src/runtime/asm_amd64.s:1581 +0x1 fp=0xc000096fe8 sp=0xc000096fe0 pc=0x105b0e1
+
+tracealloc(0xc00010e700, 0x700, map.bucket[string]*unicode.RangeTable)
+goroutine 1 [running, locked to thread]:
+runtime.mallocgc(0x680, 0x109ba00, 0x1)
+	/usr/local/go/src/runtime/malloc.go:1157 +0x7b7 fp=0xc000096800 sp=0xc000096780 pc=0x100b6f7
+runtime.newarray(0x0, 0x2)
+	/usr/local/go/src/runtime/malloc.go:1250 +0x52 fp=0xc000096828 sp=0xc000096800 pc=0x100b9d2
+runtime.makeBucketArray(0xc000096898, 0x6, 0x1096220)
+	/usr/local/go/src/runtime/map.go:362 +0x18e fp=0xc000096868 sp=0xc000096828 pc=0x100c82e
+runtime.hashGrow(0xc000106030, 0xc000106030)
+	/usr/local/go/src/runtime/map.go:1036 +0x79 fp=0xc0000968a8 sp=0xc000096868 pc=0x100da79
+runtime.mapassign_faststr(0x1096220, 0xc000106030, {0x10a4343, 0x9})
+	/usr/local/go/src/runtime/map_faststr.go:275 +0xc5 fp=0xc000096910 sp=0xc0000968a8 pc=0x100fc65
+unicode.init()
+	/usr/local/go/src/unicode/tables.go:3655 +0xfc5 fp=0xc000096968 sp=0xc000096910 pc=0x10680a5
+runtime.doInit(0x11270a0)
+	/usr/local/go/src/runtime/proc.go:6498 +0x123 fp=0xc000096aa0 sp=0xc000096968 pc=0x103ebe3
+runtime.doInit(0x1128300)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096bd8 sp=0xc000096aa0 pc=0x103eb31
+runtime.doInit(0x11276e0)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096d10 sp=0xc000096bd8 pc=0x103eb31
+runtime.doInit(0x1128d20)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096e48 sp=0xc000096d10 pc=0x103eb31
+runtime.doInit(0x1127020)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096f80 sp=0xc000096e48 pc=0x103eb31
+runtime.main()
+	/usr/local/go/src/runtime/proc.go:238 +0x1e6 fp=0xc000096fe0 sp=0xc000096f80 pc=0x1031cc6
+runtime.goexit()
+	/usr/local/go/src/runtime/asm_amd64.s:1581 +0x1 fp=0xc000096fe8 sp=0xc000096fe0 pc=0x105b0e1
+
+tracealloc(0xc000108410, 0xd0, map.bucket[string]*unicode.RangeTable)
+goroutine 1 [running, locked to thread]:
+runtime.mallocgc(0xd0, 0x109ba00, 0x1)
+	/usr/local/go/src/runtime/malloc.go:1157 +0x7b7 fp=0xc000096848 sp=0xc0000967c8 pc=0x100b6f7
+runtime.newobject(...)
+	/usr/local/go/src/runtime/malloc.go:1228
+runtime.(*hmap).newoverflow(0xc000106030, 0x1096220, 0xc00010e970)
+	/usr/local/go/src/runtime/map.go:262 +0xc5 fp=0xc0000968a8 sp=0xc000096848 pc=0x100c2c5
+runtime.mapassign_faststr(0x1096220, 0xc000106030, {0x10a3d05, 0x6})
+	/usr/local/go/src/runtime/map_faststr.go:281 +0x2ea fp=0xc000096910 sp=0xc0000968a8 pc=0x100fe8a
+unicode.init()
+	/usr/local/go/src/unicode/tables.go:3655 +0x1345 fp=0xc000096968 sp=0xc000096910 pc=0x1068425
+runtime.doInit(0x11270a0)
+	/usr/local/go/src/runtime/proc.go:6498 +0x123 fp=0xc000096aa0 sp=0xc000096968 pc=0x103ebe3
+runtime.doInit(0x1128300)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096bd8 sp=0xc000096aa0 pc=0x103eb31
+runtime.doInit(0x11276e0)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096d10 sp=0xc000096bd8 pc=0x103eb31
+runtime.doInit(0x1128d20)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096e48 sp=0xc000096d10 pc=0x103eb31
+runtime.doInit(0x1127020)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096f80 sp=0xc000096e48 pc=0x103eb31
+runtime.main()
+	/usr/local/go/src/runtime/proc.go:238 +0x1e6 fp=0xc000096fe0 sp=0xc000096f80 pc=0x1031cc6
+runtime.goexit()
+	/usr/local/go/src/runtime/asm_amd64.s:1581 +0x1 fp=0xc000096fe8 sp=0xc000096fe0 pc=0x105b0e1
+
+tracealloc(0xc000112000, 0x1000, map.bucket[string]*unicode.RangeTable)
+goroutine 1 [running, locked to thread]:
+runtime.mallocgc(0xf70, 0x109ba00, 0x1)
+	/usr/local/go/src/runtime/malloc.go:1157 +0x7b7 fp=0xc000096800 sp=0xc000096780 pc=0x100b6f7
+runtime.newarray(0x0, 0x6)
+	/usr/local/go/src/runtime/malloc.go:1250 +0x52 fp=0xc000096828 sp=0xc000096800 pc=0x100b9d2
+runtime.makeBucketArray(0xc000096898, 0x6, 0x1096220)
+	/usr/local/go/src/runtime/map.go:362 +0x18e fp=0xc000096868 sp=0xc000096828 pc=0x100c82e
+runtime.hashGrow(0xc000106030, 0xc000106030)
+	/usr/local/go/src/runtime/map.go:1036 +0x79 fp=0xc0000968a8 sp=0xc000096868 pc=0x100da79
+runtime.mapassign_faststr(0x1096220, 0xc000106030, {0x10a4135, 0x8})
+	/usr/local/go/src/runtime/map_faststr.go:275 +0xc5 fp=0xc000096910 sp=0xc0000968a8 pc=0x100fc65
+unicode.init()
+	/usr/local/go/src/unicode/tables.go:3655 +0x1645 fp=0xc000096968 sp=0xc000096910 pc=0x1068725
+runtime.doInit(0x11270a0)
+	/usr/local/go/src/runtime/proc.go:6498 +0x123 fp=0xc000096aa0 sp=0xc000096968 pc=0x103ebe3
+runtime.doInit(0x1128300)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096bd8 sp=0xc000096aa0 pc=0x103eb31
+runtime.doInit(0x11276e0)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096d10 sp=0xc000096bd8 pc=0x103eb31
+runtime.doInit(0x1128d20)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096e48 sp=0xc000096d10 pc=0x103eb31
+runtime.doInit(0x1127020)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096f80 sp=0xc000096e48 pc=0x103eb31
+runtime.main()
+	/usr/local/go/src/runtime/proc.go:238 +0x1e6 fp=0xc000096fe0 sp=0xc000096f80 pc=0x1031cc6
+runtime.goexit()
+	/usr/local/go/src/runtime/asm_amd64.s:1581 +0x1 fp=0xc000096fe8 sp=0xc000096fe0 pc=0x105b0e1
+
+tracealloc(0xc000114000, 0x18, runtime.mapextra)
+goroutine 1 [running, locked to thread]:
+runtime.mallocgc(0x18, 0x109aec0, 0x1)
+	/usr/local/go/src/runtime/malloc.go:1157 +0x7b7 fp=0xc000096840 sp=0xc0000967c0 pc=0x100b6f7
+runtime.newobject(0xc000096898)
+	/usr/local/go/src/runtime/malloc.go:1228 +0x27 fp=0xc000096868 sp=0xc000096840 pc=0x100b947
+runtime.hashGrow(0xc000106030, 0xc000106030)
+	/usr/local/go/src/runtime/map.go:1060 +0x153 fp=0xc0000968a8 sp=0xc000096868 pc=0x100db53
+runtime.mapassign_faststr(0x1096220, 0xc000106030, {0x10a4135, 0x8})
+	/usr/local/go/src/runtime/map_faststr.go:275 +0xc5 fp=0xc000096910 sp=0xc0000968a8 pc=0x100fc65
+unicode.init()
+	/usr/local/go/src/unicode/tables.go:3655 +0x1645 fp=0xc000096968 sp=0xc000096910 pc=0x1068725
+runtime.doInit(0x11270a0)
+	/usr/local/go/src/runtime/proc.go:6498 +0x123 fp=0xc000096aa0 sp=0xc000096968 pc=0x103ebe3
+runtime.doInit(0x1128300)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096bd8 sp=0xc000096aa0 pc=0x103eb31
+runtime.doInit(0x11276e0)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096d10 sp=0xc000096bd8 pc=0x103eb31
+runtime.doInit(0x1128d20)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096e48 sp=0xc000096d10 pc=0x103eb31
+runtime.doInit(0x1127020)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096f80 sp=0xc000096e48 pc=0x103eb31
+runtime.main()
+	/usr/local/go/src/runtime/proc.go:238 +0x1e6 fp=0xc000096fe0 sp=0xc000096f80 pc=0x1031cc6
+runtime.goexit()
+	/usr/local/go/src/runtime/asm_amd64.s:1581 +0x1 fp=0xc000096fe8 sp=0xc000096fe0 pc=0x105b0e1
+
+tracealloc(0xc000116000, 0x2000, map.bucket[string]*unicode.RangeTable)
+goroutine 1 [running, locked to thread]:
+runtime.mallocgc(0x1fb0, 0x109ba00, 0x1)
+	/usr/local/go/src/runtime/malloc.go:1157 +0x7b7 fp=0xc000096800 sp=0xc000096780 pc=0x100b6f7
+runtime.newarray(0xc0001125b0, 0x5)
+	/usr/local/go/src/runtime/malloc.go:1250 +0x52 fp=0xc000096828 sp=0xc000096800 pc=0x100b9d2
+runtime.makeBucketArray(0xc000096898, 0x6, 0x1096220)
+	/usr/local/go/src/runtime/map.go:362 +0x18e fp=0xc000096868 sp=0xc000096828 pc=0x100c82e
+runtime.hashGrow(0xc000106030, 0xc000106030)
+	/usr/local/go/src/runtime/map.go:1036 +0x79 fp=0xc0000968a8 sp=0xc000096868 pc=0x100da79
+runtime.mapassign_faststr(0x1096220, 0xc000106030, {0x10a45e0, 0xa})
+	/usr/local/go/src/runtime/map_faststr.go:275 +0xc5 fp=0xc000096910 sp=0xc0000968a8 pc=0x100fc65
+unicode.init()
+	/usr/local/go/src/unicode/tables.go:3655 +0x2345 fp=0xc000096968 sp=0xc000096910 pc=0x1069425
+runtime.doInit(0x11270a0)
+	/usr/local/go/src/runtime/proc.go:6498 +0x123 fp=0xc000096aa0 sp=0xc000096968 pc=0x103ebe3
+runtime.doInit(0x1128300)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096bd8 sp=0xc000096aa0 pc=0x103eb31
+runtime.doInit(0x11276e0)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096d10 sp=0xc000096bd8 pc=0x103eb31
+runtime.doInit(0x1128d20)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096e48 sp=0xc000096d10 pc=0x103eb31
+runtime.doInit(0x1127020)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096f80 sp=0xc000096e48 pc=0x103eb31
+runtime.main()
+	/usr/local/go/src/runtime/proc.go:238 +0x1e6 fp=0xc000096fe0 sp=0xc000096f80 pc=0x1031cc6
+runtime.goexit()
+	/usr/local/go/src/runtime/asm_amd64.s:1581 +0x1 fp=0xc000096fe8 sp=0xc000096fe0 pc=0x105b0e1
+
+tracealloc(0xc000106060, 0x30, runtime.hmap)
+goroutine 1 [running, locked to thread]:
+runtime.mallocgc(0x30, 0x109e800, 0x1)
+	/usr/local/go/src/runtime/malloc.go:1157 +0x7b7 fp=0xc0000968c8 sp=0xc000096848 pc=0x100b6f7
+runtime.newobject(0x113e6c0)
+	/usr/local/go/src/runtime/malloc.go:1228 +0x27 fp=0xc0000968f0 sp=0xc0000968c8 pc=0x100b947
+runtime.makemap_small()
+	/usr/local/go/src/runtime/map.go:293 +0x25 fp=0xc000096910 sp=0xc0000968f0 pc=0x100c485
+unicode.init()
+	/usr/local/go/src/unicode/tables.go:5745 +0x304a fp=0xc000096968 sp=0xc000096910 pc=0x106a12a
+runtime.doInit(0x11270a0)
+	/usr/local/go/src/runtime/proc.go:6498 +0x123 fp=0xc000096aa0 sp=0xc000096968 pc=0x103ebe3
+runtime.doInit(0x1128300)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096bd8 sp=0xc000096aa0 pc=0x103eb31
+runtime.doInit(0x11276e0)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096d10 sp=0xc000096bd8 pc=0x103eb31
+runtime.doInit(0x1128d20)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096e48 sp=0xc000096d10 pc=0x103eb31
+runtime.doInit(0x1127020)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096f80 sp=0xc000096e48 pc=0x103eb31
+runtime.main()
+	/usr/local/go/src/runtime/proc.go:238 +0x1e6 fp=0xc000096fe0 sp=0xc000096f80 pc=0x1031cc6
+runtime.goexit()
+	/usr/local/go/src/runtime/asm_amd64.s:1581 +0x1 fp=0xc000096fe8 sp=0xc000096fe0 pc=0x105b0e1
+
+tracealloc(0xc0001084e0, 0xd0, map.bucket[string]*unicode.RangeTable)
+goroutine 1 [running, locked to thread]:
+runtime.mallocgc(0xd0, 0x109ba00, 0x1)
+	/usr/local/go/src/runtime/malloc.go:1157 +0x7b7 fp=0xc0000968a8 sp=0xc000096828 pc=0x100b6f7
+runtime.newobject(...)
+	/usr/local/go/src/runtime/malloc.go:1228
+runtime.mapassign_faststr(0x1096220, 0xc000106060, {0x10a5133, 0xf})
+	/usr/local/go/src/runtime/map_faststr.go:220 +0x8a fp=0xc000096910 sp=0xc0000968a8 pc=0x100fc2a
+unicode.init()
+	/usr/local/go/src/unicode/tables.go:5745 +0x306a fp=0xc000096968 sp=0xc000096910 pc=0x106a14a
+runtime.doInit(0x11270a0)
+	/usr/local/go/src/runtime/proc.go:6498 +0x123 fp=0xc000096aa0 sp=0xc000096968 pc=0x103ebe3
+runtime.doInit(0x1128300)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096bd8 sp=0xc000096aa0 pc=0x103eb31
+runtime.doInit(0x11276e0)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096d10 sp=0xc000096bd8 pc=0x103eb31
+runtime.doInit(0x1128d20)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096e48 sp=0xc000096d10 pc=0x103eb31
+runtime.doInit(0x1127020)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096f80 sp=0xc000096e48 pc=0x103eb31
+runtime.main()
+	/usr/local/go/src/runtime/proc.go:238 +0x1e6 fp=0xc000096fe0 sp=0xc000096f80 pc=0x1031cc6
+runtime.goexit()
+	/usr/local/go/src/runtime/asm_amd64.s:1581 +0x1 fp=0xc000096fe8 sp=0xc000096fe0 pc=0x105b0e1
+
+tracealloc(0xc00010a340, 0x1a0, map.bucket[string]*unicode.RangeTable)
+goroutine 1 [running, locked to thread]:
+runtime.mallocgc(0x1a0, 0x109ba00, 0x1)
+	/usr/local/go/src/runtime/malloc.go:1157 +0x7b7 fp=0xc000096800 sp=0xc000096780 pc=0x100b6f7
+runtime.newarray(0xc000096848, 0xd0)
+	/usr/local/go/src/runtime/malloc.go:1250 +0x52 fp=0xc000096828 sp=0xc000096800 pc=0x100b9d2
+runtime.makeBucketArray(0x13bfa68, 0xd0, 0x113e6c0)
+	/usr/local/go/src/runtime/map.go:362 +0x18e fp=0xc000096868 sp=0xc000096828 pc=0x100c82e
+runtime.hashGrow(0xd0, 0xc000106060)
+	/usr/local/go/src/runtime/map.go:1036 +0x79 fp=0xc0000968a8 sp=0xc000096868 pc=0x100da79
+runtime.mapassign_faststr(0x1096220, 0xc000106060, {0x10a5c41, 0x13})
+	/usr/local/go/src/runtime/map_faststr.go:275 +0xc5 fp=0xc000096910 sp=0xc0000968a8 pc=0x100fc65
+unicode.init()
+	/usr/local/go/src/unicode/tables.go:5745 +0x3265 fp=0xc000096968 sp=0xc000096910 pc=0x106a345
+runtime.doInit(0x11270a0)
+	/usr/local/go/src/runtime/proc.go:6498 +0x123 fp=0xc000096aa0 sp=0xc000096968 pc=0x103ebe3
+runtime.doInit(0x1128300)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096bd8 sp=0xc000096aa0 pc=0x103eb31
+runtime.doInit(0x11276e0)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096d10 sp=0xc000096bd8 pc=0x103eb31
+runtime.doInit(0x1128d20)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096e48 sp=0xc000096d10 pc=0x103eb31
+runtime.doInit(0x1127020)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096f80 sp=0xc000096e48 pc=0x103eb31
+runtime.main()
+	/usr/local/go/src/runtime/proc.go:238 +0x1e6 fp=0xc000096fe0 sp=0xc000096f80 pc=0x1031cc6
+runtime.goexit()
+	/usr/local/go/src/runtime/asm_amd64.s:1581 +0x1 fp=0xc000096fe8 sp=0xc000096fe0 pc=0x105b0e1
+
+tracealloc(0xc00010c700, 0x380, map.bucket[string]*unicode.RangeTable)
+goroutine 1 [running, locked to thread]:
+runtime.mallocgc(0x340, 0x109ba00, 0x1)
+	/usr/local/go/src/runtime/malloc.go:1157 +0x7b7 fp=0xc000096800 sp=0xc000096780 pc=0x100b6f7
+runtime.newarray(0xc00010a340, 0x4)
+	/usr/local/go/src/runtime/malloc.go:1250 +0x52 fp=0xc000096828 sp=0xc000096800 pc=0x100b9d2
+runtime.makeBucketArray(0xc000096898, 0xec, 0x1096220)
+	/usr/local/go/src/runtime/map.go:362 +0x18e fp=0xc000096868 sp=0xc000096828 pc=0x100c82e
+runtime.hashGrow(0xd0, 0xc000106060)
+	/usr/local/go/src/runtime/map.go:1036 +0x79 fp=0xc0000968a8 sp=0xc000096868 pc=0x100da79
+runtime.mapassign_faststr(0x1096220, 0xc000106060, {0x10a6a94, 0x17})
+	/usr/local/go/src/runtime/map_faststr.go:275 +0xc5 fp=0xc000096910 sp=0xc0000968a8 pc=0x100fc65
+unicode.init()
+	/usr/local/go/src/unicode/tables.go:5745 +0x33a5 fp=0xc000096968 sp=0xc000096910 pc=0x106a485
+runtime.doInit(0x11270a0)
+	/usr/local/go/src/runtime/proc.go:6498 +0x123 fp=0xc000096aa0 sp=0xc000096968 pc=0x103ebe3
+runtime.doInit(0x1128300)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096bd8 sp=0xc000096aa0 pc=0x103eb31
+runtime.doInit(0x11276e0)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096d10 sp=0xc000096bd8 pc=0x103eb31
+runtime.doInit(0x1128d20)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096e48 sp=0xc000096d10 pc=0x103eb31
+runtime.doInit(0x1127020)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096f80 sp=0xc000096e48 pc=0x103eb31
+runtime.main()
+	/usr/local/go/src/runtime/proc.go:238 +0x1e6 fp=0xc000096fe0 sp=0xc000096f80 pc=0x1031cc6
+runtime.goexit()
+	/usr/local/go/src/runtime/asm_amd64.s:1581 +0x1 fp=0xc000096fe8 sp=0xc000096fe0 pc=0x105b0e1
+
+tracealloc(0xc0001085b0, 0xd0, map.bucket[string]*unicode.RangeTable)
+goroutine 1 [running, locked to thread]:
+runtime.mallocgc(0xd0, 0x109ba00, 0x1)
+	/usr/local/go/src/runtime/malloc.go:1157 +0x7b7 fp=0xc000096848 sp=0xc0000967c8 pc=0x100b6f7
+runtime.newobject(...)
+	/usr/local/go/src/runtime/malloc.go:1228
+runtime.(*hmap).newoverflow(0xc000106060, 0x1096220, 0xc00010c700)
+	/usr/local/go/src/runtime/map.go:262 +0xc5 fp=0xc0000968a8 sp=0xc000096848 pc=0x100c2c5
+runtime.mapassign_faststr(0x1096220, 0xc000106060, {0x10a4f53, 0xe})
+	/usr/local/go/src/runtime/map_faststr.go:281 +0x2ea fp=0xc000096910 sp=0xc0000968a8 pc=0x100fe8a
+unicode.init()
+	/usr/local/go/src/unicode/tables.go:5745 +0x36a5 fp=0xc000096968 sp=0xc000096910 pc=0x106a785
+runtime.doInit(0x11270a0)
+	/usr/local/go/src/runtime/proc.go:6498 +0x123 fp=0xc000096aa0 sp=0xc000096968 pc=0x103ebe3
+runtime.doInit(0x1128300)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096bd8 sp=0xc000096aa0 pc=0x103eb31
+runtime.doInit(0x11276e0)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096d10 sp=0xc000096bd8 pc=0x103eb31
+runtime.doInit(0x1128d20)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096e48 sp=0xc000096d10 pc=0x103eb31
+runtime.doInit(0x1127020)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096f80 sp=0xc000096e48 pc=0x103eb31
+runtime.main()
+	/usr/local/go/src/runtime/proc.go:238 +0x1e6 fp=0xc000096fe0 sp=0xc000096f80 pc=0x1031cc6
+runtime.goexit()
+	/usr/local/go/src/runtime/asm_amd64.s:1581 +0x1 fp=0xc000096fe8 sp=0xc000096fe0 pc=0x105b0e1
+
+tracealloc(0xc00010ee00, 0x700, map.bucket[string]*unicode.RangeTable)
+goroutine 1 [running, locked to thread]:
+runtime.mallocgc(0x680, 0x109ba00, 0x1)
+	/usr/local/go/src/runtime/malloc.go:1157 +0x7b7 fp=0xc000096800 sp=0xc000096780 pc=0x100b6f7
+runtime.newarray(0x0, 0x5)
+	/usr/local/go/src/runtime/malloc.go:1250 +0x52 fp=0xc000096828 sp=0xc000096800 pc=0x100b9d2
+runtime.makeBucketArray(0xc000096898, 0x6, 0x1096220)
+	/usr/local/go/src/runtime/map.go:362 +0x18e fp=0xc000096868 sp=0xc000096828 pc=0x100c82e
+runtime.hashGrow(0xc000106060, 0xc000106060)
+	/usr/local/go/src/runtime/map.go:1036 +0x79 fp=0xc0000968a8 sp=0xc000096868 pc=0x100da79
+runtime.mapassign_faststr(0x1096220, 0xc000106060, {0x10a3edf, 0x7})
+	/usr/local/go/src/runtime/map_faststr.go:275 +0xc5 fp=0xc000096910 sp=0xc0000968a8 pc=0x100fc65
+unicode.init()
+	/usr/local/go/src/unicode/tables.go:5745 +0x36e5 fp=0xc000096968 sp=0xc000096910 pc=0x106a7c5
+runtime.doInit(0x11270a0)
+	/usr/local/go/src/runtime/proc.go:6498 +0x123 fp=0xc000096aa0 sp=0xc000096968 pc=0x103ebe3
+runtime.doInit(0x1128300)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096bd8 sp=0xc000096aa0 pc=0x103eb31
+runtime.doInit(0x11276e0)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096d10 sp=0xc000096bd8 pc=0x103eb31
+runtime.doInit(0x1128d20)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096e48 sp=0xc000096d10 pc=0x103eb31
+runtime.doInit(0x1127020)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096f80 sp=0xc000096e48 pc=0x103eb31
+runtime.main()
+	/usr/local/go/src/runtime/proc.go:238 +0x1e6 fp=0xc000096fe0 sp=0xc000096f80 pc=0x1031cc6
+runtime.goexit()
+	/usr/local/go/src/runtime/asm_amd64.s:1581 +0x1 fp=0xc000096fe8 sp=0xc000096fe0 pc=0x105b0e1
+
+tracealloc(0xc000106090, 0x30, runtime.hmap)
+goroutine 1 [running, locked to thread]:
+runtime.mallocgc(0x30, 0x109e800, 0x1)
+	/usr/local/go/src/runtime/malloc.go:1157 +0x7b7 fp=0xc0000968c8 sp=0xc000096848 pc=0x100b6f7
+runtime.newobject(0x113e6c0)
+	/usr/local/go/src/runtime/malloc.go:1228 +0x27 fp=0xc0000968f0 sp=0xc0000968c8 pc=0x100b947
+runtime.makemap_small()
+	/usr/local/go/src/runtime/map.go:293 +0x25 fp=0xc000096910 sp=0xc0000968f0 pc=0x100c485
+unicode.init()
+	/usr/local/go/src/unicode/tables.go:7736 +0x392a fp=0xc000096968 sp=0xc000096910 pc=0x106aa0a
+runtime.doInit(0x11270a0)
+	/usr/local/go/src/runtime/proc.go:6498 +0x123 fp=0xc000096aa0 sp=0xc000096968 pc=0x103ebe3
+runtime.doInit(0x1128300)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096bd8 sp=0xc000096aa0 pc=0x103eb31
+runtime.doInit(0x11276e0)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096d10 sp=0xc000096bd8 pc=0x103eb31
+runtime.doInit(0x1128d20)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096e48 sp=0xc000096d10 pc=0x103eb31
+runtime.doInit(0x1127020)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096f80 sp=0xc000096e48 pc=0x103eb31
+runtime.main()
+	/usr/local/go/src/runtime/proc.go:238 +0x1e6 fp=0xc000096fe0 sp=0xc000096f80 pc=0x1031cc6
+runtime.goexit()
+	/usr/local/go/src/runtime/asm_amd64.s:1581 +0x1 fp=0xc000096fe8 sp=0xc000096fe0 pc=0x105b0e1
+
+tracealloc(0xc000108680, 0xd0, map.bucket[string]*unicode.RangeTable)
+goroutine 1 [running, locked to thread]:
+runtime.mallocgc(0xd0, 0x109ba00, 0x1)
+	/usr/local/go/src/runtime/malloc.go:1157 +0x7b7 fp=0xc0000968a8 sp=0xc000096828 pc=0x100b6f7
+runtime.newobject(...)
+	/usr/local/go/src/runtime/malloc.go:1228
+runtime.mapassign_faststr(0x1096220, 0xc000106090, {0x10a38ce, 0x1})
+	/usr/local/go/src/runtime/map_faststr.go:220 +0x8a fp=0xc000096910 sp=0xc0000968a8 pc=0x100fc2a
+unicode.init()
+	/usr/local/go/src/unicode/tables.go:7736 +0x394a fp=0xc000096968 sp=0xc000096910 pc=0x106aa2a
+runtime.doInit(0x11270a0)
+	/usr/local/go/src/runtime/proc.go:6498 +0x123 fp=0xc000096aa0 sp=0xc000096968 pc=0x103ebe3
+runtime.doInit(0x1128300)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096bd8 sp=0xc000096aa0 pc=0x103eb31
+runtime.doInit(0x11276e0)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096d10 sp=0xc000096bd8 pc=0x103eb31
+runtime.doInit(0x1128d20)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096e48 sp=0xc000096d10 pc=0x103eb31
+runtime.doInit(0x1127020)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096f80 sp=0xc000096e48 pc=0x103eb31
+runtime.main()
+	/usr/local/go/src/runtime/proc.go:238 +0x1e6 fp=0xc000096fe0 sp=0xc000096f80 pc=0x1031cc6
+runtime.goexit()
+	/usr/local/go/src/runtime/asm_amd64.s:1581 +0x1 fp=0xc000096fe8 sp=0xc000096fe0 pc=0x105b0e1
+
+tracealloc(0xc0001060c0, 0x30, runtime.hmap)
+goroutine 1 [running, locked to thread]:
+runtime.mallocgc(0x30, 0x109e800, 0x1)
+	/usr/local/go/src/runtime/malloc.go:1157 +0x7b7 fp=0xc0000968c8 sp=0xc000096848 pc=0x100b6f7
+runtime.newobject(0x113e6c0)
+	/usr/local/go/src/runtime/malloc.go:1228 +0x27 fp=0xc0000968f0 sp=0xc0000968c8 pc=0x100b947
+runtime.makemap_small()
+	/usr/local/go/src/runtime/map.go:293 +0x25 fp=0xc000096910 sp=0xc0000968f0 pc=0x100c485
+unicode.init()
+	/usr/local/go/src/unicode/tables.go:8026 +0x3aca fp=0xc000096968 sp=0xc000096910 pc=0x106abaa
+runtime.doInit(0x11270a0)
+	/usr/local/go/src/runtime/proc.go:6498 +0x123 fp=0xc000096aa0 sp=0xc000096968 pc=0x103ebe3
+runtime.doInit(0x1128300)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096bd8 sp=0xc000096aa0 pc=0x103eb31
+runtime.doInit(0x11276e0)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096d10 sp=0xc000096bd8 pc=0x103eb31
+runtime.doInit(0x1128d20)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096e48 sp=0xc000096d10 pc=0x103eb31
+runtime.doInit(0x1127020)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096f80 sp=0xc000096e48 pc=0x103eb31
+runtime.main()
+	/usr/local/go/src/runtime/proc.go:238 +0x1e6 fp=0xc000096fe0 sp=0xc000096f80 pc=0x1031cc6
+runtime.goexit()
+	/usr/local/go/src/runtime/asm_amd64.s:1581 +0x1 fp=0xc000096fe8 sp=0xc000096fe0 pc=0x105b0e1
+
+tracealloc(0xc000108750, 0xd0, map.bucket[string]*unicode.RangeTable)
+goroutine 1 [running, locked to thread]:
+runtime.mallocgc(0xd0, 0x109ba00, 0x1)
+	/usr/local/go/src/runtime/malloc.go:1157 +0x7b7 fp=0xc0000968a8 sp=0xc000096828 pc=0x100b6f7
+runtime.newobject(...)
+	/usr/local/go/src/runtime/malloc.go:1228
+runtime.mapassign_faststr(0x1096220, 0xc0001060c0, {0x10a3ce7, 0x6})
+	/usr/local/go/src/runtime/map_faststr.go:220 +0x8a fp=0xc000096910 sp=0xc0000968a8 pc=0x100fc2a
+unicode.init()
+	/usr/local/go/src/unicode/tables.go:8026 +0x3aea fp=0xc000096968 sp=0xc000096910 pc=0x106abca
+runtime.doInit(0x11270a0)
+	/usr/local/go/src/runtime/proc.go:6498 +0x123 fp=0xc000096aa0 sp=0xc000096968 pc=0x103ebe3
+runtime.doInit(0x1128300)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096bd8 sp=0xc000096aa0 pc=0x103eb31
+runtime.doInit(0x11276e0)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096d10 sp=0xc000096bd8 pc=0x103eb31
+runtime.doInit(0x1128d20)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096e48 sp=0xc000096d10 pc=0x103eb31
+runtime.doInit(0x1127020)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096f80 sp=0xc000096e48 pc=0x103eb31
+runtime.main()
+	/usr/local/go/src/runtime/proc.go:238 +0x1e6 fp=0xc000096fe0 sp=0xc000096f80 pc=0x1031cc6
+runtime.goexit()
+	/usr/local/go/src/runtime/asm_amd64.s:1581 +0x1 fp=0xc000096fe8 sp=0xc000096fe0 pc=0x105b0e1
+
+tracealloc(0xc000104030, 0x10, errors.errorString)
+goroutine 1 [running, locked to thread]:
+runtime.mallocgc(0x10, 0x1097ac0, 0x1)
+	/usr/local/go/src/runtime/malloc.go:1157 +0x7b7 fp=0xc000096b90 sp=0xc000096b10 pc=0x100b6f7
+runtime.newobject(0x1090160)
+	/usr/local/go/src/runtime/malloc.go:1228 +0x27 fp=0xc000096bb8 sp=0xc000096b90 pc=0x100b947
+errors.New(...)
+	/usr/local/go/src/errors/errors.go:59
+io.init()
+	/usr/local/go/src/io/io.go:29 +0x25 fp=0xc000096bd8 sp=0xc000096bb8 pc=0x1073a45
+runtime.doInit(0x1127aa0)
+	/usr/local/go/src/runtime/proc.go:6498 +0x123 fp=0xc000096d10 sp=0xc000096bd8 pc=0x103ebe3
+runtime.doInit(0x1128d20)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096e48 sp=0xc000096d10 pc=0x103eb31
+runtime.doInit(0x1127020)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096f80 sp=0xc000096e48 pc=0x103eb31
+runtime.main()
+	/usr/local/go/src/runtime/proc.go:238 +0x1e6 fp=0xc000096fe0 sp=0xc000096f80 pc=0x1031cc6
+runtime.goexit()
+	/usr/local/go/src/runtime/asm_amd64.s:1581 +0x1 fp=0xc000096fe8 sp=0xc000096fe0 pc=0x105b0e1
+
+tracealloc(0xc000104040, 0x10, errors.errorString)
+goroutine 1 [running, locked to thread]:
+runtime.mallocgc(0x10, 0x1097ac0, 0x1)
+	/usr/local/go/src/runtime/malloc.go:1157 +0x7b7 fp=0xc000096b90 sp=0xc000096b10 pc=0x100b6f7
+runtime.newobject(0x1090160)
+	/usr/local/go/src/runtime/malloc.go:1228 +0x27 fp=0xc000096bb8 sp=0xc000096b90 pc=0x100b947
+errors.New(...)
+	/usr/local/go/src/errors/errors.go:59
+io.init()
+	/usr/local/go/src/io/io.go:32 +0x71 fp=0xc000096bd8 sp=0xc000096bb8 pc=0x1073a91
+runtime.doInit(0x1127aa0)
+	/usr/local/go/src/runtime/proc.go:6498 +0x123 fp=0xc000096d10 sp=0xc000096bd8 pc=0x103ebe3
+runtime.doInit(0x1128d20)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096e48 sp=0xc000096d10 pc=0x103eb31
+runtime.doInit(0x1127020)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096f80 sp=0xc000096e48 pc=0x103eb31
+runtime.main()
+	/usr/local/go/src/runtime/proc.go:238 +0x1e6 fp=0xc000096fe0 sp=0xc000096f80 pc=0x1031cc6
+runtime.goexit()
+	/usr/local/go/src/runtime/asm_amd64.s:1581 +0x1 fp=0xc000096fe8 sp=0xc000096fe0 pc=0x105b0e1
+
+tracealloc(0xc000104050, 0x10, errors.errorString)
+goroutine 1 [running, locked to thread]:
+runtime.mallocgc(0x10, 0x1097ac0, 0x1)
+	/usr/local/go/src/runtime/malloc.go:1157 +0x7b7 fp=0xc000096b90 sp=0xc000096b10 pc=0x100b6f7
+runtime.newobject(0x1090160)
+	/usr/local/go/src/runtime/malloc.go:1228 +0x27 fp=0xc000096bb8 sp=0xc000096b90 pc=0x100b947
+errors.New(...)
+	/usr/local/go/src/errors/errors.go:59
+io.init()
+	/usr/local/go/src/io/io.go:35 +0xbb fp=0xc000096bd8 sp=0xc000096bb8 pc=0x1073adb
+runtime.doInit(0x1127aa0)
+	/usr/local/go/src/runtime/proc.go:6498 +0x123 fp=0xc000096d10 sp=0xc000096bd8 pc=0x103ebe3
+runtime.doInit(0x1128d20)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096e48 sp=0xc000096d10 pc=0x103eb31
+runtime.doInit(0x1127020)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096f80 sp=0xc000096e48 pc=0x103eb31
+runtime.main()
+	/usr/local/go/src/runtime/proc.go:238 +0x1e6 fp=0xc000096fe0 sp=0xc000096f80 pc=0x1031cc6
+runtime.goexit()
+	/usr/local/go/src/runtime/asm_amd64.s:1581 +0x1 fp=0xc000096fe8 sp=0xc000096fe0 pc=0x105b0e1
+
+tracealloc(0xc000104060, 0x10, errors.errorString)
+goroutine 1 [running, locked to thread]:
+runtime.mallocgc(0x10, 0x1097ac0, 0x1)
+	/usr/local/go/src/runtime/malloc.go:1157 +0x7b7 fp=0xc000096b90 sp=0xc000096b10 pc=0x100b6f7
+runtime.newobject(0x1090160)
+	/usr/local/go/src/runtime/malloc.go:1228 +0x27 fp=0xc000096bb8 sp=0xc000096b90 pc=0x100b947
+errors.New(...)
+	/usr/local/go/src/errors/errors.go:59
+io.init()
+	/usr/local/go/src/io/io.go:44 +0x105 fp=0xc000096bd8 sp=0xc000096bb8 pc=0x1073b25
+runtime.doInit(0x1127aa0)
+	/usr/local/go/src/runtime/proc.go:6498 +0x123 fp=0xc000096d10 sp=0xc000096bd8 pc=0x103ebe3
+runtime.doInit(0x1128d20)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096e48 sp=0xc000096d10 pc=0x103eb31
+runtime.doInit(0x1127020)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096f80 sp=0xc000096e48 pc=0x103eb31
+runtime.main()
+	/usr/local/go/src/runtime/proc.go:238 +0x1e6 fp=0xc000096fe0 sp=0xc000096f80 pc=0x1031cc6
+runtime.goexit()
+	/usr/local/go/src/runtime/asm_amd64.s:1581 +0x1 fp=0xc000096fe8 sp=0xc000096fe0 pc=0x105b0e1
+
+tracealloc(0xc000104070, 0x10, errors.errorString)
+goroutine 1 [running, locked to thread]:
+runtime.mallocgc(0x10, 0x1097ac0, 0x1)
+	/usr/local/go/src/runtime/malloc.go:1157 +0x7b7 fp=0xc000096b90 sp=0xc000096b10 pc=0x100b6f7
+runtime.newobject(0x1090160)
+	/usr/local/go/src/runtime/malloc.go:1228 +0x27 fp=0xc000096bb8 sp=0xc000096b90 pc=0x100b947
+errors.New(...)
+	/usr/local/go/src/errors/errors.go:59
+io.init()
+	/usr/local/go/src/io/io.go:48 +0x151 fp=0xc000096bd8 sp=0xc000096bb8 pc=0x1073b71
+runtime.doInit(0x1127aa0)
+	/usr/local/go/src/runtime/proc.go:6498 +0x123 fp=0xc000096d10 sp=0xc000096bd8 pc=0x103ebe3
+runtime.doInit(0x1128d20)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096e48 sp=0xc000096d10 pc=0x103eb31
+runtime.doInit(0x1127020)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096f80 sp=0xc000096e48 pc=0x103eb31
+runtime.main()
+	/usr/local/go/src/runtime/proc.go:238 +0x1e6 fp=0xc000096fe0 sp=0xc000096f80 pc=0x1031cc6
+runtime.goexit()
+	/usr/local/go/src/runtime/asm_amd64.s:1581 +0x1 fp=0xc000096fe8 sp=0xc000096fe0 pc=0x105b0e1
+
+tracealloc(0xc000104080, 0x10, errors.errorString)
+goroutine 1 [running, locked to thread]:
+runtime.mallocgc(0x10, 0x1097ac0, 0x1)
+	/usr/local/go/src/runtime/malloc.go:1157 +0x7b7 fp=0xc000096b90 sp=0xc000096b10 pc=0x100b6f7
+runtime.newobject(0x1090160)
+	/usr/local/go/src/runtime/malloc.go:1228 +0x27 fp=0xc000096bb8 sp=0xc000096b90 pc=0x100b947
+errors.New(...)
+	/usr/local/go/src/errors/errors.go:59
+io.init()
+	/usr/local/go/src/io/io.go:53 +0x19b fp=0xc000096bd8 sp=0xc000096bb8 pc=0x1073bbb
+runtime.doInit(0x1127aa0)
+	/usr/local/go/src/runtime/proc.go:6498 +0x123 fp=0xc000096d10 sp=0xc000096bd8 pc=0x103ebe3
+runtime.doInit(0x1128d20)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096e48 sp=0xc000096d10 pc=0x103eb31
+runtime.doInit(0x1127020)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096f80 sp=0xc000096e48 pc=0x103eb31
+runtime.main()
+	/usr/local/go/src/runtime/proc.go:238 +0x1e6 fp=0xc000096fe0 sp=0xc000096f80 pc=0x1031cc6
+runtime.goexit()
+	/usr/local/go/src/runtime/asm_amd64.s:1581 +0x1 fp=0xc000096fe8 sp=0xc000096fe0 pc=0x105b0e1
+
+tracealloc(0xc000104090, 0x10, errors.errorString)
+goroutine 1 [running, locked to thread]:
+runtime.mallocgc(0x10, 0x1097ac0, 0x1)
+	/usr/local/go/src/runtime/malloc.go:1157 +0x7b7 fp=0xc000096b90 sp=0xc000096b10 pc=0x100b6f7
+runtime.newobject(0x1090160)
+	/usr/local/go/src/runtime/malloc.go:1228 +0x27 fp=0xc000096bb8 sp=0xc000096b90 pc=0x100b947
+errors.New(...)
+	/usr/local/go/src/errors/errors.go:59
+io.init()
+	/usr/local/go/src/io/io.go:505 +0x1e5 fp=0xc000096bd8 sp=0xc000096bb8 pc=0x1073c05
+runtime.doInit(0x1127aa0)
+	/usr/local/go/src/runtime/proc.go:6498 +0x123 fp=0xc000096d10 sp=0xc000096bd8 pc=0x103ebe3
+runtime.doInit(0x1128d20)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096e48 sp=0xc000096d10 pc=0x103eb31
+runtime.doInit(0x1127020)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096f80 sp=0xc000096e48 pc=0x103eb31
+runtime.main()
+	/usr/local/go/src/runtime/proc.go:238 +0x1e6 fp=0xc000096fe0 sp=0xc000096f80 pc=0x1031cc6
+runtime.goexit()
+	/usr/local/go/src/runtime/asm_amd64.s:1581 +0x1 fp=0xc000096fe8 sp=0xc000096fe0 pc=0x105b0e1
+
+tracealloc(0xc0001040a0, 0x10, errors.errorString)
+goroutine 1 [running, locked to thread]:
+runtime.mallocgc(0x10, 0x1097ac0, 0x1)
+	/usr/local/go/src/runtime/malloc.go:1157 +0x7b7 fp=0xc000096b90 sp=0xc000096b10 pc=0x100b6f7
+runtime.newobject(0x1090160)
+	/usr/local/go/src/runtime/malloc.go:1228 +0x27 fp=0xc000096bb8 sp=0xc000096b90 pc=0x100b947
+errors.New(...)
+	/usr/local/go/src/errors/errors.go:59
+io.init()
+	/usr/local/go/src/io/io.go:506 +0x231 fp=0xc000096bd8 sp=0xc000096bb8 pc=0x1073c51
+runtime.doInit(0x1127aa0)
+	/usr/local/go/src/runtime/proc.go:6498 +0x123 fp=0xc000096d10 sp=0xc000096bd8 pc=0x103ebe3
+runtime.doInit(0x1128d20)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096e48 sp=0xc000096d10 pc=0x103eb31
+runtime.doInit(0x1127020)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096f80 sp=0xc000096e48 pc=0x103eb31
+runtime.main()
+	/usr/local/go/src/runtime/proc.go:238 +0x1e6 fp=0xc000096fe0 sp=0xc000096f80 pc=0x1031cc6
+runtime.goexit()
+	/usr/local/go/src/runtime/asm_amd64.s:1581 +0x1 fp=0xc000096fe8 sp=0xc000096fe0 pc=0x105b0e1
+
+tracealloc(0xc0001040b0, 0x10, errors.errorString)
+goroutine 1 [running, locked to thread]:
+runtime.mallocgc(0x10, 0x1097ac0, 0x1)
+	/usr/local/go/src/runtime/malloc.go:1157 +0x7b7 fp=0xc000096b90 sp=0xc000096b10 pc=0x100b6f7
+runtime.newobject(0x1090160)
+	/usr/local/go/src/runtime/malloc.go:1228 +0x27 fp=0xc000096bb8 sp=0xc000096b90 pc=0x100b947
+errors.New(...)
+	/usr/local/go/src/errors/errors.go:59
+io.init()
+	/usr/local/go/src/io/pipe.go:36 +0x27b fp=0xc000096bd8 sp=0xc000096bb8 pc=0x1073c9b
+runtime.doInit(0x1127aa0)
+	/usr/local/go/src/runtime/proc.go:6498 +0x123 fp=0xc000096d10 sp=0xc000096bd8 pc=0x103ebe3
+runtime.doInit(0x1128d20)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096e48 sp=0xc000096d10 pc=0x103eb31
+runtime.doInit(0x1127020)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096f80 sp=0xc000096e48 pc=0x103eb31
+runtime.main()
+	/usr/local/go/src/runtime/proc.go:238 +0x1e6 fp=0xc000096fe0 sp=0xc000096f80 pc=0x1031cc6
+runtime.goexit()
+	/usr/local/go/src/runtime/asm_amd64.s:1581 +0x1 fp=0xc000096fe8 sp=0xc000096fe0 pc=0x105b0e1
+
+tracealloc(0xc0001040c0, 0x10, errors.errorString)
+goroutine 1 [running, locked to thread]:
+runtime.mallocgc(0x10, 0x1097ac0, 0x1)
+	/usr/local/go/src/runtime/malloc.go:1157 +0x7b7 fp=0xc000096920 sp=0xc0000968a0 pc=0x100b6f7
+runtime.newobject(0xc000096988)
+	/usr/local/go/src/runtime/malloc.go:1228 +0x27 fp=0xc000096948 sp=0xc000096920 pc=0x100b947
+errors.New(...)
+	/usr/local/go/src/errors/errors.go:59
+internal/oserror.init()
+	/usr/local/go/src/internal/oserror/errors.go:13 +0x25 fp=0xc000096968 sp=0xc000096948 pc=0x1073d25
+runtime.doInit(0x1127720)
+	/usr/local/go/src/runtime/proc.go:6498 +0x123 fp=0xc000096aa0 sp=0xc000096968 pc=0x103ebe3
+runtime.doInit(0x1128840)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096bd8 sp=0xc000096aa0 pc=0x103eb31
+runtime.doInit(0x1129320)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096d10 sp=0xc000096bd8 pc=0x103eb31
+runtime.doInit(0x1128d20)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096e48 sp=0xc000096d10 pc=0x103eb31
+runtime.doInit(0x1127020)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096f80 sp=0xc000096e48 pc=0x103eb31
+runtime.main()
+	/usr/local/go/src/runtime/proc.go:238 +0x1e6 fp=0xc000096fe0 sp=0xc000096f80 pc=0x1031cc6
+runtime.goexit()
+	/usr/local/go/src/runtime/asm_amd64.s:1581 +0x1 fp=0xc000096fe8 sp=0xc000096fe0 pc=0x105b0e1
+
+tracealloc(0xc0001040d0, 0x10, errors.errorString)
+goroutine 1 [running, locked to thread]:
+runtime.mallocgc(0x10, 0x1097ac0, 0x1)
+	/usr/local/go/src/runtime/malloc.go:1157 +0x7b7 fp=0xc000096920 sp=0xc0000968a0 pc=0x100b6f7
+runtime.newobject(0xc000096988)
+	/usr/local/go/src/runtime/malloc.go:1228 +0x27 fp=0xc000096948 sp=0xc000096920 pc=0x100b947
+errors.New(...)
+	/usr/local/go/src/errors/errors.go:59
+internal/oserror.init()
+	/usr/local/go/src/internal/oserror/errors.go:14 +0x71 fp=0xc000096968 sp=0xc000096948 pc=0x1073d71
+runtime.doInit(0x1127720)
+	/usr/local/go/src/runtime/proc.go:6498 +0x123 fp=0xc000096aa0 sp=0xc000096968 pc=0x103ebe3
+runtime.doInit(0x1128840)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096bd8 sp=0xc000096aa0 pc=0x103eb31
+runtime.doInit(0x1129320)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096d10 sp=0xc000096bd8 pc=0x103eb31
+runtime.doInit(0x1128d20)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096e48 sp=0xc000096d10 pc=0x103eb31
+runtime.doInit(0x1127020)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096f80 sp=0xc000096e48 pc=0x103eb31
+runtime.main()
+	/usr/local/go/src/runtime/proc.go:238 +0x1e6 fp=0xc000096fe0 sp=0xc000096f80 pc=0x1031cc6
+runtime.goexit()
+	/usr/local/go/src/runtime/asm_amd64.s:1581 +0x1 fp=0xc000096fe8 sp=0xc000096fe0 pc=0x105b0e1
+
+tracealloc(0xc0001040e0, 0x10, errors.errorString)
+goroutine 1 [running, locked to thread]:
+runtime.mallocgc(0x10, 0x1097ac0, 0x1)
+	/usr/local/go/src/runtime/malloc.go:1157 +0x7b7 fp=0xc000096920 sp=0xc0000968a0 pc=0x100b6f7
+runtime.newobject(0xc000096988)
+	/usr/local/go/src/runtime/malloc.go:1228 +0x27 fp=0xc000096948 sp=0xc000096920 pc=0x100b947
+errors.New(...)
+	/usr/local/go/src/errors/errors.go:59
+internal/oserror.init()
+	/usr/local/go/src/internal/oserror/errors.go:15 +0xbb fp=0xc000096968 sp=0xc000096948 pc=0x1073dbb
+runtime.doInit(0x1127720)
+	/usr/local/go/src/runtime/proc.go:6498 +0x123 fp=0xc000096aa0 sp=0xc000096968 pc=0x103ebe3
+runtime.doInit(0x1128840)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096bd8 sp=0xc000096aa0 pc=0x103eb31
+runtime.doInit(0x1129320)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096d10 sp=0xc000096bd8 pc=0x103eb31
+runtime.doInit(0x1128d20)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096e48 sp=0xc000096d10 pc=0x103eb31
+runtime.doInit(0x1127020)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096f80 sp=0xc000096e48 pc=0x103eb31
+runtime.main()
+	/usr/local/go/src/runtime/proc.go:238 +0x1e6 fp=0xc000096fe0 sp=0xc000096f80 pc=0x1031cc6
+runtime.goexit()
+	/usr/local/go/src/runtime/asm_amd64.s:1581 +0x1 fp=0xc000096fe8 sp=0xc000096fe0 pc=0x105b0e1
+
+tracealloc(0xc0001040f0, 0x10, errors.errorString)
+goroutine 1 [running, locked to thread]:
+runtime.mallocgc(0x10, 0x1097ac0, 0x1)
+	/usr/local/go/src/runtime/malloc.go:1157 +0x7b7 fp=0xc000096920 sp=0xc0000968a0 pc=0x100b6f7
+runtime.newobject(0xc000096988)
+	/usr/local/go/src/runtime/malloc.go:1228 +0x27 fp=0xc000096948 sp=0xc000096920 pc=0x100b947
+errors.New(...)
+	/usr/local/go/src/errors/errors.go:59
+internal/oserror.init()
+	/usr/local/go/src/internal/oserror/errors.go:16 +0x105 fp=0xc000096968 sp=0xc000096948 pc=0x1073e05
+runtime.doInit(0x1127720)
+	/usr/local/go/src/runtime/proc.go:6498 +0x123 fp=0xc000096aa0 sp=0xc000096968 pc=0x103ebe3
+runtime.doInit(0x1128840)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096bd8 sp=0xc000096aa0 pc=0x103eb31
+runtime.doInit(0x1129320)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096d10 sp=0xc000096bd8 pc=0x103eb31
+runtime.doInit(0x1128d20)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096e48 sp=0xc000096d10 pc=0x103eb31
+runtime.doInit(0x1127020)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096f80 sp=0xc000096e48 pc=0x103eb31
+runtime.main()
+	/usr/local/go/src/runtime/proc.go:238 +0x1e6 fp=0xc000096fe0 sp=0xc000096f80 pc=0x1031cc6
+runtime.goexit()
+	/usr/local/go/src/runtime/asm_amd64.s:1581 +0x1 fp=0xc000096fe8 sp=0xc000096fe0 pc=0x105b0e1
+
+tracealloc(0xc000104100, 0x10, errors.errorString)
+goroutine 1 [running, locked to thread]:
+runtime.mallocgc(0x10, 0x1097ac0, 0x1)
+	/usr/local/go/src/runtime/malloc.go:1157 +0x7b7 fp=0xc000096920 sp=0xc0000968a0 pc=0x100b6f7
+runtime.newobject(0xc000096988)
+	/usr/local/go/src/runtime/malloc.go:1228 +0x27 fp=0xc000096948 sp=0xc000096920 pc=0x100b947
+errors.New(...)
+	/usr/local/go/src/errors/errors.go:59
+internal/oserror.init()
+	/usr/local/go/src/internal/oserror/errors.go:17 +0x151 fp=0xc000096968 sp=0xc000096948 pc=0x1073e51
+runtime.doInit(0x1127720)
+	/usr/local/go/src/runtime/proc.go:6498 +0x123 fp=0xc000096aa0 sp=0xc000096968 pc=0x103ebe3
+runtime.doInit(0x1128840)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096bd8 sp=0xc000096aa0 pc=0x103eb31
+runtime.doInit(0x1129320)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096d10 sp=0xc000096bd8 pc=0x103eb31
+runtime.doInit(0x1128d20)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096e48 sp=0xc000096d10 pc=0x103eb31
+runtime.doInit(0x1127020)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096f80 sp=0xc000096e48 pc=0x103eb31
+runtime.main()
+	/usr/local/go/src/runtime/proc.go:238 +0x1e6 fp=0xc000096fe0 sp=0xc000096f80 pc=0x1031cc6
+runtime.goexit()
+	/usr/local/go/src/runtime/asm_amd64.s:1581 +0x1 fp=0xc000096fe8 sp=0xc000096fe0 pc=0x105b0e1
+
+tracealloc(0xc000118000, 0x300, string)
+goroutine 1 [running, locked to thread]:
+runtime.mallocgc(0x300, 0x1093620, 0x1)
+	/usr/local/go/src/runtime/malloc.go:1157 +0x7b7 fp=0xc000096768 sp=0xc0000966e8 pc=0x100b6f7
+runtime.growslice(0x1093620, {0x116ce80, 0x1, 0x1}, 0xc0000001a0)
+	/usr/local/go/src/runtime/slice.go:267 +0x4ea fp=0xc0000967d0 sp=0xc000096768 pc=0x104484a
+syscall.runtime_envs()
+	/usr/local/go/src/runtime/runtime.go:53 +0x4f fp=0xc000096820 sp=0xc0000967d0 pc=0x10576af
+syscall.init()
+	/usr/local/go/src/syscall/env_unix.go:30 +0x17 fp=0xc000096830 sp=0xc000096820 pc=0x10752f7
+runtime.doInit(0x11288a0)
+	/usr/local/go/src/runtime/proc.go:6498 +0x123 fp=0xc000096968 sp=0xc000096830 pc=0x103ebe3
+runtime.doInit(0x11280e0)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096aa0 sp=0xc000096968 pc=0x103eb31
+runtime.doInit(0x1128840)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096bd8 sp=0xc000096aa0 pc=0x103eb31
+runtime.doInit(0x1129320)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096d10 sp=0xc000096bd8 pc=0x103eb31
+runtime.doInit(0x1128d20)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096e48 sp=0xc000096d10 pc=0x103eb31
+runtime.doInit(0x1127020)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096f80 sp=0xc000096e48 pc=0x103eb31
+runtime.main()
+	/usr/local/go/src/runtime/proc.go:238 +0x1e6 fp=0xc000096fe0 sp=0xc000096f80 pc=0x1031cc6
+runtime.goexit()
+	/usr/local/go/src/runtime/asm_amd64.s:1581 +0x1 fp=0xc000096fe8 sp=0xc000096fe0 pc=0x105b0e1
+
+tracealloc(0xc0001060f0, 0x30, runtime.hmap)
+goroutine 1 [running, locked to thread]:
+runtime.mallocgc(0x30, 0x109e800, 0x1)
+	/usr/local/go/src/runtime/malloc.go:1157 +0x7b7 fp=0xc0000967d8 sp=0xc000096758 pc=0x100b6f7
+runtime.newobject(0x2d)
+	/usr/local/go/src/runtime/malloc.go:1228 +0x27 fp=0xc000096800 sp=0xc0000967d8 pc=0x100b947
+runtime.makemap_small()
+	/usr/local/go/src/runtime/map.go:293 +0x25 fp=0xc000096820 sp=0xc000096800 pc=0x100c485
+syscall.init()
+	/usr/local/go/src/syscall/syscall_bsd.go:557 +0x55 fp=0xc000096830 sp=0xc000096820 pc=0x1075335
+runtime.doInit(0x11288a0)
+	/usr/local/go/src/runtime/proc.go:6498 +0x123 fp=0xc000096968 sp=0xc000096830 pc=0x103ebe3
+runtime.doInit(0x11280e0)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096aa0 sp=0xc000096968 pc=0x103eb31
+runtime.doInit(0x1128840)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096bd8 sp=0xc000096aa0 pc=0x103eb31
+runtime.doInit(0x1129320)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096d10 sp=0xc000096bd8 pc=0x103eb31
+runtime.doInit(0x1128d20)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096e48 sp=0xc000096d10 pc=0x103eb31
+runtime.doInit(0x1127020)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096f80 sp=0xc000096e48 pc=0x103eb31
+runtime.main()
+	/usr/local/go/src/runtime/proc.go:238 +0x1e6 fp=0xc000096fe0 sp=0xc000096f80 pc=0x1031cc6
+runtime.goexit()
+	/usr/local/go/src/runtime/asm_amd64.s:1581 +0x1 fp=0xc000096fe8 sp=0xc000096fe0 pc=0x105b0e1
+
+tracealloc(0xc000104110, 0x10, errors.errorString)
+goroutine 1 [running, locked to thread]:
+runtime.mallocgc(0x10, 0x1097ac0, 0x1)
+	/usr/local/go/src/runtime/malloc.go:1157 +0x7b7 fp=0xc000096900 sp=0xc000096880 pc=0x100b6f7
+runtime.newobject(0x1097ac0)
+	/usr/local/go/src/runtime/malloc.go:1228 +0x27 fp=0xc000096928 sp=0xc000096900 pc=0x100b947
+errors.New(...)
+	/usr/local/go/src/errors/errors.go:59
+time.init()
+	/usr/local/go/src/time/format.go:413 +0x25 fp=0xc000096968 sp=0xc000096928 pc=0x107efc5
+runtime.doInit(0x11280e0)
+	/usr/local/go/src/runtime/proc.go:6498 +0x123 fp=0xc000096aa0 sp=0xc000096968 pc=0x103ebe3
+runtime.doInit(0x1128840)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096bd8 sp=0xc000096aa0 pc=0x103eb31
+runtime.doInit(0x1129320)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096d10 sp=0xc000096bd8 pc=0x103eb31
+runtime.doInit(0x1128d20)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096e48 sp=0xc000096d10 pc=0x103eb31
+runtime.doInit(0x1127020)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096f80 sp=0xc000096e48 pc=0x103eb31
+runtime.main()
+	/usr/local/go/src/runtime/proc.go:238 +0x1e6 fp=0xc000096fe0 sp=0xc000096f80 pc=0x1031cc6
+runtime.goexit()
+	/usr/local/go/src/runtime/asm_amd64.s:1581 +0x1 fp=0xc000096fe8 sp=0xc000096fe0 pc=0x105b0e1
+
+tracealloc(0xc000104120, 0x10, errors.errorString)
+goroutine 1 [running, locked to thread]:
+runtime.mallocgc(0x10, 0x1097ac0, 0x1)
+	/usr/local/go/src/runtime/malloc.go:1157 +0x7b7 fp=0xc000096900 sp=0xc000096880 pc=0x100b6f7
+runtime.newobject(0x1097ac0)
+	/usr/local/go/src/runtime/malloc.go:1228 +0x27 fp=0xc000096928 sp=0xc000096900 pc=0x100b947
+errors.New(...)
+	/usr/local/go/src/errors/errors.go:59
+time.init()
+	/usr/local/go/src/time/format.go:741 +0x71 fp=0xc000096968 sp=0xc000096928 pc=0x107f011
+runtime.doInit(0x11280e0)
+	/usr/local/go/src/runtime/proc.go:6498 +0x123 fp=0xc000096aa0 sp=0xc000096968 pc=0x103ebe3
+runtime.doInit(0x1128840)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096bd8 sp=0xc000096aa0 pc=0x103eb31
+runtime.doInit(0x1129320)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096d10 sp=0xc000096bd8 pc=0x103eb31
+runtime.doInit(0x1128d20)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096e48 sp=0xc000096d10 pc=0x103eb31
+runtime.doInit(0x1127020)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096f80 sp=0xc000096e48 pc=0x103eb31
+runtime.main()
+	/usr/local/go/src/runtime/proc.go:238 +0x1e6 fp=0xc000096fe0 sp=0xc000096f80 pc=0x1031cc6
+runtime.goexit()
+	/usr/local/go/src/runtime/asm_amd64.s:1581 +0x1 fp=0xc000096fe8 sp=0xc000096fe0 pc=0x105b0e1
+
+tracealloc(0xc000104130, 0x10, errors.errorString)
+goroutine 1 [running, locked to thread]:
+runtime.mallocgc(0x10, 0x1097ac0, 0x1)
+	/usr/local/go/src/runtime/malloc.go:1157 +0x7b7 fp=0xc000096900 sp=0xc000096880 pc=0x100b6f7
+runtime.newobject(0x1097ac0)
+	/usr/local/go/src/runtime/malloc.go:1228 +0x27 fp=0xc000096928 sp=0xc000096900 pc=0x100b947
+errors.New(...)
+	/usr/local/go/src/errors/errors.go:59
+time.init()
+	/usr/local/go/src/time/format.go:1411 +0xbb fp=0xc000096968 sp=0xc000096928 pc=0x107f05b
+runtime.doInit(0x11280e0)
+	/usr/local/go/src/runtime/proc.go:6498 +0x123 fp=0xc000096aa0 sp=0xc000096968 pc=0x103ebe3
+runtime.doInit(0x1128840)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096bd8 sp=0xc000096aa0 pc=0x103eb31
+runtime.doInit(0x1129320)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096d10 sp=0xc000096bd8 pc=0x103eb31
+runtime.doInit(0x1128d20)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096e48 sp=0xc000096d10 pc=0x103eb31
+runtime.doInit(0x1127020)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096f80 sp=0xc000096e48 pc=0x103eb31
+runtime.main()
+	/usr/local/go/src/runtime/proc.go:238 +0x1e6 fp=0xc000096fe0 sp=0xc000096f80 pc=0x1031cc6
+runtime.goexit()
+	/usr/local/go/src/runtime/asm_amd64.s:1581 +0x1 fp=0xc000096fe8 sp=0xc000096fe0 pc=0x105b0e1
+
+tracealloc(0xc000106120, 0x30, runtime.hmap)
+goroutine 1 [running, locked to thread]:
+runtime.mallocgc(0x30, 0x109e800, 0x1)
+	/usr/local/go/src/runtime/malloc.go:1157 +0x7b7 fp=0xc0000968e0 sp=0xc000096860 pc=0x100b6f7
+runtime.newobject(0x1097ac0)
+	/usr/local/go/src/runtime/malloc.go:1228 +0x27 fp=0xc000096908 sp=0xc0000968e0 pc=0x100b947
+runtime.makemap_small()
+	/usr/local/go/src/runtime/map.go:293 +0x25 fp=0xc000096928 sp=0xc000096908 pc=0x100c485
+time.init()
+	/usr/local/go/src/time/format.go:1465 +0xfe fp=0xc000096968 sp=0xc000096928 pc=0x107f09e
+runtime.doInit(0x11280e0)
+	/usr/local/go/src/runtime/proc.go:6498 +0x123 fp=0xc000096aa0 sp=0xc000096968 pc=0x103ebe3
+runtime.doInit(0x1128840)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096bd8 sp=0xc000096aa0 pc=0x103eb31
+runtime.doInit(0x1129320)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096d10 sp=0xc000096bd8 pc=0x103eb31
+runtime.doInit(0x1128d20)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096e48 sp=0xc000096d10 pc=0x103eb31
+runtime.doInit(0x1127020)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096f80 sp=0xc000096e48 pc=0x103eb31
+runtime.main()
+	/usr/local/go/src/runtime/proc.go:238 +0x1e6 fp=0xc000096fe0 sp=0xc000096f80 pc=0x1031cc6
+runtime.goexit()
+	/usr/local/go/src/runtime/asm_amd64.s:1581 +0x1 fp=0xc000096fe8 sp=0xc000096fe0 pc=0x105b0e1
+
+tracealloc(0xc000108820, 0xd0, map.bucket[string]int64)
+goroutine 1 [running, locked to thread]:
+runtime.mallocgc(0xd0, 0x109bb80, 0x1)
+	/usr/local/go/src/runtime/malloc.go:1157 +0x7b7 fp=0xc0000968c0 sp=0xc000096840 pc=0x100b6f7
+runtime.newobject(...)
+	/usr/local/go/src/runtime/malloc.go:1228
+runtime.mapassign_faststr(0x10962e0, 0xc000106120, {0x10a3943, 0x2})
+	/usr/local/go/src/runtime/map_faststr.go:220 +0x8a fp=0xc000096928 sp=0xc0000968c0 pc=0x100fc2a
+time.init()
+	/usr/local/go/src/time/format.go:1466 +0x11e fp=0xc000096968 sp=0xc000096928 pc=0x107f0be
+runtime.doInit(0x11280e0)
+	/usr/local/go/src/runtime/proc.go:6498 +0x123 fp=0xc000096aa0 sp=0xc000096968 pc=0x103ebe3
+runtime.doInit(0x1128840)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096bd8 sp=0xc000096aa0 pc=0x103eb31
+runtime.doInit(0x1129320)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096d10 sp=0xc000096bd8 pc=0x103eb31
+runtime.doInit(0x1128d20)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096e48 sp=0xc000096d10 pc=0x103eb31
+runtime.doInit(0x1127020)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096f80 sp=0xc000096e48 pc=0x103eb31
+runtime.main()
+	/usr/local/go/src/runtime/proc.go:238 +0x1e6 fp=0xc000096fe0 sp=0xc000096f80 pc=0x1031cc6
+runtime.goexit()
+	/usr/local/go/src/runtime/asm_amd64.s:1581 +0x1 fp=0xc000096fe8 sp=0xc000096fe0 pc=0x105b0e1
+
+tracealloc(0xc000104140, 0x10, errors.errorString)
+goroutine 1 [running, locked to thread]:
+runtime.mallocgc(0x10, 0x1097ac0, 0x1)
+	/usr/local/go/src/runtime/malloc.go:1157 +0x7b7 fp=0xc000096900 sp=0xc000096880 pc=0x100b6f7
+runtime.newobject(0x10962e0)
+	/usr/local/go/src/runtime/malloc.go:1228 +0x27 fp=0xc000096928 sp=0xc000096900 pc=0x100b947
+errors.New(...)
+	/usr/local/go/src/errors/errors.go:59
+time.init()
+	/usr/local/go/src/time/zoneinfo.go:621 +0x275 fp=0xc000096968 sp=0xc000096928 pc=0x107f215
+runtime.doInit(0x11280e0)
+	/usr/local/go/src/runtime/proc.go:6498 +0x123 fp=0xc000096aa0 sp=0xc000096968 pc=0x103ebe3
+runtime.doInit(0x1128840)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096bd8 sp=0xc000096aa0 pc=0x103eb31
+runtime.doInit(0x1129320)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096d10 sp=0xc000096bd8 pc=0x103eb31
+runtime.doInit(0x1128d20)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096e48 sp=0xc000096d10 pc=0x103eb31
+runtime.doInit(0x1127020)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096f80 sp=0xc000096e48 pc=0x103eb31
+runtime.main()
+	/usr/local/go/src/runtime/proc.go:238 +0x1e6 fp=0xc000096fe0 sp=0xc000096f80 pc=0x1031cc6
+runtime.goexit()
+	/usr/local/go/src/runtime/asm_amd64.s:1581 +0x1 fp=0xc000096fe8 sp=0xc000096fe0 pc=0x105b0e1
+
+tracealloc(0xc000104150, 0x10, errors.errorString)
+goroutine 1 [running, locked to thread]:
+runtime.mallocgc(0x10, 0x1097ac0, 0x1)
+	/usr/local/go/src/runtime/malloc.go:1157 +0x7b7 fp=0xc000096900 sp=0xc000096880 pc=0x100b6f7
+runtime.newobject(0x10962e0)
+	/usr/local/go/src/runtime/malloc.go:1228 +0x27 fp=0xc000096928 sp=0xc000096900 pc=0x100b947
+errors.New(...)
+	/usr/local/go/src/errors/errors.go:59
+time.init()
+	/usr/local/go/src/time/zoneinfo_read.go:110 +0x2bf fp=0xc000096968 sp=0xc000096928 pc=0x107f25f
+runtime.doInit(0x11280e0)
+	/usr/local/go/src/runtime/proc.go:6498 +0x123 fp=0xc000096aa0 sp=0xc000096968 pc=0x103ebe3
+runtime.doInit(0x1128840)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096bd8 sp=0xc000096aa0 pc=0x103eb31
+runtime.doInit(0x1129320)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096d10 sp=0xc000096bd8 pc=0x103eb31
+runtime.doInit(0x1128d20)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096e48 sp=0xc000096d10 pc=0x103eb31
+runtime.doInit(0x1127020)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096f80 sp=0xc000096e48 pc=0x103eb31
+runtime.main()
+	/usr/local/go/src/runtime/proc.go:238 +0x1e6 fp=0xc000096fe0 sp=0xc000096f80 pc=0x1031cc6
+runtime.goexit()
+	/usr/local/go/src/runtime/asm_amd64.s:1581 +0x1 fp=0xc000096fe8 sp=0xc000096fe0 pc=0x105b0e1
+
+tracealloc(0xc00011a000, 0x30)
+goroutine 1 [running, locked to thread]:
+runtime.mallocgc(0x23, 0x0, 0x0)
+	/usr/local/go/src/runtime/malloc.go:1157 +0x7b7 fp=0xc0000967f0 sp=0xc000096770 pc=0x100b6f7
+runtime.rawstring(0x23)
+	/usr/local/go/src/runtime/string.go:263 +0x37 fp=0xc000096840 sp=0xc0000967f0 pc=0x1048417
+runtime.rawstringtmp(0xc000096880, 0xc0000001a0)
+	/usr/local/go/src/runtime/string.go:131 +0x3c fp=0xc000096860 sp=0xc000096840 pc=0x10481bc
+runtime.concatstrings(0xc000104150, {0xc0000968f8, 0x2, 0x2d})
+	/usr/local/go/src/runtime/string.go:50 +0xc5 fp=0xc0000968d8 sp=0xc000096860 pc=0x1047ae5
+runtime.concatstring2(0x10a3cff, {0x10c14c0, 0x10a38d8}, {0x10a669a, 0xc000096988})
+	/usr/local/go/src/runtime/string.go:59 +0x54 fp=0xc000096928 sp=0xc0000968d8 pc=0x1047d14
+time.init()
+	/usr/local/go/src/time/zoneinfo_unix.go:26 +0x33a fp=0xc000096968 sp=0xc000096928 pc=0x107f2da
+runtime.doInit(0x11280e0)
+	/usr/local/go/src/runtime/proc.go:6498 +0x123 fp=0xc000096aa0 sp=0xc000096968 pc=0x103ebe3
+runtime.doInit(0x1128840)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096bd8 sp=0xc000096aa0 pc=0x103eb31
+runtime.doInit(0x1129320)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096d10 sp=0xc000096bd8 pc=0x103eb31
+runtime.doInit(0x1128d20)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096e48 sp=0xc000096d10 pc=0x103eb31
+runtime.doInit(0x1127020)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096f80 sp=0xc000096e48 pc=0x103eb31
+runtime.main()
+	/usr/local/go/src/runtime/proc.go:238 +0x1e6 fp=0xc000096fe0 sp=0xc000096f80 pc=0x1031cc6
+runtime.goexit()
+	/usr/local/go/src/runtime/asm_amd64.s:1581 +0x1 fp=0xc000096fe8 sp=0xc000096fe0 pc=0x105b0e1
+
+tracealloc(0xc000104160, 0x10, errors.errorString)
+goroutine 1 [running, locked to thread]:
+runtime.mallocgc(0x10, 0x1097ac0, 0x1)
+	/usr/local/go/src/runtime/malloc.go:1157 +0x7b7 fp=0xc000096920 sp=0xc0000968a0 pc=0x100b6f7
+runtime.newobject(0xc000096988)
+	/usr/local/go/src/runtime/malloc.go:1228 +0x27 fp=0xc000096948 sp=0xc000096920 pc=0x100b947
+errors.New(...)
+	/usr/local/go/src/errors/errors.go:59
+path.init()
+	/usr/local/go/src/path/match.go:14 +0x25 fp=0xc000096968 sp=0xc000096948 pc=0x107f5c5
+runtime.doInit(0x1127ae0)
+	/usr/local/go/src/runtime/proc.go:6498 +0x123 fp=0xc000096aa0 sp=0xc000096968 pc=0x103ebe3
+runtime.doInit(0x1128840)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096bd8 sp=0xc000096aa0 pc=0x103eb31
+runtime.doInit(0x1129320)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096d10 sp=0xc000096bd8 pc=0x103eb31
+runtime.doInit(0x1128d20)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096e48 sp=0xc000096d10 pc=0x103eb31
+runtime.doInit(0x1127020)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096f80 sp=0xc000096e48 pc=0x103eb31
+runtime.main()
+	/usr/local/go/src/runtime/proc.go:238 +0x1e6 fp=0xc000096fe0 sp=0xc000096f80 pc=0x1031cc6
+runtime.goexit()
+	/usr/local/go/src/runtime/asm_amd64.s:1581 +0x1 fp=0xc000096fe8 sp=0xc000096fe0 pc=0x105b0e1
+
+tracealloc(0xc000104170, 0x10, errors.errorString)
+goroutine 1 [running, locked to thread]:
+runtime.mallocgc(0x10, 0x1097ac0, 0x1)
+	/usr/local/go/src/runtime/malloc.go:1157 +0x7b7 fp=0xc000096a58 sp=0xc0000969d8 pc=0x100b6f7
+runtime.newobject(0xc000096b00)
+	/usr/local/go/src/runtime/malloc.go:1228 +0x27 fp=0xc000096a80 sp=0xc000096a58 pc=0x100b947
+errors.New(...)
+	/usr/local/go/src/errors/errors.go:59
+io/fs.init()
+	/usr/local/go/src/io/fs/walk.go:15 +0x125 fp=0xc000096aa0 sp=0xc000096a80 pc=0x107f9e5
+runtime.doInit(0x1128840)
+	/usr/local/go/src/runtime/proc.go:6498 +0x123 fp=0xc000096bd8 sp=0xc000096aa0 pc=0x103ebe3
+runtime.doInit(0x1129320)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096d10 sp=0xc000096bd8 pc=0x103eb31
+runtime.doInit(0x1128d20)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096e48 sp=0xc000096d10 pc=0x103eb31
+runtime.doInit(0x1127020)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096f80 sp=0xc000096e48 pc=0x103eb31
+runtime.main()
+	/usr/local/go/src/runtime/proc.go:238 +0x1e6 fp=0xc000096fe0 sp=0xc000096f80 pc=0x1031cc6
+runtime.goexit()
+	/usr/local/go/src/runtime/asm_amd64.s:1581 +0x1 fp=0xc000096fe8 sp=0xc000096fe0 pc=0x105b0e1
+
+tracealloc(0xc000104180, 0x10, errors.errorString)
+goroutine 1 [running, locked to thread]:
+runtime.mallocgc(0x10, 0x1097ac0, 0x1)
+	/usr/local/go/src/runtime/malloc.go:1157 +0x7b7 fp=0xc000096a58 sp=0xc0000969d8 pc=0x100b6f7
+runtime.newobject(0xc000096b00)
+	/usr/local/go/src/runtime/malloc.go:1228 +0x27 fp=0xc000096a80 sp=0xc000096a58 pc=0x100b947
+errors.New(...)
+	/usr/local/go/src/errors/errors.go:59
+internal/poll.init()
+	/usr/local/go/src/internal/poll/fd.go:35 +0x25 fp=0xc000096aa0 sp=0xc000096a80 pc=0x1080c85
+runtime.doInit(0x11282a0)
+	/usr/local/go/src/runtime/proc.go:6498 +0x123 fp=0xc000096bd8 sp=0xc000096aa0 pc=0x103ebe3
+runtime.doInit(0x1129320)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096d10 sp=0xc000096bd8 pc=0x103eb31
+runtime.doInit(0x1128d20)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096e48 sp=0xc000096d10 pc=0x103eb31
+runtime.doInit(0x1127020)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096f80 sp=0xc000096e48 pc=0x103eb31
+runtime.main()
+	/usr/local/go/src/runtime/proc.go:238 +0x1e6 fp=0xc000096fe0 sp=0xc000096f80 pc=0x1031cc6
+runtime.goexit()
+	/usr/local/go/src/runtime/asm_amd64.s:1581 +0x1 fp=0xc000096fe8 sp=0xc000096fe0 pc=0x105b0e1
+
+tracealloc(0xc000104190, 0x10, errors.errorString)
+goroutine 1 [running, locked to thread]:
+runtime.mallocgc(0x10, 0x1097ac0, 0x1)
+	/usr/local/go/src/runtime/malloc.go:1157 +0x7b7 fp=0xc000096a58 sp=0xc0000969d8 pc=0x100b6f7
+runtime.newobject(0xc000096b00)
+	/usr/local/go/src/runtime/malloc.go:1228 +0x27 fp=0xc000096a80 sp=0xc000096a58 pc=0x100b947
+errors.New(...)
+	/usr/local/go/src/errors/errors.go:59
+internal/poll.init()
+	/usr/local/go/src/internal/poll/fd.go:39 +0x71 fp=0xc000096aa0 sp=0xc000096a80 pc=0x1080cd1
+runtime.doInit(0x11282a0)
+	/usr/local/go/src/runtime/proc.go:6498 +0x123 fp=0xc000096bd8 sp=0xc000096aa0 pc=0x103ebe3
+runtime.doInit(0x1129320)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096d10 sp=0xc000096bd8 pc=0x103eb31
+runtime.doInit(0x1128d20)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096e48 sp=0xc000096d10 pc=0x103eb31
+runtime.doInit(0x1127020)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096f80 sp=0xc000096e48 pc=0x103eb31
+runtime.main()
+	/usr/local/go/src/runtime/proc.go:238 +0x1e6 fp=0xc000096fe0 sp=0xc000096f80 pc=0x1031cc6
+runtime.goexit()
+	/usr/local/go/src/runtime/asm_amd64.s:1581 +0x1 fp=0xc000096fe8 sp=0xc000096fe0 pc=0x105b0e1
+
+tracealloc(0xc0001041a0, 0x10, errors.errorString)
+goroutine 1 [running, locked to thread]:
+runtime.mallocgc(0x10, 0x1097ac0, 0x1)
+	/usr/local/go/src/runtime/malloc.go:1157 +0x7b7 fp=0xc000096a58 sp=0xc0000969d8 pc=0x100b6f7
+runtime.newobject(0xc000096b00)
+	/usr/local/go/src/runtime/malloc.go:1228 +0x27 fp=0xc000096a80 sp=0xc000096a58 pc=0x100b947
+errors.New(...)
+	/usr/local/go/src/errors/errors.go:59
+internal/poll.init()
+	/usr/local/go/src/internal/poll/fd.go:66 +0xbb fp=0xc000096aa0 sp=0xc000096a80 pc=0x1080d1b
+runtime.doInit(0x11282a0)
+	/usr/local/go/src/runtime/proc.go:6498 +0x123 fp=0xc000096bd8 sp=0xc000096aa0 pc=0x103ebe3
+runtime.doInit(0x1129320)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096d10 sp=0xc000096bd8 pc=0x103eb31
+runtime.doInit(0x1128d20)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096e48 sp=0xc000096d10 pc=0x103eb31
+runtime.doInit(0x1127020)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096f80 sp=0xc000096e48 pc=0x103eb31
+runtime.main()
+	/usr/local/go/src/runtime/proc.go:238 +0x1e6 fp=0xc000096fe0 sp=0xc000096f80 pc=0x1031cc6
+runtime.goexit()
+	/usr/local/go/src/runtime/asm_amd64.s:1581 +0x1 fp=0xc000096fe8 sp=0xc000096fe0 pc=0x105b0e1
+
+tracealloc(0xc0001041b0, 0x10, errors.errorString)
+goroutine 1 [running, locked to thread]:
+runtime.mallocgc(0x10, 0x1097ac0, 0x1)
+	/usr/local/go/src/runtime/malloc.go:1157 +0x7b7 fp=0xc000096b88 sp=0xc000096b08 pc=0x100b6f7
+runtime.newobject(0x11282e0)
+	/usr/local/go/src/runtime/malloc.go:1228 +0x27 fp=0xc000096bb0 sp=0xc000096b88 pc=0x100b947
+errors.New(...)
+	/usr/local/go/src/errors/errors.go:59
+os.init()
+	/usr/local/go/src/os/exec.go:18 +0x18a fp=0xc000096bd8 sp=0xc000096bb0 pc=0x1081eca
+runtime.doInit(0x1129320)
+	/usr/local/go/src/runtime/proc.go:6498 +0x123 fp=0xc000096d10 sp=0xc000096bd8 pc=0x103ebe3
+runtime.doInit(0x1128d20)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096e48 sp=0xc000096d10 pc=0x103eb31
+runtime.doInit(0x1127020)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096f80 sp=0xc000096e48 pc=0x103eb31
+runtime.main()
+	/usr/local/go/src/runtime/proc.go:238 +0x1e6 fp=0xc000096fe0 sp=0xc000096f80 pc=0x1031cc6
+runtime.goexit()
+	/usr/local/go/src/runtime/asm_amd64.s:1581 +0x1 fp=0xc000096fe8 sp=0xc000096fe0 pc=0x105b0e1
+
+tracealloc(0xc00011c000, 0x8, os.File)
+goroutine 1 [running, locked to thread]:
+runtime.mallocgc(0x8, 0x1098780, 0x1)
+	/usr/local/go/src/runtime/malloc.go:1157 +0x7b7 fp=0xc000096a80 sp=0xc000096a00 pc=0x100b6f7
+runtime.newobject(0x1057f6b)
+	/usr/local/go/src/runtime/malloc.go:1228 +0x27 fp=0xc000096aa8 sp=0xc000096a80 pc=0x100b947
+os.newFile(0x0, {0x10a4568, 0xa}, 0x0)
+	/usr/local/go/src/os/file_unix.go:128 +0x7b fp=0xc000096b78 sp=0xc000096aa8 pc=0x108133b
+os.NewFile(0x11282e0, {0x10a4568, 0xa})
+	/usr/local/go/src/os/file_unix.go:107 +0x51 fp=0xc000096bb0 sp=0xc000096b78 pc=0x1081271
+os.init()
+	/usr/local/go/src/os/file.go:66 +0x1e5 fp=0xc000096bd8 sp=0xc000096bb0 pc=0x1081f25
+runtime.doInit(0x1129320)
+	/usr/local/go/src/runtime/proc.go:6498 +0x123 fp=0xc000096d10 sp=0xc000096bd8 pc=0x103ebe3
+runtime.doInit(0x1128d20)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096e48 sp=0xc000096d10 pc=0x103eb31
+runtime.doInit(0x1127020)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096f80 sp=0xc000096e48 pc=0x103eb31
+runtime.main()
+	/usr/local/go/src/runtime/proc.go:238 +0x1e6 fp=0xc000096fe0 sp=0xc000096f80 pc=0x1031cc6
+runtime.goexit()
+	/usr/local/go/src/runtime/asm_amd64.s:1581 +0x1 fp=0xc000096fe8 sp=0xc000096fe0 pc=0x105b0e1
+
+tracealloc(0xc00011e000, 0x60, os.file)
+goroutine 1 [running, locked to thread]:
+runtime.mallocgc(0x58, 0x109d640, 0x1)
+	/usr/local/go/src/runtime/malloc.go:1157 +0x7b7 fp=0xc000096a80 sp=0xc000096a00 pc=0x100b6f7
+runtime.newobject(0x1057f6b)
+	/usr/local/go/src/runtime/malloc.go:1228 +0x27 fp=0xc000096aa8 sp=0xc000096a80 pc=0x100b947
+os.newFile(0x0, {0x10a4568, 0xa}, 0x0)
+	/usr/local/go/src/os/file_unix.go:128 +0x8f fp=0xc000096b78 sp=0xc000096aa8 pc=0x108134f
+os.NewFile(0x11282e0, {0x10a4568, 0xa})
+	/usr/local/go/src/os/file_unix.go:107 +0x51 fp=0xc000096bb0 sp=0xc000096b78 pc=0x1081271
+os.init()
+	/usr/local/go/src/os/file.go:66 +0x1e5 fp=0xc000096bd8 sp=0xc000096bb0 pc=0x1081f25
+runtime.doInit(0x1129320)
+	/usr/local/go/src/runtime/proc.go:6498 +0x123 fp=0xc000096d10 sp=0xc000096bd8 pc=0x103ebe3
+runtime.doInit(0x1128d20)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096e48 sp=0xc000096d10 pc=0x103eb31
+runtime.doInit(0x1127020)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096f80 sp=0xc000096e48 pc=0x103eb31
+runtime.main()
+	/usr/local/go/src/runtime/proc.go:238 +0x1e6 fp=0xc000096fe0 sp=0xc000096f80 pc=0x1031cc6
+runtime.goexit()
+	/usr/local/go/src/runtime/asm_amd64.s:1581 +0x1 fp=0xc000096fe8 sp=0xc000096fe0 pc=0x105b0e1
+
+tracealloc(0xc00010a4e0, 0x1a0, runtime.g)
+goroutine 1 [running, locked to thread]:
+runtime.systemstack_switch()
+	/usr/local/go/src/runtime/asm_amd64.s:350 fp=0xc000096968 sp=0xc000096960 pc=0x1058fe0
+runtime.newproc(0x60, 0x10ab760)
+	/usr/local/go/src/runtime/proc.go:4254 +0x6e fp=0xc0000969b0 sp=0xc000096968 pc=0x103a28e
+runtime.createfing()
+	/usr/local/go/src/runtime/mfinal.go:157 +0x45 fp=0xc0000969d0 sp=0xc0000969b0 pc=0x1014de5
+runtime.SetFinalizer({0x1095980, 0xc00011e000}, {0x1094420, 0x10ab4f0})
+	/usr/local/go/src/runtime/mfinal.go:438 +0x31e fp=0xc000096aa8 sp=0xc0000969d0 pc=0x101559e
+os.newFile(0x0, {0x10a4568, 0xa}, 0x0)
+	/usr/local/go/src/os/file_unix.go:187 +0x205 fp=0xc000096b78 sp=0xc000096aa8 pc=0x10814c5
+os.NewFile(0x11282e0, {0x10a4568, 0xa})
+	/usr/local/go/src/os/file_unix.go:107 +0x51 fp=0xc000096bb0 sp=0xc000096b78 pc=0x1081271
+os.init()
+	/usr/local/go/src/os/file.go:66 +0x1e5 fp=0xc000096bd8 sp=0xc000096bb0 pc=0x1081f25
+runtime.doInit(0x1129320)
+	/usr/local/go/src/runtime/proc.go:6498 +0x123 fp=0xc000096d10 sp=0xc000096bd8 pc=0x103ebe3
+runtime.doInit(0x1128d20)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096e48 sp=0xc000096d10 pc=0x103eb31
+runtime.doInit(0x1127020)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096f80 sp=0xc000096e48 pc=0x103eb31
+runtime.main()
+	/usr/local/go/src/runtime/proc.go:238 +0x1e6 fp=0xc000096fe0 sp=0xc000096f80 pc=0x1031cc6
+runtime.goexit()
+	/usr/local/go/src/runtime/asm_amd64.s:1581 +0x1 fp=0xc000096fe8 sp=0xc000096fe0 pc=0x105b0e1
+
+tracealloc(0xc000128000, 0x40, *runtime.g)
+goroutine 1 [running, locked to thread]:
+runtime.systemstack_switch()
+	/usr/local/go/src/runtime/asm_amd64.s:350 fp=0xc000096968 sp=0xc000096960 pc=0x1058fe0
+runtime.newproc(0x60, 0x10ab760)
+	/usr/local/go/src/runtime/proc.go:4254 +0x6e fp=0xc0000969b0 sp=0xc000096968 pc=0x103a28e
+runtime.createfing()
+	/usr/local/go/src/runtime/mfinal.go:157 +0x45 fp=0xc0000969d0 sp=0xc0000969b0 pc=0x1014de5
+runtime.SetFinalizer({0x1095980, 0xc00011e000}, {0x1094420, 0x10ab4f0})
+	/usr/local/go/src/runtime/mfinal.go:438 +0x31e fp=0xc000096aa8 sp=0xc0000969d0 pc=0x101559e
+os.newFile(0x0, {0x10a4568, 0xa}, 0x0)
+	/usr/local/go/src/os/file_unix.go:187 +0x205 fp=0xc000096b78 sp=0xc000096aa8 pc=0x10814c5
+os.NewFile(0x11282e0, {0x10a4568, 0xa})
+	/usr/local/go/src/os/file_unix.go:107 +0x51 fp=0xc000096bb0 sp=0xc000096b78 pc=0x1081271
+os.init()
+	/usr/local/go/src/os/file.go:66 +0x1e5 fp=0xc000096bd8 sp=0xc000096bb0 pc=0x1081f25
+runtime.doInit(0x1129320)
+	/usr/local/go/src/runtime/proc.go:6498 +0x123 fp=0xc000096d10 sp=0xc000096bd8 pc=0x103ebe3
+runtime.doInit(0x1128d20)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096e48 sp=0xc000096d10 pc=0x103eb31
+runtime.doInit(0x1127020)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096f80 sp=0xc000096e48 pc=0x103eb31
+runtime.main()
+	/usr/local/go/src/runtime/proc.go:238 +0x1e6 fp=0xc000096fe0 sp=0xc000096f80 pc=0x1031cc6
+runtime.goexit()
+	/usr/local/go/src/runtime/asm_amd64.s:1581 +0x1 fp=0xc000096fe8 sp=0xc000096fe0 pc=0x105b0e1
+
+tracealloc(0xc00011c008, 0x8, os.File)
+goroutine 1 [running, locked to thread]:
+runtime.mallocgc(0x8, 0x1098780, 0x1)
+	/usr/local/go/src/runtime/malloc.go:1157 +0x7b7 fp=0xc000096a80 sp=0xc000096a00 pc=0x100b6f7
+runtime.newobject(0x1057f6b)
+	/usr/local/go/src/runtime/malloc.go:1228 +0x27 fp=0xc000096aa8 sp=0xc000096a80 pc=0x100b947
+os.newFile(0x1, {0x10a47aa, 0xb}, 0x0)
+	/usr/local/go/src/os/file_unix.go:128 +0x7b fp=0xc000096b78 sp=0xc000096aa8 pc=0x108133b
+os.NewFile(0x11282e0, {0x10a47aa, 0xb})
+	/usr/local/go/src/os/file_unix.go:107 +0x51 fp=0xc000096bb0 sp=0xc000096b78 pc=0x1081271
+os.init()
+	/usr/local/go/src/os/file.go:67 +0x21d fp=0xc000096bd8 sp=0xc000096bb0 pc=0x1081f5d
+runtime.doInit(0x1129320)
+	/usr/local/go/src/runtime/proc.go:6498 +0x123 fp=0xc000096d10 sp=0xc000096bd8 pc=0x103ebe3
+runtime.doInit(0x1128d20)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096e48 sp=0xc000096d10 pc=0x103eb31
+runtime.doInit(0x1127020)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096f80 sp=0xc000096e48 pc=0x103eb31
+runtime.main()
+	/usr/local/go/src/runtime/proc.go:238 +0x1e6 fp=0xc000096fe0 sp=0xc000096f80 pc=0x1031cc6
+runtime.goexit()
+	/usr/local/go/src/runtime/asm_amd64.s:1581 +0x1 fp=0xc000096fe8 sp=0xc000096fe0 pc=0x105b0e1
+
+tracealloc(0xc00011e060, 0x60, os.file)
+goroutine 1 [running, locked to thread]:
+runtime.mallocgc(0x58, 0x109d640, 0x1)
+	/usr/local/go/src/runtime/malloc.go:1157 +0x7b7 fp=0xc000096a80 sp=0xc000096a00 pc=0x100b6f7
+runtime.newobject(0x1057f6b)
+	/usr/local/go/src/runtime/malloc.go:1228 +0x27 fp=0xc000096aa8 sp=0xc000096a80 pc=0x100b947
+os.newFile(0x1, {0x10a47aa, 0xb}, 0x0)
+	/usr/local/go/src/os/file_unix.go:128 +0x8f fp=0xc000096b78 sp=0xc000096aa8 pc=0x108134f
+os.NewFile(0x11282e0, {0x10a47aa, 0xb})
+	/usr/local/go/src/os/file_unix.go:107 +0x51 fp=0xc000096bb0 sp=0xc000096b78 pc=0x1081271
+os.init()
+	/usr/local/go/src/os/file.go:67 +0x21d fp=0xc000096bd8 sp=0xc000096bb0 pc=0x1081f5d
+runtime.doInit(0x1129320)
+	/usr/local/go/src/runtime/proc.go:6498 +0x123 fp=0xc000096d10 sp=0xc000096bd8 pc=0x103ebe3
+runtime.doInit(0x1128d20)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096e48 sp=0xc000096d10 pc=0x103eb31
+runtime.doInit(0x1127020)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096f80 sp=0xc000096e48 pc=0x103eb31
+runtime.main()
+	/usr/local/go/src/runtime/proc.go:238 +0x1e6 fp=0xc000096fe0 sp=0xc000096f80 pc=0x1031cc6
+runtime.goexit()
+	/usr/local/go/src/runtime/asm_amd64.s:1581 +0x1 fp=0xc000096fe8 sp=0xc000096fe0 pc=0x105b0e1
+
+tracealloc(0xc00011c010, 0x8, os.File)
+goroutine 1 [running, locked to thread]:
+runtime.mallocgc(0x8, 0x1098780, 0x1)
+	/usr/local/go/src/runtime/malloc.go:1157 +0x7b7 fp=0xc000096a80 sp=0xc000096a00 pc=0x100b6f7
+runtime.newobject(0x1057f6b)
+	/usr/local/go/src/runtime/malloc.go:1228 +0x27 fp=0xc000096aa8 sp=0xc000096a80 pc=0x100b947
+os.newFile(0x2, {0x10a479f, 0xb}, 0x0)
+	/usr/local/go/src/os/file_unix.go:128 +0x7b fp=0xc000096b78 sp=0xc000096aa8 pc=0x108133b
+os.NewFile(0x11282e0, {0x10a479f, 0xb})
+	/usr/local/go/src/os/file_unix.go:107 +0x51 fp=0xc000096bb0 sp=0xc000096b78 pc=0x1081271
+os.init()
+	/usr/local/go/src/os/file.go:68 +0x253 fp=0xc000096bd8 sp=0xc000096bb0 pc=0x1081f93
+runtime.doInit(0x1129320)
+	/usr/local/go/src/runtime/proc.go:6498 +0x123 fp=0xc000096d10 sp=0xc000096bd8 pc=0x103ebe3
+runtime.doInit(0x1128d20)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096e48 sp=0xc000096d10 pc=0x103eb31
+runtime.doInit(0x1127020)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096f80 sp=0xc000096e48 pc=0x103eb31
+runtime.main()
+	/usr/local/go/src/runtime/proc.go:238 +0x1e6 fp=0xc000096fe0 sp=0xc000096f80 pc=0x1031cc6
+runtime.goexit()
+	/usr/local/go/src/runtime/asm_amd64.s:1581 +0x1 fp=0xc000096fe8 sp=0xc000096fe0 pc=0x105b0e1
+
+tracealloc(0xc00011e0c0, 0x60, os.file)
+goroutine 1 [running, locked to thread]:
+runtime.mallocgc(0x58, 0x109d640, 0x1)
+	/usr/local/go/src/runtime/malloc.go:1157 +0x7b7 fp=0xc000096a80 sp=0xc000096a00 pc=0x100b6f7
+runtime.newobject(0x1057f6b)
+	/usr/local/go/src/runtime/malloc.go:1228 +0x27 fp=0xc000096aa8 sp=0xc000096a80 pc=0x100b947
+os.newFile(0x2, {0x10a479f, 0xb}, 0x0)
+	/usr/local/go/src/os/file_unix.go:128 +0x8f fp=0xc000096b78 sp=0xc000096aa8 pc=0x108134f
+os.NewFile(0x11282e0, {0x10a479f, 0xb})
+	/usr/local/go/src/os/file_unix.go:107 +0x51 fp=0xc000096bb0 sp=0xc000096b78 pc=0x1081271
+os.init()
+	/usr/local/go/src/os/file.go:68 +0x253 fp=0xc000096bd8 sp=0xc000096bb0 pc=0x1081f93
+runtime.doInit(0x1129320)
+	/usr/local/go/src/runtime/proc.go:6498 +0x123 fp=0xc000096d10 sp=0xc000096bd8 pc=0x103ebe3
+runtime.doInit(0x1128d20)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096e48 sp=0xc000096d10 pc=0x103eb31
+runtime.doInit(0x1127020)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096f80 sp=0xc000096e48 pc=0x103eb31
+runtime.main()
+	/usr/local/go/src/runtime/proc.go:238 +0x1e6 fp=0xc000096fe0 sp=0xc000096f80 pc=0x1031cc6
+runtime.goexit()
+	/usr/local/go/src/runtime/asm_amd64.s:1581 +0x1 fp=0xc000096fe8 sp=0xc000096fe0 pc=0x105b0e1
+
+tracealloc(0xc0001041c0, 0x10, errors.errorString)
+goroutine 1 [running, locked to thread]:
+runtime.mallocgc(0x10, 0x1097ac0, 0x1)
+	/usr/local/go/src/runtime/malloc.go:1157 +0x7b7 fp=0xc000096b88 sp=0xc000096b08 pc=0x100b6f7
+runtime.newobject(0x11282e0)
+	/usr/local/go/src/runtime/malloc.go:1228 +0x27 fp=0xc000096bb0 sp=0xc000096b88 pc=0x100b947
+errors.New(...)
+	/usr/local/go/src/errors/errors.go:59
+os.init()
+	/usr/local/go/src/os/file.go:193 +0x27d fp=0xc000096bd8 sp=0xc000096bb0 pc=0x1081fbd
+runtime.doInit(0x1129320)
+	/usr/local/go/src/runtime/proc.go:6498 +0x123 fp=0xc000096d10 sp=0xc000096bd8 pc=0x103ebe3
+runtime.doInit(0x1128d20)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096e48 sp=0xc000096d10 pc=0x103eb31
+runtime.doInit(0x1127020)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096f80 sp=0xc000096e48 pc=0x103eb31
+runtime.main()
+	/usr/local/go/src/runtime/proc.go:238 +0x1e6 fp=0xc000096fe0 sp=0xc000096f80 pc=0x1031cc6
+runtime.goexit()
+	/usr/local/go/src/runtime/asm_amd64.s:1581 +0x1 fp=0xc000096fe8 sp=0xc000096fe0 pc=0x105b0e1
+
+tracealloc(0xc0001088f0, 0xd0, os.fileStat)
+goroutine 1 [running, locked to thread]:
+runtime.mallocgc(0xc8, 0x109ce20, 0x1)
+	/usr/local/go/src/runtime/malloc.go:1157 +0x7b7 fp=0xc000096ae8 sp=0xc000096a68 pc=0x100b6f7
+runtime.newobject(0x10745f0)
+	/usr/local/go/src/runtime/malloc.go:1228 +0x27 fp=0xc000096b10 sp=0xc000096ae8 pc=0x100b947
+os.statNolog({0x10a38c6, 0xc0001041c0})
+	/usr/local/go/src/os/stat_unix.go:31 +0x2e fp=0xc000096b58 sp=0xc000096b10 pc=0x1081c0e
+os.Getwd()
+	/usr/local/go/src/os/getwd.go:29 +0x29 fp=0xc000096bb0 sp=0xc000096b58 pc=0x1081789
+os.init()
+	/usr/local/go/src/os/executable_darwin.go:11 +0x2c5 fp=0xc000096bd8 sp=0xc000096bb0 pc=0x1082005
+runtime.doInit(0x1129320)
+	/usr/local/go/src/runtime/proc.go:6498 +0x123 fp=0xc000096d10 sp=0xc000096bd8 pc=0x103ebe3
+runtime.doInit(0x1128d20)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096e48 sp=0xc000096d10 pc=0x103eb31
+runtime.doInit(0x1127020)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096f80 sp=0xc000096e48 pc=0x103eb31
+runtime.main()
+	/usr/local/go/src/runtime/proc.go:238 +0x1e6 fp=0xc000096fe0 sp=0xc000096f80 pc=0x1031cc6
+runtime.goexit()
+	/usr/local/go/src/runtime/asm_amd64.s:1581 +0x1 fp=0xc000096fe8 sp=0xc000096fe0 pc=0x105b0e1
+
+tracealloc(0xc00012a000, 0x10)
+goroutine 1 [running, locked to thread]:
+runtime.mallocgc(0x2, 0x0, 0x0)
+	/usr/local/go/src/runtime/malloc.go:1157 +0x7b7 fp=0xc000096a70 sp=0xc0000969f0 pc=0x100b6f7
+runtime.makeslicecopy(0x113e6c0, 0xc0001088f0, 0x0, 0x10a38c6)
+	/usr/local/go/src/runtime/slice.go:55 +0x89 fp=0xc000096ab8 sp=0xc000096a70 pc=0x10441a9
+syscall.ByteSliceFromString(...)
+	/usr/local/go/src/syscall/syscall.go:53
+syscall.BytePtrFromString(...)
+	/usr/local/go/src/syscall/syscall.go:69
+syscall.Stat({0x10a38c6, 0x1097ac0}, 0xc000108928)
+	/usr/local/go/src/syscall/zsyscall_darwin_amd64.go:1920 +0x6a fp=0xc000096b10 sp=0xc000096ab8 pc=0x10751aa
+os.statNolog.func1(...)
+	/usr/local/go/src/os/stat_unix.go:33
+os.ignoringEINTR(...)
+	/usr/local/go/src/os/file_posix.go:246
+os.statNolog({0x10a38c6, 0xc0001041c0})
+	/usr/local/go/src/os/stat_unix.go:32 +0x4f fp=0xc000096b58 sp=0xc000096b10 pc=0x1081c2f
+os.Getwd()
+	/usr/local/go/src/os/getwd.go:29 +0x29 fp=0xc000096bb0 sp=0xc000096b58 pc=0x1081789
+os.init()
+	/usr/local/go/src/os/executable_darwin.go:11 +0x2c5 fp=0xc000096bd8 sp=0xc000096bb0 pc=0x1082005
+runtime.doInit(0x1129320)
+	/usr/local/go/src/runtime/proc.go:6498 +0x123 fp=0xc000096d10 sp=0xc000096bd8 pc=0x103ebe3
+runtime.doInit(0x1128d20)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096e48 sp=0xc000096d10 pc=0x103eb31
+runtime.doInit(0x1127020)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096f80 sp=0xc000096e48 pc=0x103eb31
+runtime.main()
+	/usr/local/go/src/runtime/proc.go:238 +0x1e6 fp=0xc000096fe0 sp=0xc000096f80 pc=0x1031cc6
+runtime.goexit()
+	/usr/local/go/src/runtime/asm_amd64.s:1581 +0x1 fp=0xc000096fe8 sp=0xc000096fe0 pc=0x105b0e1
+
+tracealloc(0xc000106150, 0x30, runtime.hmap)
+goroutine 1 [running, locked to thread]:
+runtime.mallocgc(0x30, 0x109e800, 0x1)
+	/usr/local/go/src/runtime/malloc.go:1157 +0x7b7 fp=0xc0000969d0 sp=0xc000096950 pc=0x100b6f7
+runtime.newobject(0xc0000001a0)
+	/usr/local/go/src/runtime/malloc.go:1228 +0x27 fp=0xc0000969f8 sp=0xc0000969d0 pc=0x100b947
+runtime.makemap_small()
+	/usr/local/go/src/runtime/map.go:293 +0x25 fp=0xc000096a18 sp=0xc0000969f8 pc=0x100c485
+syscall.copyenv()
+	/usr/local/go/src/syscall/env_unix.go:41 +0x1d fp=0xc000096a70 sp=0xc000096a18 pc=0x1073edd
+sync.(*Once).doSlow(0x0, 0x2)
+	/usr/local/go/src/sync/once.go:68 +0xd2 fp=0xc000096ad8 sp=0xc000096a70 pc=0x1065db2
+sync.(*Once).Do(...)
+	/usr/local/go/src/sync/once.go:59
+syscall.Getenv({0x10a398a, 0x3})
+	/usr/local/go/src/syscall/env_unix.go:76 +0x5c fp=0xc000096b38 sp=0xc000096ad8 pc=0x107409c
+os.Getenv({0x10a398a, 0x3})
+	/usr/local/go/src/os/env.go:103 +0x34 fp=0xc000096b58 sp=0xc000096b38 pc=0x1080ed4
+os.Getwd()
+	/usr/local/go/src/os/getwd.go:33 +0x4d fp=0xc000096bb0 sp=0xc000096b58 pc=0x10817ad
+os.init()
+	/usr/local/go/src/os/executable_darwin.go:11 +0x2c5 fp=0xc000096bd8 sp=0xc000096bb0 pc=0x1082005
+runtime.doInit(0x1129320)
+	/usr/local/go/src/runtime/proc.go:6498 +0x123 fp=0xc000096d10 sp=0xc000096bd8 pc=0x103ebe3
+runtime.doInit(0x1128d20)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096e48 sp=0xc000096d10 pc=0x103eb31
+runtime.doInit(0x1127020)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096f80 sp=0xc000096e48 pc=0x103eb31
+runtime.main()
+	/usr/local/go/src/runtime/proc.go:238 +0x1e6 fp=0xc000096fe0 sp=0xc000096f80 pc=0x1031cc6
+runtime.goexit()
+	/usr/local/go/src/runtime/asm_amd64.s:1581 +0x1 fp=0xc000096fe8 sp=0xc000096fe0 pc=0x105b0e1
+
+tracealloc(0xc0001089c0, 0xd0, map.bucket[string]int)
+goroutine 1 [running, locked to thread]:
+runtime.mallocgc(0xd0, 0x109bac0, 0x1)
+	/usr/local/go/src/runtime/malloc.go:1157 +0x7b7 fp=0xc0000969b0 sp=0xc000096930 pc=0x100b6f7
+runtime.newobject(...)
+	/usr/local/go/src/runtime/malloc.go:1228
+runtime.mapassign_faststr(0x1096280, 0xc000106150, {0xc000016000, 0x10})
+	/usr/local/go/src/runtime/map_faststr.go:220 +0x8a fp=0xc000096a18 sp=0xc0000969b0 pc=0x100fc2a
+syscall.copyenv()
+	/usr/local/go/src/syscall/env_unix.go:47 +0x116 fp=0xc000096a70 sp=0xc000096a18 pc=0x1073fd6
+sync.(*Once).doSlow(0x0, 0x2)
+	/usr/local/go/src/sync/once.go:68 +0xd2 fp=0xc000096ad8 sp=0xc000096a70 pc=0x1065db2
+sync.(*Once).Do(...)
+	/usr/local/go/src/sync/once.go:59
+syscall.Getenv({0x10a398a, 0x3})
+	/usr/local/go/src/syscall/env_unix.go:76 +0x5c fp=0xc000096b38 sp=0xc000096ad8 pc=0x107409c
+os.Getenv({0x10a398a, 0x3})
+	/usr/local/go/src/os/env.go:103 +0x34 fp=0xc000096b58 sp=0xc000096b38 pc=0x1080ed4
+os.Getwd()
+	/usr/local/go/src/os/getwd.go:33 +0x4d fp=0xc000096bb0 sp=0xc000096b58 pc=0x10817ad
+os.init()
+	/usr/local/go/src/os/executable_darwin.go:11 +0x2c5 fp=0xc000096bd8 sp=0xc000096bb0 pc=0x1082005
+runtime.doInit(0x1129320)
+	/usr/local/go/src/runtime/proc.go:6498 +0x123 fp=0xc000096d10 sp=0xc000096bd8 pc=0x103ebe3
+runtime.doInit(0x1128d20)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096e48 sp=0xc000096d10 pc=0x103eb31
+runtime.doInit(0x1127020)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096f80 sp=0xc000096e48 pc=0x103eb31
+runtime.main()
+	/usr/local/go/src/runtime/proc.go:238 +0x1e6 fp=0xc000096fe0 sp=0xc000096f80 pc=0x1031cc6
+runtime.goexit()
+	/usr/local/go/src/runtime/asm_amd64.s:1581 +0x1 fp=0xc000096fe8 sp=0xc000096fe0 pc=0x105b0e1
+
+tracealloc(0xc00010a680, 0x1a0, map.bucket[string]int)
+goroutine 1 [running, locked to thread]:
+runtime.mallocgc(0x1a0, 0x109bac0, 0x1)
+	/usr/local/go/src/runtime/malloc.go:1157 +0x7b7 fp=0xc000096908 sp=0xc000096888 pc=0x100b6f7
+runtime.newarray(0xc000096950, 0xd0)
+	/usr/local/go/src/runtime/malloc.go:1250 +0x52 fp=0xc000096930 sp=0xc000096908 pc=0x100b9d2
+runtime.makeBucketArray(0x13bfa68, 0xd0, 0x113e6c0)
+	/usr/local/go/src/runtime/map.go:362 +0x18e fp=0xc000096970 sp=0xc000096930 pc=0x100c82e
+runtime.hashGrow(0xd0, 0xc000106150)
+	/usr/local/go/src/runtime/map.go:1036 +0x79 fp=0xc0000969b0 sp=0xc000096970 pc=0x100da79
+runtime.mapassign_faststr(0x1096280, 0xc000106150, {0xc00001e000, 0x7})
+	/usr/local/go/src/runtime/map_faststr.go:275 +0xc5 fp=0xc000096a18 sp=0xc0000969b0 pc=0x100fc65
+syscall.copyenv()
+	/usr/local/go/src/syscall/env_unix.go:47 +0x116 fp=0xc000096a70 sp=0xc000096a18 pc=0x1073fd6
+sync.(*Once).doSlow(0x0, 0x2)
+	/usr/local/go/src/sync/once.go:68 +0xd2 fp=0xc000096ad8 sp=0xc000096a70 pc=0x1065db2
+sync.(*Once).Do(...)
+	/usr/local/go/src/sync/once.go:59
+syscall.Getenv({0x10a398a, 0x3})
+	/usr/local/go/src/syscall/env_unix.go:76 +0x5c fp=0xc000096b38 sp=0xc000096ad8 pc=0x107409c
+os.Getenv({0x10a398a, 0x3})
+	/usr/local/go/src/os/env.go:103 +0x34 fp=0xc000096b58 sp=0xc000096b38 pc=0x1080ed4
+os.Getwd()
+	/usr/local/go/src/os/getwd.go:33 +0x4d fp=0xc000096bb0 sp=0xc000096b58 pc=0x10817ad
+os.init()
+	/usr/local/go/src/os/executable_darwin.go:11 +0x2c5 fp=0xc000096bd8 sp=0xc000096bb0 pc=0x1082005
+runtime.doInit(0x1129320)
+	/usr/local/go/src/runtime/proc.go:6498 +0x123 fp=0xc000096d10 sp=0xc000096bd8 pc=0x103ebe3
+runtime.doInit(0x1128d20)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096e48 sp=0xc000096d10 pc=0x103eb31
+runtime.doInit(0x1127020)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096f80 sp=0xc000096e48 pc=0x103eb31
+runtime.main()
+	/usr/local/go/src/runtime/proc.go:238 +0x1e6 fp=0xc000096fe0 sp=0xc000096f80 pc=0x1031cc6
+runtime.goexit()
+	/usr/local/go/src/runtime/asm_amd64.s:1581 +0x1 fp=0xc000096fe8 sp=0xc000096fe0 pc=0x105b0e1
+
+tracealloc(0xc00010ca80, 0x380, map.bucket[string]int)
+goroutine 1 [running, locked to thread]:
+runtime.mallocgc(0x340, 0x109bac0, 0x1)
+	/usr/local/go/src/runtime/malloc.go:1157 +0x7b7 fp=0xc000096908 sp=0xc000096888 pc=0x100b6f7
+runtime.newarray(0xc00010a680, 0x5)
+	/usr/local/go/src/runtime/malloc.go:1250 +0x52 fp=0xc000096930 sp=0xc000096908 pc=0x100b9d2
+runtime.makeBucketArray(0xc0000969a0, 0xec, 0x1096280)
+	/usr/local/go/src/runtime/map.go:362 +0x18e fp=0xc000096970 sp=0xc000096930 pc=0x100c82e
+runtime.hashGrow(0xd0, 0xc000106150)
+	/usr/local/go/src/runtime/map.go:1036 +0x79 fp=0xc0000969b0 sp=0xc000096970 pc=0x100da79
+runtime.mapassign_faststr(0x1096280, 0xc000106150, {0xc00000a060, 0xc})
+	/usr/local/go/src/runtime/map_faststr.go:275 +0xc5 fp=0xc000096a18 sp=0xc0000969b0 pc=0x100fc65
+syscall.copyenv()
+	/usr/local/go/src/syscall/env_unix.go:47 +0x116 fp=0xc000096a70 sp=0xc000096a18 pc=0x1073fd6
+sync.(*Once).doSlow(0x0, 0x2)
+	/usr/local/go/src/sync/once.go:68 +0xd2 fp=0xc000096ad8 sp=0xc000096a70 pc=0x1065db2
+sync.(*Once).Do(...)
+	/usr/local/go/src/sync/once.go:59
+syscall.Getenv({0x10a398a, 0x3})
+	/usr/local/go/src/syscall/env_unix.go:76 +0x5c fp=0xc000096b38 sp=0xc000096ad8 pc=0x107409c
+os.Getenv({0x10a398a, 0x3})
+	/usr/local/go/src/os/env.go:103 +0x34 fp=0xc000096b58 sp=0xc000096b38 pc=0x1080ed4
+os.Getwd()
+	/usr/local/go/src/os/getwd.go:33 +0x4d fp=0xc000096bb0 sp=0xc000096b58 pc=0x10817ad
+os.init()
+	/usr/local/go/src/os/executable_darwin.go:11 +0x2c5 fp=0xc000096bd8 sp=0xc000096bb0 pc=0x1082005
+runtime.doInit(0x1129320)
+	/usr/local/go/src/runtime/proc.go:6498 +0x123 fp=0xc000096d10 sp=0xc000096bd8 pc=0x103ebe3
+runtime.doInit(0x1128d20)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096e48 sp=0xc000096d10 pc=0x103eb31
+runtime.doInit(0x1127020)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096f80 sp=0xc000096e48 pc=0x103eb31
+runtime.main()
+	/usr/local/go/src/runtime/proc.go:238 +0x1e6 fp=0xc000096fe0 sp=0xc000096f80 pc=0x1031cc6
+runtime.goexit()
+	/usr/local/go/src/runtime/asm_amd64.s:1581 +0x1 fp=0xc000096fe8 sp=0xc000096fe0 pc=0x105b0e1
+
+tracealloc(0xc00010f500, 0x700, map.bucket[string]int)
+goroutine 1 [running, locked to thread]:
+runtime.mallocgc(0x680, 0x109bac0, 0x1)
+	/usr/local/go/src/runtime/malloc.go:1157 +0x7b7 fp=0xc000096908 sp=0xc000096888 pc=0x100b6f7
+runtime.newarray(0xc00010ca80, 0x1)
+	/usr/local/go/src/runtime/malloc.go:1250 +0x52 fp=0xc000096930 sp=0xc000096908 pc=0x100b9d2
+runtime.makeBucketArray(0xc0000969a0, 0x6, 0x1096280)
+	/usr/local/go/src/runtime/map.go:362 +0x18e fp=0xc000096970 sp=0xc000096930 pc=0x100c82e
+runtime.hashGrow(0xd0, 0xc000106150)
+	/usr/local/go/src/runtime/map.go:1036 +0x79 fp=0xc0000969b0 sp=0xc000096970 pc=0x100da79
+runtime.mapassign_faststr(0x1096280, 0xc000106150, {0xc00000a0c0, 0x4})
+	/usr/local/go/src/runtime/map_faststr.go:275 +0xc5 fp=0xc000096a18 sp=0xc0000969b0 pc=0x100fc65
+syscall.copyenv()
+	/usr/local/go/src/syscall/env_unix.go:47 +0x116 fp=0xc000096a70 sp=0xc000096a18 pc=0x1073fd6
+sync.(*Once).doSlow(0x0, 0x2)
+	/usr/local/go/src/sync/once.go:68 +0xd2 fp=0xc000096ad8 sp=0xc000096a70 pc=0x1065db2
+sync.(*Once).Do(...)
+	/usr/local/go/src/sync/once.go:59
+syscall.Getenv({0x10a398a, 0x3})
+	/usr/local/go/src/syscall/env_unix.go:76 +0x5c fp=0xc000096b38 sp=0xc000096ad8 pc=0x107409c
+os.Getenv({0x10a398a, 0x3})
+	/usr/local/go/src/os/env.go:103 +0x34 fp=0xc000096b58 sp=0xc000096b38 pc=0x1080ed4
+os.Getwd()
+	/usr/local/go/src/os/getwd.go:33 +0x4d fp=0xc000096bb0 sp=0xc000096b58 pc=0x10817ad
+os.init()
+	/usr/local/go/src/os/executable_darwin.go:11 +0x2c5 fp=0xc000096bd8 sp=0xc000096bb0 pc=0x1082005
+runtime.doInit(0x1129320)
+	/usr/local/go/src/runtime/proc.go:6498 +0x123 fp=0xc000096d10 sp=0xc000096bd8 pc=0x103ebe3
+runtime.doInit(0x1128d20)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096e48 sp=0xc000096d10 pc=0x103eb31
+runtime.doInit(0x1127020)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096f80 sp=0xc000096e48 pc=0x103eb31
+runtime.main()
+	/usr/local/go/src/runtime/proc.go:238 +0x1e6 fp=0xc000096fe0 sp=0xc000096f80 pc=0x1031cc6
+runtime.goexit()
+	/usr/local/go/src/runtime/asm_amd64.s:1581 +0x1 fp=0xc000096fe8 sp=0xc000096fe0 pc=0x105b0e1
+
+tracealloc(0xc000108a90, 0xd0, os.fileStat)
+goroutine 1 [running, locked to thread]:
+runtime.mallocgc(0xc8, 0x109ce20, 0x1)
+	/usr/local/go/src/runtime/malloc.go:1157 +0x7b7 fp=0xc000096ae8 sp=0xc000096a68 pc=0x100b6f7
+runtime.newobject(0x10742a0)
+	/usr/local/go/src/runtime/malloc.go:1228 +0x27 fp=0xc000096b10 sp=0xc000096ae8 pc=0x100b947
+os.statNolog({0xc00000a01c, 0x3})
+	/usr/local/go/src/os/stat_unix.go:31 +0x2e fp=0xc000096b58 sp=0xc000096b10 pc=0x1081c0e
+os.Getwd()
+	/usr/local/go/src/os/getwd.go:35 +0x6e fp=0xc000096bb0 sp=0xc000096b58 pc=0x10817ce
+os.init()
+	/usr/local/go/src/os/executable_darwin.go:11 +0x2c5 fp=0xc000096bd8 sp=0xc000096bb0 pc=0x1082005
+runtime.doInit(0x1129320)
+	/usr/local/go/src/runtime/proc.go:6498 +0x123 fp=0xc000096d10 sp=0xc000096bd8 pc=0x103ebe3
+runtime.doInit(0x1128d20)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096e48 sp=0xc000096d10 pc=0x103eb31
+runtime.doInit(0x1127020)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096f80 sp=0xc000096e48 pc=0x103eb31
+runtime.main()
+	/usr/local/go/src/runtime/proc.go:238 +0x1e6 fp=0xc000096fe0 sp=0xc000096f80 pc=0x1031cc6
+runtime.goexit()
+	/usr/local/go/src/runtime/asm_amd64.s:1581 +0x1 fp=0xc000096fe8 sp=0xc000096fe0 pc=0x105b0e1
+
+tracealloc(0xc00012c000, 0x18)
+goroutine 1 [running, locked to thread]:
+runtime.mallocgc(0x14, 0x0, 0x0)
+	/usr/local/go/src/runtime/malloc.go:1157 +0x7b7 fp=0xc000096a70 sp=0xc0000969f0 pc=0x100b6f7
+runtime.makeslicecopy(0x113e6c0, 0xc000108a90, 0x0, 0xc00000a01c)
+	/usr/local/go/src/runtime/slice.go:55 +0x89 fp=0xc000096ab8 sp=0xc000096a70 pc=0x10441a9
+syscall.ByteSliceFromString(...)
+	/usr/local/go/src/syscall/syscall.go:53
+syscall.BytePtrFromString(...)
+	/usr/local/go/src/syscall/syscall.go:69
+syscall.Stat({0xc00000a01c, 0x116cf30}, 0xc000108ac8)
+	/usr/local/go/src/syscall/zsyscall_darwin_amd64.go:1920 +0x6a fp=0xc000096b10 sp=0xc000096ab8 pc=0x10751aa
+os.statNolog.func1(...)
+	/usr/local/go/src/os/stat_unix.go:33
+os.ignoringEINTR(...)
+	/usr/local/go/src/os/file_posix.go:246
+os.statNolog({0xc00000a01c, 0x3})
+	/usr/local/go/src/os/stat_unix.go:32 +0x4f fp=0xc000096b58 sp=0xc000096b10 pc=0x1081c2f
+os.Getwd()
+	/usr/local/go/src/os/getwd.go:35 +0x6e fp=0xc000096bb0 sp=0xc000096b58 pc=0x10817ce
+os.init()
+	/usr/local/go/src/os/executable_darwin.go:11 +0x2c5 fp=0xc000096bd8 sp=0xc000096bb0 pc=0x1082005
+runtime.doInit(0x1129320)
+	/usr/local/go/src/runtime/proc.go:6498 +0x123 fp=0xc000096d10 sp=0xc000096bd8 pc=0x103ebe3
+runtime.doInit(0x1128d20)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096e48 sp=0xc000096d10 pc=0x103eb31
+runtime.doInit(0x1127020)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096f80 sp=0xc000096e48 pc=0x103eb31
+runtime.main()
+	/usr/local/go/src/runtime/proc.go:238 +0x1e6 fp=0xc000096fe0 sp=0xc000096f80 pc=0x1031cc6
+runtime.goexit()
+	/usr/local/go/src/runtime/asm_amd64.s:1581 +0x1 fp=0xc000096fe8 sp=0xc000096fe0 pc=0x105b0e1
+
+tracealloc(0xc0001041d0, 0x10, errors.errorString)
+goroutine 1 [running, locked to thread]:
+runtime.mallocgc(0x10, 0x1097ac0, 0x1)
+	/usr/local/go/src/runtime/malloc.go:1157 +0x7b7 fp=0xc000096b88 sp=0xc000096b08 pc=0x100b6f7
+runtime.newobject(0x11282e0)
+	/usr/local/go/src/runtime/malloc.go:1228 +0x27 fp=0xc000096bb0 sp=0xc000096b88 pc=0x100b947
+errors.New(...)
+	/usr/local/go/src/errors/errors.go:59
+os.init()
+	/usr/local/go/src/os/tempfile.go:55 +0x326 fp=0xc000096bd8 sp=0xc000096bb0 pc=0x1082066
+runtime.doInit(0x1129320)
+	/usr/local/go/src/runtime/proc.go:6498 +0x123 fp=0xc000096d10 sp=0xc000096bd8 pc=0x103ebe3
+runtime.doInit(0x1128d20)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096e48 sp=0xc000096d10 pc=0x103eb31
+runtime.doInit(0x1127020)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096f80 sp=0xc000096e48 pc=0x103eb31
+runtime.main()
+	/usr/local/go/src/runtime/proc.go:238 +0x1e6 fp=0xc000096fe0 sp=0xc000096f80 pc=0x1031cc6
+runtime.goexit()
+	/usr/local/go/src/runtime/asm_amd64.s:1581 +0x1 fp=0xc000096fe8 sp=0xc000096fe0 pc=0x105b0e1
+
+tracealloc(0xc000106180, 0x30, string)
+goroutine 1 [running, locked to thread]:
+runtime.mallocgc(0x30, 0x1093620, 0x1)
+	/usr/local/go/src/runtime/malloc.go:1157 +0x7b7 fp=0xc000096b10 sp=0xc000096a90 pc=0x100b6f7
+runtime.growslice(0x1093620, {0x116ce80, 0x10, 0x1097ac0}, 0x10c3001)
+	/usr/local/go/src/runtime/slice.go:267 +0x4ea fp=0xc000096b78 sp=0xc000096b10 pc=0x104484a
+os.runtime_args()
+	/usr/local/go/src/runtime/runtime.go:59 +0x4f fp=0xc000096bc8 sp=0xc000096b78 pc=0x105776f
+os.init.0()
+	/usr/local/go/src/os/proc.go:23 +0x17 fp=0xc000096bd8 sp=0xc000096bc8 pc=0x1081917
+runtime.doInit(0x1129320)
+	/usr/local/go/src/runtime/proc.go:6498 +0x123 fp=0xc000096d10 sp=0xc000096bd8 pc=0x103ebe3
+runtime.doInit(0x1128d20)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096e48 sp=0xc000096d10 pc=0x103eb31
+runtime.doInit(0x1127020)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096f80 sp=0xc000096e48 pc=0x103eb31
+runtime.main()
+	/usr/local/go/src/runtime/proc.go:238 +0x1e6 fp=0xc000096fe0 sp=0xc000096f80 pc=0x1031cc6
+runtime.goexit()
+	/usr/local/go/src/runtime/asm_amd64.s:1581 +0x1 fp=0xc000096fe8 sp=0xc000096fe0 pc=0x105b0e1
+
+tracealloc(0xc0001041e0, 0x10, errors.errorString)
+goroutine 1 [running, locked to thread]:
+runtime.mallocgc(0x10, 0x1097ac0, 0x1)
+	/usr/local/go/src/runtime/malloc.go:1157 +0x7b7 fp=0xc000096cc8 sp=0xc000096c48 pc=0x100b6f7
+runtime.newobject(0x0)
+	/usr/local/go/src/runtime/malloc.go:1228 +0x27 fp=0xc000096cf0 sp=0xc000096cc8 pc=0x100b947
+errors.New(...)
+	/usr/local/go/src/errors/errors.go:59
+fmt.init()
+	/usr/local/go/src/fmt/scan.go:465 +0x25 fp=0xc000096d10 sp=0xc000096cf0 pc=0x108b325
+runtime.doInit(0x1128d20)
+	/usr/local/go/src/runtime/proc.go:6498 +0x123 fp=0xc000096e48 sp=0xc000096d10 pc=0x103ebe3
+runtime.doInit(0x1127020)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096f80 sp=0xc000096e48 pc=0x103eb31
+runtime.main()
+	/usr/local/go/src/runtime/proc.go:238 +0x1e6 fp=0xc000096fe0 sp=0xc000096f80 pc=0x1031cc6
+runtime.goexit()
+	/usr/local/go/src/runtime/asm_amd64.s:1581 +0x1 fp=0xc000096fe8 sp=0xc000096fe0 pc=0x105b0e1
+
+tracealloc(0xc0001041f0, 0x10, errors.errorString)
+goroutine 1 [running, locked to thread]:
+runtime.mallocgc(0x10, 0x1097ac0, 0x1)
+	/usr/local/go/src/runtime/malloc.go:1157 +0x7b7 fp=0xc000096cc8 sp=0xc000096c48 pc=0x100b6f7
+runtime.newobject(0x0)
+	/usr/local/go/src/runtime/malloc.go:1228 +0x27 fp=0xc000096cf0 sp=0xc000096cc8 pc=0x100b947
+errors.New(...)
+	/usr/local/go/src/errors/errors.go:59
+fmt.init()
+	/usr/local/go/src/fmt/scan.go:466 +0x71 fp=0xc000096d10 sp=0xc000096cf0 pc=0x108b371
+runtime.doInit(0x1128d20)
+	/usr/local/go/src/runtime/proc.go:6498 +0x123 fp=0xc000096e48 sp=0xc000096d10 pc=0x103ebe3
+runtime.doInit(0x1127020)
+	/usr/local/go/src/runtime/proc.go:6475 +0x71 fp=0xc000096f80 sp=0xc000096e48 pc=0x103eb31
+runtime.main()
+	/usr/local/go/src/runtime/proc.go:238 +0x1e6 fp=0xc000096fe0 sp=0xc000096f80 pc=0x1031cc6
+runtime.goexit()
+	/usr/local/go/src/runtime/asm_amd64.s:1581 +0x1 fp=0xc000096fe8 sp=0xc000096fe0 pc=0x105b0e1
+
+tracealloc(0xc0001061b0, 0x30, main.Bicycle)
+goroutine 1 [running]:
+runtime.mallocgc(0x28, 0x109a800, 0x1)
+	/usr/local/go/src/runtime/malloc.go:1157 +0x7b7 fp=0xc000096e70 sp=0xc000096df0 pc=0x100b6f7
+runtime.newobject(0x100b6f7)
+	/usr/local/go/src/runtime/malloc.go:1228 +0x27 fp=0xc000096e98 sp=0xc000096e70 pc=0x100b947
+main.NewBicycleWithFOP({0x10a3a3e, 0x4}, {0xc000096f48, 0x2, 0x1742f50})
+	/Users/mmomm/ca.go9/fop.go:18 +0x38 fp=0xc000096ec8 sp=0xc000096e98 pc=0x108b5f8
+main.main()
+	/Users/mmomm/ca.go9/main.go:33 +0xd4 fp=0xc000096f80 sp=0xc000096ec8 pc=0x108b814
+runtime.main()
+	/usr/local/go/src/runtime/proc.go:255 +0x227 fp=0xc000096fe0 sp=0xc000096f80 pc=0x1031d07
+runtime.goexit()
+	/usr/local/go/src/runtime/asm_amd64.s:1581 +0x1 fp=0xc000096fe8 sp=0xc000096fe0 pc=0x105b0e1
+
+tracealloc(0xc0001061e0, 0x30, main.bicycleBuilder)
+goroutine 1 [running]:
+runtime.mallocgc(0x28, 0x109a8c0, 0x1)
+	/usr/local/go/src/runtime/malloc.go:1157 +0x7b7 fp=0xc000096ea0 sp=0xc000096e20 pc=0x100b6f7
+runtime.newobject(0x10a3a3e)
+	/usr/local/go/src/runtime/malloc.go:1228 +0x27 fp=0xc000096ec8 sp=0xc000096ea0 pc=0x100b947
+main.NewBicycleWithBP(...)
+	/Users/mmomm/ca.go9/bp.go:34
+main.main()
+	/Users/mmomm/ca.go9/main.go:39 +0xe6 fp=0xc000096f80 sp=0xc000096ec8 pc=0x108b826
+runtime.main()
+	/usr/local/go/src/runtime/proc.go:255 +0x227 fp=0xc000096fe0 sp=0xc000096f80 pc=0x1031d07
+runtime.goexit()
+	/usr/local/go/src/runtime/asm_amd64.s:1581 +0x1 fp=0xc000096fe8 sp=0xc000096fe0 pc=0x105b0e1
+
+tracealloc(0xc000106210, 0x30, main.Bicycle)
+goroutine 1 [running]:
+runtime.mallocgc(0x28, 0x109a800, 0x1)
+	/usr/local/go/src/runtime/malloc.go:1157 +0x7b7 fp=0xc000096e80 sp=0xc000096e00 pc=0x100b6f7
+runtime.newobject(0x109a8c0)
+	/usr/local/go/src/runtime/malloc.go:1228 +0x27 fp=0xc000096ea8 sp=0xc000096e80 pc=0x100b947
+main.(*bicycleBuilder).Build(0xc0001061e0)
+	/Users/mmomm/ca.go9/bp.go:26 +0x25 fp=0xc000096ec8 sp=0xc000096ea8 pc=0x108b545
+main.main()
+	/Users/mmomm/ca.go9/main.go:42 +0x125 fp=0xc000096f80 sp=0xc000096ec8 pc=0x108b865
+runtime.main()
+	/usr/local/go/src/runtime/proc.go:255 +0x227 fp=0xc000096fe0 sp=0xc000096f80 pc=0x1031d07
+runtime.goexit()
+	/usr/local/go/src/runtime/asm_amd64.s:1581 +0x1 fp=0xc000096fe8 sp=0xc000096fe0 pc=0x105b0e1
+
+tracealloc(0xc00011c018, 0x8, *sync.Pool)
+goroutine 1 [running]:
+runtime.mallocgc(0x8, 0x109a1c0, 0x1)
+	/usr/local/go/src/runtime/malloc.go:1157 +0x7b7 fp=0xc000096cf0 sp=0xc000096c70 pc=0x100b6f7
+runtime.growslice(0x109a1c0, {0x0, 0xc0000001a0, 0xc000096df0}, 0x10291cd)
+	/usr/local/go/src/runtime/slice.go:267 +0x4ea fp=0xc000096d58 sp=0xc000096cf0 pc=0x104484a
+sync.(*Pool).pinSlow(0x1137380)
+	/usr/local/go/src/sync/pool.go:223 +0x105 fp=0xc000096df0 sp=0xc000096d58 pc=0x10663e5
+sync.(*Pool).pin(0x1137380)
+	/usr/local/go/src/sync/pool.go:206 +0x4e fp=0xc000096e08 sp=0xc000096df0 pc=0x10662ae
+sync.(*Pool).Get(0x1137380)
+	/usr/local/go/src/sync/pool.go:128 +0x25 fp=0xc000096e40 sp=0xc000096e08 pc=0x1065fe5
+fmt.newPrinter()
+	/usr/local/go/src/fmt/print.go:137 +0x25 fp=0xc000096e68 sp=0xc000096e40 pc=0x1084965
+fmt.Fprintf({0x10c19c0, 0xc00011c008}, {0x10a39f2, 0x4}, {0xc000096f38, 0x1, 0x1})
+	/usr/local/go/src/fmt/print.go:203 +0x49 fp=0xc000096ec8 sp=0xc000096e68 pc=0x1084c49
+fmt.Printf(...)
+	/usr/local/go/src/fmt/print.go:213
+main.main()
+	/Users/mmomm/ca.go9/main.go:44 +0x173 fp=0xc000096f80 sp=0xc000096ec8 pc=0x108b8b3
+runtime.main()
+	/usr/local/go/src/runtime/proc.go:255 +0x227 fp=0xc000096fe0 sp=0xc000096f80 pc=0x1031d07
+runtime.goexit()
+	/usr/local/go/src/runtime/asm_amd64.s:1581 +0x1 fp=0xc000096fe8 sp=0xc000096fe0 pc=0x105b0e1
+
+tracealloc(0xc00012e000, 0x400, sync.poolLocal)
+goroutine 1 [running]:
+runtime.mallocgc(0x400, 0x1099b80, 0x1)
+	/usr/local/go/src/runtime/malloc.go:1157 +0x7b7 fp=0xc000096d30 sp=0xc000096cb0 pc=0x100b6f7
+runtime.makeslice(0x0, 0x0, 0xc0000001a0)
+	/usr/local/go/src/runtime/slice.go:98 +0x52 fp=0xc000096d58 sp=0xc000096d30 pc=0x10442d2
+sync.(*Pool).pinSlow(0x1137380)
+	/usr/local/go/src/sync/pool.go:227 +0x185 fp=0xc000096df0 sp=0xc000096d58 pc=0x1066465
+sync.(*Pool).pin(0x1137380)
+	/usr/local/go/src/sync/pool.go:206 +0x4e fp=0xc000096e08 sp=0xc000096df0 pc=0x10662ae
+sync.(*Pool).Get(0x1137380)
+	/usr/local/go/src/sync/pool.go:128 +0x25 fp=0xc000096e40 sp=0xc000096e08 pc=0x1065fe5
+fmt.newPrinter()
+	/usr/local/go/src/fmt/print.go:137 +0x25 fp=0xc000096e68 sp=0xc000096e40 pc=0x1084965
+fmt.Fprintf({0x10c19c0, 0xc00011c008}, {0x10a39f2, 0x4}, {0xc000096f38, 0x1, 0x1})
+	/usr/local/go/src/fmt/print.go:203 +0x49 fp=0xc000096ec8 sp=0xc000096e68 pc=0x1084c49
+fmt.Printf(...)
+	/usr/local/go/src/fmt/print.go:213
+main.main()
+	/Users/mmomm/ca.go9/main.go:44 +0x173 fp=0xc000096f80 sp=0xc000096ec8 pc=0x108b8b3
+runtime.main()
+	/usr/local/go/src/runtime/proc.go:255 +0x227 fp=0xc000096fe0 sp=0xc000096f80 pc=0x1031d07
+runtime.goexit()
+	/usr/local/go/src/runtime/asm_amd64.s:1581 +0x1 fp=0xc000096fe8 sp=0xc000096fe0 pc=0x105b0e1
+
+tracealloc(0xc000108b60, 0xd0, fmt.pp)
+goroutine 1 [running]:
+runtime.mallocgc(0xc8, 0x109ea80, 0x1)
+	/usr/local/go/src/runtime/malloc.go:1157 +0x7b7 fp=0xc000096dc0 sp=0xc000096d40 pc=0x100b6f7
+runtime.newobject(0x8)
+	/usr/local/go/src/runtime/malloc.go:1228 +0x27 fp=0xc000096de8 sp=0xc000096dc0 pc=0x100b947
+fmt.glob..func1()
+	/usr/local/go/src/fmt/print.go:132 +0x25 fp=0xc000096e08 sp=0xc000096de8 pc=0x108b2c5
+sync.(*Pool).Get(0x1137380)
+	/usr/local/go/src/sync/pool.go:148 +0xb2 fp=0xc000096e40 sp=0xc000096e08 pc=0x1066072
+fmt.newPrinter()
+	/usr/local/go/src/fmt/print.go:137 +0x25 fp=0xc000096e68 sp=0xc000096e40 pc=0x1084965
+fmt.Fprintf({0x10c19c0, 0xc00011c008}, {0x10a39f2, 0x4}, {0xc000096f38, 0x1, 0x1})
+	/usr/local/go/src/fmt/print.go:203 +0x49 fp=0xc000096ec8 sp=0xc000096e68 pc=0x1084c49
+fmt.Printf(...)
+	/usr/local/go/src/fmt/print.go:213
+main.main()
+	/Users/mmomm/ca.go9/main.go:44 +0x173 fp=0xc000096f80 sp=0xc000096ec8 pc=0x108b8b3
+runtime.main()
+	/usr/local/go/src/runtime/proc.go:255 +0x227 fp=0xc000096fe0 sp=0xc000096f80 pc=0x1031d07
+runtime.goexit()
+	/usr/local/go/src/runtime/asm_amd64.s:1581 +0x1 fp=0xc000096fe8 sp=0xc000096fe0 pc=0x105b0e1
+
+tracealloc(0xc000106240, 0x30, main.Bicycle)
+goroutine 1 [running]:
+runtime.mallocgc(0x28, 0x109a800, 0x1)
+	/usr/local/go/src/runtime/malloc.go:1157 +0x7b7 fp=0xc000096848 sp=0xc0000967c8 pc=0x100b6f7
+reflect.unsafe_New(0x105c840)
+	/usr/local/go/src/runtime/malloc.go:1233 +0x27 fp=0xc000096870 sp=0xc000096848 pc=0x1056927
+reflect.packEface({0x109a800, 0xc0001061b0, 0x1030fff})
+	/usr/local/go/src/reflect/value.go:122 +0x4c fp=0xc0000968c0 sp=0xc000096870 pc=0x106e4cc
+reflect.valueInterface({0x109a800, 0xc0001061b0, 0x105c840}, 0x60)
+	/usr/local/go/src/reflect/value.go:1381 +0xbc fp=0xc000096900 sp=0xc0000968c0 pc=0x107007c
+reflect.Value.Interface(...)
+	/usr/local/go/src/reflect/value.go:1351
+fmt.(*pp).printValue(0xc000108b60, {0x109a800, 0xc0001061b0, 0x104bc86}, 0x76, 0x1)
+	/usr/local/go/src/fmt/print.go:722 +0xa5 fp=0xc000096ae8 sp=0xc000096900 pc=0x1087e45
+fmt.(*pp).printValue(0xc000108b60, {0x1090720, 0xc0001061b0, 0x6}, 0x76, 0x0)
+	/usr/local/go/src/fmt/print.go:876 +0xce5 fp=0xc000096cd0 sp=0xc000096ae8 pc=0x1088a85
+fmt.(*pp).printArg(0xc000108b60, {0x1090720, 0xc0001061b0}, 0x76)
+	/usr/local/go/src/fmt/print.go:712 +0x74c fp=0xc000096d70 sp=0xc000096cd0 pc=0x1087d0c
+fmt.(*pp).doPrintf(0xc000108b60, {0x10a39f2, 0x4}, {0xc000096f38, 0x109a800, 0xc000096e01})
+	/usr/local/go/src/fmt/print.go:1026 +0x288 fp=0xc000096e68 sp=0xc000096d70 pc=0x108a508
+fmt.Fprintf({0x10c19c0, 0xc00011c008}, {0x10a39f2, 0x4}, {0xc000096f38, 0x1, 0x1})
+	/usr/local/go/src/fmt/print.go:204 +0x75 fp=0xc000096ec8 sp=0xc000096e68 pc=0x1084c75
+fmt.Printf(...)
+	/usr/local/go/src/fmt/print.go:213
+main.main()
+	/Users/mmomm/ca.go9/main.go:44 +0x173 fp=0xc000096f80 sp=0xc000096ec8 pc=0x108b8b3
+runtime.main()
+	/usr/local/go/src/runtime/proc.go:255 +0x227 fp=0xc000096fe0 sp=0xc000096f80 pc=0x1031d07
+runtime.goexit()
+	/usr/local/go/src/runtime/asm_amd64.s:1581 +0x1 fp=0xc000096fe8 sp=0xc000096fe0 pc=0x105b0e1
+
+tracealloc(0xc00012a010, 0x10, [1]int)
+goroutine 1 [running]:
+runtime.mallocgc(0x8, 0x1093ac0, 0x1)
+	/usr/local/go/src/runtime/malloc.go:1157 +0x7b7 fp=0xc0000967b8 sp=0xc000096738 pc=0x100b6f7
+runtime.newobject(0x104bc86)
+	/usr/local/go/src/runtime/malloc.go:1228 +0x27 fp=0xc0000967e0 sp=0xc0000967b8 pc=0x100b947
+reflect.(*structType).Field(0x109a800, 0x0)
+	/usr/local/go/src/reflect/type.go:1254 +0x137 fp=0xc000096810 sp=0xc0000967e0 pc=0x106d877
+reflect.(*rtype).Field(0x10ab4b0, 0x1)
+	/usr/local/go/src/reflect/type.go:962 +0x6b fp=0xc000096900 sp=0xc000096810 pc=0x106d52b
+fmt.(*pp).printValue(0xc000108b60, {0x109a800, 0xc0001061b0, 0x104bc86}, 0x76, 0x1)
+	/usr/local/go/src/fmt/print.go:801 +0x13ea fp=0xc000096ae8 sp=0xc000096900 pc=0x108918a
+fmt.(*pp).printValue(0xc000108b60, {0x1090720, 0xc0001061b0, 0x6}, 0x76, 0x0)
+	/usr/local/go/src/fmt/print.go:876 +0xce5 fp=0xc000096cd0 sp=0xc000096ae8 pc=0x1088a85
+fmt.(*pp).printArg(0xc000108b60, {0x1090720, 0xc0001061b0}, 0x76)
+	/usr/local/go/src/fmt/print.go:712 +0x74c fp=0xc000096d70 sp=0xc000096cd0 pc=0x1087d0c
+fmt.(*pp).doPrintf(0xc000108b60, {0x10a39f2, 0x4}, {0xc000096f38, 0x109a800, 0xc000096e01})
+	/usr/local/go/src/fmt/print.go:1026 +0x288 fp=0xc000096e68 sp=0xc000096d70 pc=0x108a508
+fmt.Fprintf({0x10c19c0, 0xc00011c008}, {0x10a39f2, 0x4}, {0xc000096f38, 0x1, 0x1})
+	/usr/local/go/src/fmt/print.go:204 +0x75 fp=0xc000096ec8 sp=0xc000096e68 pc=0x1084c75
+fmt.Printf(...)
+	/usr/local/go/src/fmt/print.go:213
+main.main()
+	/Users/mmomm/ca.go9/main.go:44 +0x173 fp=0xc000096f80 sp=0xc000096ec8 pc=0x108b8b3
+runtime.main()
+	/usr/local/go/src/runtime/proc.go:255 +0x227 fp=0xc000096fe0 sp=0xc000096f80 pc=0x1031d07
+runtime.goexit()
+	/usr/local/go/src/runtime/asm_amd64.s:1581 +0x1 fp=0xc000096fe8 sp=0xc000096fe0 pc=0x105b0e1
+
+tracealloc(0xc000104200, 0x10, main.Kind)
+goroutine 1 [running]:
+runtime.mallocgc(0x10, 0x1095380, 0x1)
+	/usr/local/go/src/runtime/malloc.go:1157 +0x7b7 fp=0xc000096660 sp=0xc0000965e0 pc=0x100b6f7
+reflect.unsafe_New(0xc0000001a0)
+	/usr/local/go/src/runtime/malloc.go:1233 +0x27 fp=0xc000096688 sp=0xc000096660 pc=0x1056927
+reflect.packEface({0x1095380, 0xc0001061b0, 0x10})
+	/usr/local/go/src/reflect/value.go:122 +0x4c fp=0xc0000966d8 sp=0xc000096688 pc=0x106e4cc
+reflect.valueInterface({0x1095380, 0xc0001061b0, 0xc0000967a8}, 0xf7)
+	/usr/local/go/src/reflect/value.go:1381 +0xbc fp=0xc000096718 sp=0xc0000966d8 pc=0x107007c
+reflect.Value.Interface(...)
+	/usr/local/go/src/reflect/value.go:1351
+fmt.(*pp).printValue(0xc000108b60, {0x1095380, 0xc0001061b0, 0x0}, 0x76, 0x2)
+	/usr/local/go/src/fmt/print.go:722 +0xa5 fp=0xc000096900 sp=0xc000096718 pc=0x1087e45
+fmt.(*pp).printValue(0xc000108b60, {0x109a800, 0xc0001061b0, 0x104bc86}, 0x76, 0x1)
+	/usr/local/go/src/fmt/print.go:806 +0x124e fp=0xc000096ae8 sp=0xc000096900 pc=0x1088fee
+fmt.(*pp).printValue(0xc000108b60, {0x1090720, 0xc0001061b0, 0x6}, 0x76, 0x0)
+	/usr/local/go/src/fmt/print.go:876 +0xce5 fp=0xc000096cd0 sp=0xc000096ae8 pc=0x1088a85
+fmt.(*pp).printArg(0xc000108b60, {0x1090720, 0xc0001061b0}, 0x76)
+	/usr/local/go/src/fmt/print.go:712 +0x74c fp=0xc000096d70 sp=0xc000096cd0 pc=0x1087d0c
+fmt.(*pp).doPrintf(0xc000108b60, {0x10a39f2, 0x4}, {0xc000096f38, 0x109a800, 0xc000096e01})
+	/usr/local/go/src/fmt/print.go:1026 +0x288 fp=0xc000096e68 sp=0xc000096d70 pc=0x108a508
+fmt.Fprintf({0x10c19c0, 0xc00011c008}, {0x10a39f2, 0x4}, {0xc000096f38, 0x1, 0x1})
+	/usr/local/go/src/fmt/print.go:204 +0x75 fp=0xc000096ec8 sp=0xc000096e68 pc=0x1084c75
+fmt.Printf(...)
+	/usr/local/go/src/fmt/print.go:213
+main.main()
+	/Users/mmomm/ca.go9/main.go:44 +0x173 fp=0xc000096f80 sp=0xc000096ec8 pc=0x108b8b3
+runtime.main()
+	/usr/local/go/src/runtime/proc.go:255 +0x227 fp=0xc000096fe0 sp=0xc000096f80 pc=0x1031d07
+runtime.goexit()
+	/usr/local/go/src/runtime/asm_amd64.s:1581 +0x1 fp=0xc000096fe8 sp=0xc000096fe0 pc=0x105b0e1
+
+tracealloc(0xc00012a020, 0x10)
+goroutine 1 [running]:
+runtime.mallocgc(0x10, 0x0, 0x0)
+	/usr/local/go/src/runtime/malloc.go:1157 +0x7b7 fp=0xc000135308 sp=0xc000135288 pc=0x100b6f7
+runtime.growslice(0x3, {0xc00012a008, 0x0, 0x1}, 0x10953c0)
+	/usr/local/go/src/runtime/slice.go:261 +0x4ac fp=0xc000135370 sp=0xc000135308 pc=0x104480c
+fmt.(*buffer).writeString(...)
+	/usr/local/go/src/fmt/print.go:82
+fmt.(*fmt).padString(0x1008713, {0x10a3a3e, 0xc000096418})
+	/usr/local/go/src/fmt/format.go:110 +0x21c fp=0xc0001353e8 sp=0xc000135370 pc=0x108293c
+fmt.(*fmt).fmtS(0xc000096458, {0x10a3a3e, 0xc000135458})
+	/usr/local/go/src/fmt/format.go:359 +0x35 fp=0xc000135418 sp=0xc0001353e8 pc=0x10835d5
+fmt.(*pp).fmtString(0xc000104200, {0x10a3a3e, 0xc000104200}, 0x964a0)
+	/usr/local/go/src/fmt/print.go:443 +0x86 fp=0xc000135468 sp=0xc000135418 pc=0x1085c06
+fmt.(*pp).handleMethods(0xc000108b60, 0x1061b0)
+	/usr/local/go/src/fmt/print.go:626 +0x39a fp=0xc000135718 sp=0xc000135468 pc=0x10870ba
+fmt.(*pp).printValue(0xc000108b60, {0x1095380, 0xc0001061b0, 0x0}, 0x76, 0x2)
+	/usr/local/go/src/fmt/print.go:723 +0xda fp=0xc000135900 sp=0xc000135718 pc=0x1087e7a
+fmt.(*pp).printValue(0xc000108b60, {0x109a800, 0xc0001061b0, 0x104bc86}, 0x76, 0x1)
+	/usr/local/go/src/fmt/print.go:806 +0x124e fp=0xc000135ae8 sp=0xc000135900 pc=0x1088fee
+fmt.(*pp).printValue(0xc000108b60, {0x1090720, 0xc0001061b0, 0x6}, 0x76, 0x0)
+	/usr/local/go/src/fmt/print.go:876 +0xce5 fp=0xc000135cd0 sp=0xc000135ae8 pc=0x1088a85
+fmt.(*pp).printArg(0xc000108b60, {0x1090720, 0xc0001061b0}, 0x76)
+	/usr/local/go/src/fmt/print.go:712 +0x74c fp=0xc000135d70 sp=0xc000135cd0 pc=0x1087d0c
+fmt.(*pp).doPrintf(0xc000108b60, {0x10a39f2, 0x4}, {0xc000135f38, 0x109a800, 0xc000096e01})
+	/usr/local/go/src/fmt/print.go:1026 +0x288 fp=0xc000135e68 sp=0xc000135d70 pc=0x108a508
+fmt.Fprintf({0x10c19c0, 0xc00011c008}, {0x10a39f2, 0x4}, {0xc000096f38, 0x1, 0x1})
+	/usr/local/go/src/fmt/print.go:204 +0x75 fp=0xc000135ec8 sp=0xc000135e68 pc=0x1084c75
+fmt.Printf(...)
+	/usr/local/go/src/fmt/print.go:213
+main.main()
+	/Users/mmomm/ca.go9/main.go:44 +0x173 fp=0xc000135f80 sp=0xc000135ec8 pc=0x108b8b3
+runtime.main()
+	/usr/local/go/src/runtime/proc.go:255 +0x227 fp=0xc000135fe0 sp=0xc000135f80 pc=0x1031d07
+runtime.goexit()
+	/usr/local/go/src/runtime/asm_amd64.s:1581 +0x1 fp=0xc000135fe8 sp=0xc000135fe0 pc=0x105b0e1
+
+tracealloc(0xc000138000, 0x20)
+goroutine 1 [running]:
+runtime.mallocgc(0x20, 0x0, 0x0)
+	/usr/local/go/src/runtime/malloc.go:1157 +0x7b7 fp=0xc000135898 sp=0xc000135818 pc=0x100b6f7
+runtime.growslice(0x108cedc, {0xc00012a020, 0x0, 0x0}, 0x10c3980)
+	/usr/local/go/src/runtime/slice.go:261 +0x4ac fp=0xc000135900 sp=0xc000135898 pc=0x104480c
+fmt.(*buffer).writeString(...)
+	/usr/local/go/src/fmt/print.go:82
+fmt.(*pp).printValue(0xc000108b60, {0x109a800, 0xc0001061b0, 0x104bc86}, 0x76, 0x1)
+	/usr/local/go/src/fmt/print.go:802 +0x147f fp=0xc000135ae8 sp=0xc000135900 pc=0x108921f
+fmt.(*pp).printValue(0xc000108b60, {0x1090720, 0xc0001061b0, 0x6}, 0x76, 0x0)
+	/usr/local/go/src/fmt/print.go:876 +0xce5 fp=0xc000135cd0 sp=0xc000135ae8 pc=0x1088a85
+fmt.(*pp).printArg(0xc000108b60, {0x1090720, 0xc0001061b0}, 0x76)
+	/usr/local/go/src/fmt/print.go:712 +0x74c fp=0xc000135d70 sp=0xc000135cd0 pc=0x1087d0c
+fmt.(*pp).doPrintf(0xc000108b60, {0x10a39f2, 0x4}, {0xc000135f38, 0x109a800, 0xc000096e01})
+	/usr/local/go/src/fmt/print.go:1026 +0x288 fp=0xc000135e68 sp=0xc000135d70 pc=0x108a508
+fmt.Fprintf({0x10c19c0, 0xc00011c008}, {0x10a39f2, 0x4}, {0xc000096f38, 0x1, 0x1})
+	/usr/local/go/src/fmt/print.go:204 +0x75 fp=0xc000135ec8 sp=0xc000135e68 pc=0x1084c75
+fmt.Printf(...)
+	/usr/local/go/src/fmt/print.go:213
+main.main()
+	/Users/mmomm/ca.go9/main.go:44 +0x173 fp=0xc000135f80 sp=0xc000135ec8 pc=0x108b8b3
+runtime.main()
+	/usr/local/go/src/runtime/proc.go:255 +0x227 fp=0xc000135fe0 sp=0xc000135f80 pc=0x1031d07
+runtime.goexit()
+	/usr/local/go/src/runtime/asm_amd64.s:1581 +0x1 fp=0xc000135fe8 sp=0xc000135fe0 pc=0x105b0e1
+
+tracealloc(0xc000104210, 0x10, string)
+goroutine 1 [running]:
+runtime.mallocgc(0x10, 0x1093620, 0x1)
+	/usr/local/go/src/runtime/malloc.go:1157 +0x7b7 fp=0xc000135660 sp=0xc0001355e0 pc=0x100b6f7
+reflect.unsafe_New(0x105af02)
+	/usr/local/go/src/runtime/malloc.go:1233 +0x27 fp=0xc000135688 sp=0xc000135660 pc=0x1056927
+reflect.packEface({0x1093620, 0xc0001061c0, 0x2})
+	/usr/local/go/src/reflect/value.go:122 +0x4c fp=0xc0001356d8 sp=0xc000135688 pc=0x106e4cc
+reflect.valueInterface({0x1093620, 0xc0001061c0, 0x10ab4b0}, 0x1)
+	/usr/local/go/src/reflect/value.go:1381 +0xbc fp=0xc000135718 sp=0xc0001356d8 pc=0x107007c
+reflect.Value.Interface(...)
+	/usr/local/go/src/reflect/value.go:1351
+fmt.(*pp).printValue(0xc000108b60, {0x1093620, 0xc0001061c0, 0x0}, 0x76, 0x2)
+	/usr/local/go/src/fmt/print.go:722 +0xa5 fp=0xc000135900 sp=0xc000135718 pc=0x1087e45
+fmt.(*pp).printValue(0xc000108b60, {0x109a800, 0xc0001061b0, 0x104bc86}, 0x76, 0x1)
+	/usr/local/go/src/fmt/print.go:806 +0x124e fp=0xc000135ae8 sp=0xc000135900 pc=0x1088fee
+fmt.(*pp).printValue(0xc000108b60, {0x1090720, 0xc0001061b0, 0x6}, 0x76, 0x0)
+	/usr/local/go/src/fmt/print.go:876 +0xce5 fp=0xc000135cd0 sp=0xc000135ae8 pc=0x1088a85
+fmt.(*pp).printArg(0xc000108b60, {0x1090720, 0xc0001061b0}, 0x76)
+	/usr/local/go/src/fmt/print.go:712 +0x74c fp=0xc000135d70 sp=0xc000135cd0 pc=0x1087d0c
+fmt.(*pp).doPrintf(0xc000108b60, {0x10a39f2, 0x4}, {0xc000135f38, 0x109a800, 0xc000096e01})
+	/usr/local/go/src/fmt/print.go:1026 +0x288 fp=0xc000135e68 sp=0xc000135d70 pc=0x108a508
+fmt.Fprintf({0x10c19c0, 0xc00011c008}, {0x10a39f2, 0x4}, {0xc000096f38, 0x1, 0x1})
+	/usr/local/go/src/fmt/print.go:204 +0x75 fp=0xc000135ec8 sp=0xc000135e68 pc=0x1084c75
+fmt.Printf(...)
+	/usr/local/go/src/fmt/print.go:213
+main.main()
+	/Users/mmomm/ca.go9/main.go:44 +0x173 fp=0xc000135f80 sp=0xc000135ec8 pc=0x108b8b3
+runtime.main()
+	/usr/local/go/src/runtime/proc.go:255 +0x227 fp=0xc000135fe0 sp=0xc000135f80 pc=0x1031d07
+runtime.goexit()
+	/usr/local/go/src/runtime/asm_amd64.s:1581 +0x1 fp=0xc000135fe8 sp=0xc000135fe0 pc=0x105b0e1
+
+tracealloc(0xc00012a030, 0x10, [1]int)
+goroutine 1 [running]:
+runtime.mallocgc(0x8, 0x1093ac0, 0x1)
+	/usr/local/go/src/runtime/malloc.go:1157 +0x7b7 fp=0xc0001357b8 sp=0xc000135738 pc=0x100b6f7
+runtime.newobject(0xc000138000)
+	/usr/local/go/src/runtime/malloc.go:1228 +0x27 fp=0xc0001357e0 sp=0xc0001357b8 pc=0x100b947
+reflect.(*structType).Field(0x109a800, 0x2)
+	/usr/local/go/src/reflect/type.go:1254 +0x137 fp=0xc000135810 sp=0xc0001357e0 pc=0x106d877
+reflect.(*rtype).Field(0x10ab4b0, 0x1)
+	/usr/local/go/src/reflect/type.go:962 +0x6b fp=0xc000135900 sp=0xc000135810 pc=0x106d52b
+fmt.(*pp).printValue(0xc000108b60, {0x109a800, 0xc0001061b0, 0x104bc86}, 0x76, 0x1)
+	/usr/local/go/src/fmt/print.go:801 +0x13ea fp=0xc000135ae8 sp=0xc000135900 pc=0x108918a
+fmt.(*pp).printValue(0xc000108b60, {0x1090720, 0xc0001061b0, 0x6}, 0x76, 0x0)
+	/usr/local/go/src/fmt/print.go:876 +0xce5 fp=0xc000135cd0 sp=0xc000135ae8 pc=0x1088a85
+fmt.(*pp).printArg(0xc000108b60, {0x1090720, 0xc0001061b0}, 0x76)
+	/usr/local/go/src/fmt/print.go:712 +0x74c fp=0xc000135d70 sp=0xc000135cd0 pc=0x1087d0c
+fmt.(*pp).doPrintf(0xc000108b60, {0x10a39f2, 0x4}, {0xc000135f38, 0x109a800, 0xc000096e01})
+	/usr/local/go/src/fmt/print.go:1026 +0x288 fp=0xc000135e68 sp=0xc000135d70 pc=0x108a508
+fmt.Fprintf({0x10c19c0, 0xc00011c008}, {0x10a39f2, 0x4}, {0xc000096f38, 0x1, 0x1})
+	/usr/local/go/src/fmt/print.go:204 +0x75 fp=0xc000135ec8 sp=0xc000135e68 pc=0x1084c75
+fmt.Printf(...)
+	/usr/local/go/src/fmt/print.go:213
+main.main()
+	/Users/mmomm/ca.go9/main.go:44 +0x173 fp=0xc000135f80 sp=0xc000135ec8 pc=0x108b8b3
+runtime.main()
+	/usr/local/go/src/runtime/proc.go:255 +0x227 fp=0xc000135fe0 sp=0xc000135f80 pc=0x1031d07
+runtime.goexit()
+	/usr/local/go/src/runtime/asm_amd64.s:1581 +0x1 fp=0xc000135fe8 sp=0xc000135fe0 pc=0x105b0e1
+
+tracealloc(0xc00013a000, 0x40)
+goroutine 1 [running]:
+runtime.mallocgc(0x40, 0x0, 0x0)
+	/usr/local/go/src/runtime/malloc.go:1157 +0x7b7 fp=0xc000135898 sp=0xc000135818 pc=0x100b6f7
+runtime.growslice(0x108d3bc, {0xc000138000, 0x0, 0x0}, 0x10c3980)
+	/usr/local/go/src/runtime/slice.go:261 +0x4ac fp=0xc000135900 sp=0xc000135898 pc=0x104480c
+fmt.(*buffer).writeString(...)
+	/usr/local/go/src/fmt/print.go:82
+fmt.(*pp).printValue(0xc000108b60, {0x109a800, 0xc0001061b0, 0x104bc86}, 0x76, 0x1)
+	/usr/local/go/src/fmt/print.go:802 +0x147f fp=0xc000135ae8 sp=0xc000135900 pc=0x108921f
+fmt.(*pp).printValue(0xc000108b60, {0x1090720, 0xc0001061b0, 0x6}, 0x76, 0x0)
+	/usr/local/go/src/fmt/print.go:876 +0xce5 fp=0xc000135cd0 sp=0xc000135ae8 pc=0x1088a85
+fmt.(*pp).printArg(0xc000108b60, {0x1090720, 0xc0001061b0}, 0x76)
+	/usr/local/go/src/fmt/print.go:712 +0x74c fp=0xc000135d70 sp=0xc000135cd0 pc=0x1087d0c
+fmt.(*pp).doPrintf(0xc000108b60, {0x10a39f2, 0x4}, {0xc000135f38, 0x109a800, 0xc000096e01})
+	/usr/local/go/src/fmt/print.go:1026 +0x288 fp=0xc000135e68 sp=0xc000135d70 pc=0x108a508
+fmt.Fprintf({0x10c19c0, 0xc00011c008}, {0x10a39f2, 0x4}, {0xc000096f38, 0x1, 0x1})
+	/usr/local/go/src/fmt/print.go:204 +0x75 fp=0xc000135ec8 sp=0xc000135e68 pc=0x1084c75
+fmt.Printf(...)
+	/usr/local/go/src/fmt/print.go:213
+main.main()
+	/Users/mmomm/ca.go9/main.go:44 +0x173 fp=0xc000135f80 sp=0xc000135ec8 pc=0x108b8b3
+runtime.main()
+	/usr/local/go/src/runtime/proc.go:255 +0x227 fp=0xc000135fe0 sp=0xc000135f80 pc=0x1031d07
+runtime.goexit()
+	/usr/local/go/src/runtime/asm_amd64.s:1581 +0x1 fp=0xc000135fe8 sp=0xc000135fe0 pc=0x105b0e1
+
+tracealloc(0xc000106270, 0x30, main.Bicycle)
+goroutine 1 [running]:
+runtime.mallocgc(0x28, 0x109a800, 0x1)
+	/usr/local/go/src/runtime/malloc.go:1157 +0x7b7 fp=0xc000135848 sp=0xc0001357c8 pc=0x100b6f7
+reflect.unsafe_New(0xc00013a000)
+	/usr/local/go/src/runtime/malloc.go:1233 +0x27 fp=0xc000135870 sp=0xc000135848 pc=0x1056927
+reflect.packEface({0x109a800, 0xc000106210, 0x109a800})
+	/usr/local/go/src/reflect/value.go:122 +0x4c fp=0xc0001358c0 sp=0xc000135870 pc=0x106e4cc
+reflect.valueInterface({0x109a800, 0xc000106210, 0xc0001061d0}, 0x0)
+	/usr/local/go/src/reflect/value.go:1381 +0xbc fp=0xc000135900 sp=0xc0001358c0 pc=0x107007c
+reflect.Value.Interface(...)
+	/usr/local/go/src/reflect/value.go:1351
+fmt.(*pp).printValue(0xc000108b60, {0x109a800, 0xc000106210, 0x104bc86}, 0x76, 0x1)
+	/usr/local/go/src/fmt/print.go:722 +0xa5 fp=0xc000135ae8 sp=0xc000135900 pc=0x1087e45
+fmt.(*pp).printValue(0xc000108b60, {0x1090720, 0xc000106210, 0x28}, 0x76, 0x0)
+	/usr/local/go/src/fmt/print.go:876 +0xce5 fp=0xc000135cd0 sp=0xc000135ae8 pc=0x1088a85
+fmt.(*pp).printArg(0xc000108b60, {0x1090720, 0xc000106210}, 0x76)
+	/usr/local/go/src/fmt/print.go:712 +0x74c fp=0xc000135d70 sp=0xc000135cd0 pc=0x1087d0c
+fmt.(*pp).doPrintf(0xc000108b60, {0x10a39f2, 0x4}, {0xc000135f28, 0x109a800, 0xc000096e01})
+	/usr/local/go/src/fmt/print.go:1026 +0x288 fp=0xc000135e68 sp=0xc000135d70 pc=0x108a508
+fmt.Fprintf({0x10c19c0, 0xc00011c008}, {0x10a39f2, 0x4}, {0xc000135f28, 0x1, 0x1})
+	/usr/local/go/src/fmt/print.go:204 +0x75 fp=0xc000135ec8 sp=0xc000135e68 pc=0x1084c75
+fmt.Printf(...)
+	/usr/local/go/src/fmt/print.go:213
+main.main()
+	/Users/mmomm/ca.go9/main.go:45 +0x1bc fp=0xc000135f80 sp=0xc000135ec8 pc=0x108b8fc
+runtime.main()
+	/usr/local/go/src/runtime/proc.go:255 +0x227 fp=0xc000135fe0 sp=0xc000135f80 pc=0x1031d07
+runtime.goexit()
+	/usr/local/go/src/runtime/asm_amd64.s:1581 +0x1 fp=0xc000135fe8 sp=0xc000135fe0 pc=0x105b0e1
+
+tracealloc(0xc00012a040, 0x10, [1]int)
+goroutine 1 [running]:
+runtime.mallocgc(0x8, 0x1093ac0, 0x1)
+	/usr/local/go/src/runtime/malloc.go:1157 +0x7b7 fp=0xc0001357b8 sp=0xc000135738 pc=0x100b6f7
+runtime.newobject(0xc00013a000)
+	/usr/local/go/src/runtime/malloc.go:1228 +0x27 fp=0xc0001357e0 sp=0xc0001357b8 pc=0x100b947
+reflect.(*structType).Field(0x109a800, 0x0)
+	/usr/local/go/src/reflect/type.go:1254 +0x137 fp=0xc000135810 sp=0xc0001357e0 pc=0x106d877
+reflect.(*rtype).Field(0x10ab4b0, 0x1)
+	/usr/local/go/src/reflect/type.go:962 +0x6b fp=0xc000135900 sp=0xc000135810 pc=0x106d52b
+fmt.(*pp).printValue(0xc000108b60, {0x109a800, 0xc000106210, 0x104bc86}, 0x76, 0x1)
+	/usr/local/go/src/fmt/print.go:801 +0x13ea fp=0xc000135ae8 sp=0xc000135900 pc=0x108918a
+fmt.(*pp).printValue(0xc000108b60, {0x1090720, 0xc000106210, 0x28}, 0x76, 0x0)
+	/usr/local/go/src/fmt/print.go:876 +0xce5 fp=0xc000135cd0 sp=0xc000135ae8 pc=0x1088a85
+fmt.(*pp).printArg(0xc000108b60, {0x1090720, 0xc000106210}, 0x76)
+	/usr/local/go/src/fmt/print.go:712 +0x74c fp=0xc000135d70 sp=0xc000135cd0 pc=0x1087d0c
+fmt.(*pp).doPrintf(0xc000108b60, {0x10a39f2, 0x4}, {0xc000135f28, 0x109a800, 0xc000096e01})
+	/usr/local/go/src/fmt/print.go:1026 +0x288 fp=0xc000135e68 sp=0xc000135d70 pc=0x108a508
+fmt.Fprintf({0x10c19c0, 0xc00011c008}, {0x10a39f2, 0x4}, {0xc000135f28, 0x1, 0x1})
+	/usr/local/go/src/fmt/print.go:204 +0x75 fp=0xc000135ec8 sp=0xc000135e68 pc=0x1084c75
+fmt.Printf(...)
+	/usr/local/go/src/fmt/print.go:213
+main.main()
+	/Users/mmomm/ca.go9/main.go:45 +0x1bc fp=0xc000135f80 sp=0xc000135ec8 pc=0x108b8fc
+runtime.main()
+	/usr/local/go/src/runtime/proc.go:255 +0x227 fp=0xc000135fe0 sp=0xc000135f80 pc=0x1031d07
+runtime.goexit()
+	/usr/local/go/src/runtime/asm_amd64.s:1581 +0x1 fp=0xc000135fe8 sp=0xc000135fe0 pc=0x105b0e1
+
+tracealloc(0xc000104220, 0x10, main.Kind)
+goroutine 1 [running]:
+runtime.mallocgc(0x10, 0x1095380, 0x1)
+	/usr/local/go/src/runtime/malloc.go:1157 +0x7b7 fp=0xc000135660 sp=0xc0001355e0 pc=0x100b6f7
+reflect.unsafe_New(0xc0000001a0)
+	/usr/local/go/src/runtime/malloc.go:1233 +0x27 fp=0xc000135688 sp=0xc000135660 pc=0x1056927
+reflect.packEface({0x1095380, 0xc000106210, 0x10})
+	/usr/local/go/src/reflect/value.go:122 +0x4c fp=0xc0001356d8 sp=0xc000135688 pc=0x106e4cc
+reflect.valueInterface({0x1095380, 0xc000106210, 0xc0001357a8}, 0xf7)
+	/usr/local/go/src/reflect/value.go:1381 +0xbc fp=0xc000135718 sp=0xc0001356d8 pc=0x107007c
+reflect.Value.Interface(...)
+	/usr/local/go/src/reflect/value.go:1351
+fmt.(*pp).printValue(0xc000108b60, {0x1095380, 0xc000106210, 0x0}, 0x76, 0x2)
+	/usr/local/go/src/fmt/print.go:722 +0xa5 fp=0xc000135900 sp=0xc000135718 pc=0x1087e45
+fmt.(*pp).printValue(0xc000108b60, {0x109a800, 0xc000106210, 0x104bc86}, 0x76, 0x1)
+	/usr/local/go/src/fmt/print.go:806 +0x124e fp=0xc000135ae8 sp=0xc000135900 pc=0x1088fee
+fmt.(*pp).printValue(0xc000108b60, {0x1090720, 0xc000106210, 0x28}, 0x76, 0x0)
+	/usr/local/go/src/fmt/print.go:876 +0xce5 fp=0xc000135cd0 sp=0xc000135ae8 pc=0x1088a85
+fmt.(*pp).printArg(0xc000108b60, {0x1090720, 0xc000106210}, 0x76)
+	/usr/local/go/src/fmt/print.go:712 +0x74c fp=0xc000135d70 sp=0xc000135cd0 pc=0x1087d0c
+fmt.(*pp).doPrintf(0xc000108b60, {0x10a39f2, 0x4}, {0xc000135f28, 0x109a800, 0xc000096e01})
+	/usr/local/go/src/fmt/print.go:1026 +0x288 fp=0xc000135e68 sp=0xc000135d70 pc=0x108a508
+fmt.Fprintf({0x10c19c0, 0xc00011c008}, {0x10a39f2, 0x4}, {0xc000135f28, 0x1, 0x1})
+	/usr/local/go/src/fmt/print.go:204 +0x75 fp=0xc000135ec8 sp=0xc000135e68 pc=0x1084c75
+fmt.Printf(...)
+	/usr/local/go/src/fmt/print.go:213
+main.main()
+	/Users/mmomm/ca.go9/main.go:45 +0x1bc fp=0xc000135f80 sp=0xc000135ec8 pc=0x108b8fc
+runtime.main()
+	/usr/local/go/src/runtime/proc.go:255 +0x227 fp=0xc000135fe0 sp=0xc000135f80 pc=0x1031d07
+runtime.goexit()
+	/usr/local/go/src/runtime/asm_amd64.s:1581 +0x1 fp=0xc000135fe8 sp=0xc000135fe0 pc=0x105b0e1
+
+tracealloc(0xc000104230, 0x10, string)
+goroutine 1 [running]:
+runtime.mallocgc(0x10, 0x1093620, 0x1)
+	/usr/local/go/src/runtime/malloc.go:1157 +0x7b7 fp=0xc000135660 sp=0xc0001355e0 pc=0x100b6f7
+reflect.unsafe_New(0xc0000001a0)
+	/usr/local/go/src/runtime/malloc.go:1233 +0x27 fp=0xc000135688 sp=0xc000135660 pc=0x1056927
+reflect.packEface({0x1093620, 0xc000106220, 0x10})
+	/usr/local/go/src/reflect/value.go:122 +0x4c fp=0xc0001356d8 sp=0xc000135688 pc=0x106e4cc
+reflect.valueInterface({0x1093620, 0xc000106220, 0xc0001357a8}, 0xf7)
+	/usr/local/go/src/reflect/value.go:1381 +0xbc fp=0xc000135718 sp=0xc0001356d8 pc=0x107007c
+reflect.Value.Interface(...)
+	/usr/local/go/src/reflect/value.go:1351
+fmt.(*pp).printValue(0xc000108b60, {0x1093620, 0xc000106220, 0x0}, 0x76, 0x2)
+	/usr/local/go/src/fmt/print.go:722 +0xa5 fp=0xc000135900 sp=0xc000135718 pc=0x1087e45
+fmt.(*pp).printValue(0xc000108b60, {0x109a800, 0xc000106210, 0x104bc86}, 0x76, 0x1)
+	/usr/local/go/src/fmt/print.go:806 +0x124e fp=0xc000135ae8 sp=0xc000135900 pc=0x1088fee
+fmt.(*pp).printValue(0xc000108b60, {0x1090720, 0xc000106210, 0x28}, 0x76, 0x0)
+	/usr/local/go/src/fmt/print.go:876 +0xce5 fp=0xc000135cd0 sp=0xc000135ae8 pc=0x1088a85
+fmt.(*pp).printArg(0xc000108b60, {0x1090720, 0xc000106210}, 0x76)
+	/usr/local/go/src/fmt/print.go:712 +0x74c fp=0xc000135d70 sp=0xc000135cd0 pc=0x1087d0c
+fmt.(*pp).doPrintf(0xc000108b60, {0x10a39f2, 0x4}, {0xc000135f28, 0x109a800, 0xc000096e01})
+	/usr/local/go/src/fmt/print.go:1026 +0x288 fp=0xc000135e68 sp=0xc000135d70 pc=0x108a508
+fmt.Fprintf({0x10c19c0, 0xc00011c008}, {0x10a39f2, 0x4}, {0xc000135f28, 0x1, 0x1})
+	/usr/local/go/src/fmt/print.go:204 +0x75 fp=0xc000135ec8 sp=0xc000135e68 pc=0x1084c75
+fmt.Printf(...)
+	/usr/local/go/src/fmt/print.go:213
+main.main()
+	/Users/mmomm/ca.go9/main.go:45 +0x1bc fp=0xc000135f80 sp=0xc000135ec8 pc=0x108b8fc
+runtime.main()
+	/usr/local/go/src/runtime/proc.go:255 +0x227 fp=0xc000135fe0 sp=0xc000135f80 pc=0x1031d07
+runtime.goexit()
+	/usr/local/go/src/runtime/asm_amd64.s:1581 +0x1 fp=0xc000135fe8 sp=0xc000135fe0 pc=0x105b0e1
+
+tracealloc(0xc00012a050, 0x10, [1]int)
+goroutine 1 [running]:
+runtime.mallocgc(0x8, 0x1093ac0, 0x1)
+	/usr/local/go/src/runtime/malloc.go:1157 +0x7b7 fp=0xc0001357b8 sp=0xc000135738 pc=0x100b6f7
+runtime.newobject(0xc00013a000)
+	/usr/local/go/src/runtime/malloc.go:1228 +0x27 fp=0xc0001357e0 sp=0xc0001357b8 pc=0x100b947
+reflect.(*structType).Field(0x109a800, 0x2)
+	/usr/local/go/src/reflect/type.go:1254 +0x137 fp=0xc000135810 sp=0xc0001357e0 pc=0x106d877
+reflect.(*rtype).Field(0x10ab4b0, 0x1)
+	/usr/local/go/src/reflect/type.go:962 +0x6b fp=0xc000135900 sp=0xc000135810 pc=0x106d52b
+fmt.(*pp).printValue(0xc000108b60, {0x109a800, 0xc000106210, 0x104bc86}, 0x76, 0x1)
+	/usr/local/go/src/fmt/print.go:801 +0x13ea fp=0xc000135ae8 sp=0xc000135900 pc=0x108918a
+fmt.(*pp).printValue(0xc000108b60, {0x1090720, 0xc000106210, 0x28}, 0x76, 0x0)
+	/usr/local/go/src/fmt/print.go:876 +0xce5 fp=0xc000135cd0 sp=0xc000135ae8 pc=0x1088a85
+fmt.(*pp).printArg(0xc000108b60, {0x1090720, 0xc000106210}, 0x76)
+	/usr/local/go/src/fmt/print.go:712 +0x74c fp=0xc000135d70 sp=0xc000135cd0 pc=0x1087d0c
+fmt.(*pp).doPrintf(0xc000108b60, {0x10a39f2, 0x4}, {0xc000135f28, 0x109a800, 0xc000096e01})
+	/usr/local/go/src/fmt/print.go:1026 +0x288 fp=0xc000135e68 sp=0xc000135d70 pc=0x108a508
+fmt.Fprintf({0x10c19c0, 0xc00011c008}, {0x10a39f2, 0x4}, {0xc000135f28, 0x1, 0x1})
+	/usr/local/go/src/fmt/print.go:204 +0x75 fp=0xc000135ec8 sp=0xc000135e68 pc=0x1084c75
+fmt.Printf(...)
+	/usr/local/go/src/fmt/print.go:213
+main.main()
+	/Users/mmomm/ca.go9/main.go:45 +0x1bc fp=0xc000135f80 sp=0xc000135ec8 pc=0x108b8fc
+runtime.main()
+	/usr/local/go/src/runtime/proc.go:255 +0x227 fp=0xc000135fe0 sp=0xc000135f80 pc=0x1031d07
+runtime.goexit()
+	/usr/local/go/src/runtime/asm_amd64.s:1581 +0x1 fp=0xc000135fe8 sp=0xc000135fe0 pc=0x105b0e1
+

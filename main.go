@@ -31,7 +31,7 @@ type Bicycle struct {
 func main() {
     // Functional Option Pattern (FOP)
     fopApp := NewBicycleWithFOP(Road,
-        WithBodyType("almi"),
+        WithBodyType("aluminum"),
         WithTotalGear(4, 8),
     )
 

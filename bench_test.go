@@ -8,7 +8,7 @@ import (
 func BenchmarkFunctionalOption(b *testing.B) {
 	for i := 0; i < b.N; i++ {
 		_ = NewBicycleWithFOP(Road,
-        WithBodyType("almi"),
+        WithBodyType("aluminum"),
         WithTotalGear(4, 8),
 		)
 	}
