@@ -1,0 +1,10 @@
+package sandbox
+
+func increment(i int32) int32 {
+	return i + 1
+}
+
+func main() {
+	a := increment(1)
+	println(a)
+}

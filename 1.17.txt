@@ -1,0 +1,7 @@
+[mmomm@MacBook-Pro ca.go9 (main *%)]$ GOOS=linux GOARCH=amd64 go tool compile -S main.go
+
+"".increment STEXT nosplit size=3 args=0x8 locals=0x0 funcid=0x0
+        0x0000 00000 (main.go:31)       TEXT    "".increment(SB), NOSPLIT|ABIInternal, $0-8
+
+        0x0000 00000 (main.go:32)       INCL    AX
+        0x0002 00002 (main.go:32)       RET
