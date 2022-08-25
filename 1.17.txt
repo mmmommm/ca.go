@@ -1,3 +1,4 @@
+// stackにおかずにレジスタ使ってそのまま計算しているのでMOVLとかの命令がなくなっている、最初に確保するbyte数も $0-8に
 [mmomm@MacBook-Pro ca.go9 (main *%)]$ GOOS=linux GOARCH=amd64 go tool compile -S main.go
 
 "".increment STEXT nosplit size=3 args=0x8 locals=0x0 funcid=0x0

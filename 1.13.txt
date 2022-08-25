@@ -1,9 +1,12 @@
+// 一旦stackに置くので最初に確保しているbyte数が多い
 [mmomm@MacBook-Pro ca.go9 (main *%)]$ GOOS=linux GOARCH=amd64 go1.13 tool compile -S main.go
 
 "".increment STEXT nosplit size=11 args=0x10 locals=0x0
         0x0000 00000 (main.go:31)       TEXT    "".increment(SB), NOSPLIT|ABIInternal, $0-16 // 8byte違う
+        // $0がこの関数に割り当てられるスタックフレームのバイト数
+        // $16がcallerによって渡される引数＋返り値のサイズ　16 = int32*2 + stack分 int32*2
 
-        0x0000 00000 (main.go:32)       MOVL    "".i+8(SP), AX // MOVLが32bit これが4byte
+        0x0000 00000 (main.go:32)       MOVL    "".i+8(SP), AX // MOVLが呼び出し側のスタックフレームからAXに引数iの値を移動 これが4byte
         0x0004 00004 (main.go:32)       INCL    AX
         0x0006 00006 (main.go:32)       MOVL    AX, "".~r1+16(SP) // これも4byte
         0x000a 00010 (main.go:32)       RET
